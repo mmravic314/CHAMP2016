@@ -1,17 +1,34 @@
 # Marco Mravic DeGrado Lab UCSF Biophysics Nov 2015
 ## hard coded search for alpha 5 integran matches in the 
 
+# input 1: Directory of TM pairs, original
+# input 2: ouput directory path
+# input 3: tagrte helix to align the template helix to, given known PARING OF INPUT SEQUENCE TO TARGET HELIX STRUCTURE
+# input 4: directory of EXTENDED TM pairs
 
-targ = 'PLWIIILAILFGLLLLGLLIYVLYK'
-motif= ''
+# Target sequence and corresponding indexing to string
+targ = 'PLWIIILAILFGLLLLGLLIYILYKLG'
+motifSrt, motifEnd =  7, 14
 
 import sys, os, re
 from collections import defaultdict
 from prody import *
 from PDButil import *
 
+# directory to deposit hits to
+oDir = sys.argv[2]
+if not os.path.exists(oDir):
+	os.mkdir( oDir )
 
-foundDict={}
+## The membrane oriented helix to align the backbones of the sequence to
+targHelix = parsePDB( sys.argv[3] )
+
+#print [ UnNatAA[x.getResname()] for x in targHelix.select( 'bb resnum %d to %d' % ( motifSrt + 1, motifEnd +1 ) ).copy().iterResidues() ]
+
+
+
+# Save prody dimers after transformation to this found dict, titled by naming
+foundDict=[]
 
 for f in sorted( os.listdir( sys.argv[1] ) ):
 	if f[-4:] != '.pdb': continue
@@ -19,10 +36,15 @@ for f in sorted( os.listdir( sys.argv[1] ) ):
 
 	print "Entering", f
 	# seq seqs of each chain
-	inPdb 	= parsePDB( os.path.join( sys.argv[1], f ), subset = 'ca' )
-	seqA 	= ''.join( [ natAA[x] for x in inPdb.select( 'chain A' ).getResnames() ] )
-	seqB	= ''.join( [ natAA[x] for x in inPdb.select( 'chain B' ).getResnames() ] )
+	inPdb 	= parsePDB( os.path.join( sys.argv[1], f ), subset = 'bb' )
+	seqA 	= ''.join( [ UnNatAA[x.getResname()] for x in inPdb.select( 'chain A' ).copy().iterResidues() ] )
+	seqB	= ''.join( [ UnNatAA[x.getResname()] for x in inPdb.select( 'chain B' ).copy().iterResidues() ] )
 	seqHash = { 'A':seqA, 'B':seqB }
+	
+	extPdb 	= parsePDB( os.path.join( sys.argv[4], f[:-4] + '_ext.pdb' ), subset = 'bb' )
+	seqAext = ''.join( [ UnNatAA[x.getResname()] for x in extPdb.select( 'chain A' ).copy().iterResidues() ] )
+	seqBext	= ''.join( [ UnNatAA[x.getResname()] for x in extPdb.select( 'chain B' ).copy().iterResidues() ] )
+	extHash = { 'A':seqAext, 'B':seqBext }
 
 	#print seqA
 	#print seqB
@@ -33,10 +55,26 @@ for f in sorted( os.listdir( sys.argv[1] ) ):
 		idN = f[:-4] + k
 
 #		match = re.search(r'[ASG][AST]\w\w[ASTG][ASG]\w\w[ILV]')			## Alpha-2
-		match = re.search(r'[ASTG]\w\w[FMYWLIKR][ASG]\w\w[ILVFNQDEH]', v)			## alpha-5
-		if match:
-			print 'MATCH!', idN, v, match.group()
-			#sys.exit()
+		
+		# find matching strings 
+		matches = re.findall(r'[ASTG]\w\w[FMYWLIKR][ASG]\w\w[ILVFNQDEH]', v)			## alpha-5
+		print matches, v
+
+		if not matches: continue
+
+
+		for match in matches:
+			
+			
+			match2 = re.search( r'%s' % match, extHash[k] )
+			srt, end = match2.start(), match2.end()
+			print 'MATCH!', idN, match2.group(), srt, end, extHash[k]
+
+			# Store indices
+			sys.exit()			
+
+
+
 
 	print
 
