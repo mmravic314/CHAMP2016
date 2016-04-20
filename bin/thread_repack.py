@@ -19,7 +19,6 @@ import sys, os, subprocess as sp
 from prody import *
 
 
-# DEKAEVPTGVIIGSIIAGILLLLALVAILWKLGFFKRKYE
 
 ## organize filepathes, inputs/outputs. load input pdb into prody
 

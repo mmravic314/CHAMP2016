@@ -7,12 +7,11 @@
 # input 4: directory of EXTENDED TM pairs
 
 ## Example command line
-# python ~/CHAMP/bin/templatePairsScreen_a5.py ~/CHAMP/Cluster-004/ ~/CHAMP/a5/bbHits/ ~/CHAMP/a5/orientedA2.pdb ~/CHAMP/Cluster-004_ext/
+# python ~/CHAMP/bin/templatePairsScreen_a5.py ~/CHAMP/Cluster-004/ ~/CHAMP/a5/bbHits/ ~/CHAMP/a5/RosMem_Target-input/a5_OPMout_clean_0001.pdb ~/CHAMP/Cluster-004_ext/ EGSYGVPLWIIILAILFGLLLLGLLIYILYKLG 13 20 [ASTG]\w\w[FMYWLIKR][ASG]\w\w[ILVFNQDEH]
 
 
-# Target sequence and corresponding indexing to string
-targ = 'PLWIIILAILFGLLLLGLLIYILYKLG'
-motifSrt, motifEnd =  7, 14
+
+
 
 import sys, os, re, numpy as np
 from collections import defaultdict
@@ -23,6 +22,15 @@ from PDButil import *
 oDir = sys.argv[2]
 if not os.path.exists(oDir):
 	os.mkdir( oDir )
+
+
+# Target sequence and corresponding indexing to string
+#targ = 'EGSYGVPLWIIILAILFGLLLLGLLIYILYKLG'
+#motifSrt, motifEnd =  13,20
+targ = sys.argv[5]
+motifSrt, motifEnd = int( sys.argv[6] ), int( sys.argv[7] )
+motif_regex = sys.argv[8] 
+
 
 ## The membrane oriented helix to align the backbones of the sequence to
 targHelix = parsePDB( sys.argv[3] )
@@ -61,7 +69,7 @@ for f in sorted( os.listdir( sys.argv[1] ) ):
 #		match = re.search(r'[ASG][AST]\w\w[ASTG][ASG]\w\w[ILV]')			## Alpha-2
 		
 		# find matching strings 
-		matches = re.findall(r'[ASTG]\w\w[FMYWLIKR][ASG]\w\w[ILVFNQDEH]', v)			## alpha-5
+		matches = re.findall(r'%s' % motif_regex, v)			## alpha-5
 		print matches, v
 
 		if not matches: continue
@@ -115,10 +123,12 @@ for f in sorted( os.listdir( sys.argv[1] ) ):
 
 
 			## Save the residue range of the target motif in the Title of PDB
-			title = idN + 'chain A %d to %d' % ( srt + 1, end )
-			outPdb.setTitle( idN )
+			title = idN + ' chain A %d to %d' % ( srt + 1, end )
+			outPdb.setTitle( title )
 			foundDict.append( outPdb )
-			print
+			print title
+
+			sys.exit()
 			
 	print
 
