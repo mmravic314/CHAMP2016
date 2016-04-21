@@ -87,7 +87,8 @@ for f in sorted( os.listdir( sys.argv[1] ) ):
 		
 		# find matching strings 
 		matches = re.findall(r'%s' % motif_regex, v)			## alpha-5
-		#print matches, v
+		print matches, v, motif_regex
+
 
 		if not matches: continue
 
@@ -118,7 +119,7 @@ for f in sorted( os.listdir( sys.argv[1] ) ):
 
 			dMat 		= buildDistMatrix( tempMtxhH, oppoH )
 			# Skip if closest approach isn't in line with this motif interaction geometry: 4.3 cut off
-			if dMat.min() > 4.5: 
+			if dMat.min() > 4.4: 
 				continue
 			##
 

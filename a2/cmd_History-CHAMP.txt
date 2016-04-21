@@ -1,0 +1,31 @@
+## Pipeline for CHAMPS, done (so far) by Marco Mravic DeGrado lab
+## Dependencies: Python 2.7, ProDy, NumPy, Rosetta locally downloaded & compiled
+
+# HISTORY FOR ALPHA-2 INTEGRIN
+
+# Making base CAHMP dir and the working dir for CHAMP target of choice, e.g. a5 dir
+> mkdir ~/CHAMP
+> cd ~/CHAMP
+> mkdir a5
+> cd a5
+
+
+######## Input file Prep #########
+
+# get sequence for TM region of TM target flanked by a few residues, <= 40 residues
+# > a-5 integrin EKAEVPTGVIIGSIIAGILLLLALVAILWKLGFFKR
+
+
+
+> python ~/CHAMP/bin/thread_repack.py EKAEVPTGVIIGSIIAGILLLLALVAILWKLGFFKR ~/bin/40_allAlaIdealHelix.pdb ~/CHAMP/a2/thread/ ~/rosetta/
+
+> mkdir ~/CHAMP/a2/RosMem_Target-input/
+
+> python ~/CHAMP/bin/alignTMs.py ~/CHAMP/Misc/2knc.pdb ~/CHAMP/a2/thread/threadedHelix_0001.pdb ~/CHAMP/a2/RosMem_Target-input/
+
+> python ~/CHAMP/bin/orientHelix_rosMemV2.py ~/CHAMP/a2/RosMem_Target-input/alignedInput.pdb  ~/rosetta/ ~/CHAMP/bin/helix_Relax.xml ~/CHAMP/a2/thread/resfile
+
+> python ~/CHAMP/bin/templatePairsScreen.py ~/CHAMP/Cluster-004/ ~/CHAMP/a2/bbHits/ ~/CHAMP/a2/RosMem_Target-input/alignedInput_0001.pdb ~/CHAMP/Cluster-004_ext/ EKAEVPTGVIIGSIIAGILLLLALVAILWKLGFFKR 11 19 "[ASGT][AGST]\w\w[ASTG][ASGT]\w\w[ILVFNQDEH]"
+
+## Good Models
+# 1, 2**, 3, 4, 5, 6, 8

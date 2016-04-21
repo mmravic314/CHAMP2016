@@ -50,11 +50,14 @@ oFile.close()
 # done writing res file
 
 # trim and rewrite helix to length of input string
-h_len	= len( inSeq ) + 1
+h_len	= len( inSeq ) 
 if h_len > 40: 
 	print "ERROR: input sequence longer than helix template input!!"
 
+print h_len
+
 cutPdb 	= inPDB.select( 'resnum 1 to %d' % h_len )
+
 oPdb	= os.path.join( oDir, 'threadedHelix.pdb' )
 writePDB( oPdb, cutPdb )
 # done rewriting helix

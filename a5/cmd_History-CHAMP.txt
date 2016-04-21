@@ -11,7 +11,7 @@
 ######## Input file Prep #########
 
 # get sequence for TM region of TM target flanked by a few residues, <= 40 residues
-# > a-5 integrin EGSYGVPLWIIILAILFGLLLLGLLIYILYKLG
+# > a-5 integrin EGSYGVPLWIIILAILFGLLLLGLLIYILYKLGFFKR
 # uniprot TM region: GVPLWIIILAILFGLLLLGLLIYILY
 # 
 
@@ -21,27 +21,23 @@
 
 ## make a prelim pdb file of this target sequence, threading to ideal Alpha Helix
 
-> python ~/CHAMP/bin/thread_repack.py EGSYGVPLWIIILAILFGLLLLGLLIYILYKLG ~/bin/40_allAlaIdealHelix.pdb ~/CHAMP/a5/thread/ ~/rosetta/
+> python ~/CHAMP/bin/thread_repack.py EGSYGVPLWIIILAILFGLLLLGLLIYILYKLGFFKR ~/bin/40_allAlaIdealHelix.pdb ~/CHAMP/a5/thread/ ~/rosetta/
 
 ##
 
 # Use this to orient in the membrane in a few steps below...
 
 > mkdir ~/CHAMP/a5/RosMem_Target-input/
+#
+
+## get initial positioning in membrane of PDB file. Using OPM output of integrin aIIb-b1 complex (pdb)
+
+> python ~/CHAMP/bin/alignTMs.py ~/CHAMP/Misc/2knc.pdb ~/CHAMP/a5/thread/threadedHelix_0001.pdb ~/CHAMP/a5/RosMem_Target-input/
+##
 
 
-## get initial positioning in membrane of PDB file.
-# 1) take a5/thread/threadedhelix_0001.pdb and submit to PPM server (http://opm.phar.umich.edu/server.php)
-# 2) save output pdb file, e.g.  ~/CHAMP/a5/RosMem_Target-input/a5_OPMout
-## 
-
-# In spite of OPM prediction for PDB...
-# INPUT this sequence for TM region prediction, I used OCTOPUS server (http://octopus.cbr.su.se/)
-# Save output to text file, e.g. ~/CHAMP/a5/RosMem_Target-input/a5-Octopus.txt
-
-## refine this positioning using Rosetta Membrane
-
-> python ~/CHAMP/bin/orientHelix_rosMem.py ~/CHAMP/a5/RosMem_Target-input/a5_OPMout.pdb ~/CHAMP/a5/RosMem_Target-input/a5-Octopus.txt ~/rosetta/ ~/CHAMP/bin/helix_Relax.xml 
+## refine this positioning using Rosetta Membrane, after auto creating span file
+> python ~/CHAMP/bin/orientHelix_rosMemV2.py ~/CHAMP/a5/RosMem_Target-input/alignedInput.pdb  ~/rosetta/ ~/CHAMP/bin/helix_Relax.xml ~/CHAMP/a5/thread/resfile 
 
 ##
 
@@ -53,4 +49,13 @@
 
 > cd ~/CHAMP/a5/RosMem_Target-input/
 
-> python ~/CHAMP/bin/templatePairsScreen.py ~/CHAMP/Cluster-004/ ~/CHAMP/a5/bbHits/ ~/CHAMP/a5/RosMem_Target-input/a5_OPMout_clean_0001.pdb ~/CHAMP/Cluster-004_ext/ EGSYGVPLWIIILAILFGLLLLGLLIYILYKLG 13 20 "[ASTG]\w\w[FMYWLIKR][ASG]\w\w[ILVFNQDEH]"
+> python ~/CHAMP/bin/templatePairsScreen.py ~/CHAMP/Cluster-004/ ~/CHAMP/a5/bbHits/ ~/CHAMP/a5/RosMem_Target-input/alignedInput_0001.pdb ~/CHAMP/Cluster-004_ext/ EGSYGVPLWIIILAILFGLLLLGLLIYILYKLGFFKR 13 20 "[ASTG]\w\w[FMYWLIKR][ASG]\w\w[ILVFNQDEH]"
+
+## Visually pcik Best matches  ... 
+# 1**, 3, 4** 6, 10, 15, 19, 20
+
+> mkdir bb2Design
+
+
+
+
