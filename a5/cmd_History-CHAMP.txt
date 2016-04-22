@@ -51,10 +51,20 @@
 
 > python ~/CHAMP/bin/templatePairsScreen.py ~/CHAMP/Cluster-004/ ~/CHAMP/a5/bbHits/ ~/CHAMP/a5/RosMem_Target-input/alignedInput_0001.pdb ~/CHAMP/Cluster-004_ext/ EGSYGVPLWIIILAILFGLLLLGLLIYILYKLGFFKR 13 20 "[ASTG]\w\w[FMYWLIKR][ASG]\w\w[ILVFNQDEH]"
 
-## Visually pcik Best matches  ... 
+## Visually pcik Best matches  ... mo 
 # 1**, 3, 4** 6, 10, 15, 19, 20
 
 > mkdir bb2Design
+
+### Prepare these pdb files in bb2Design for rosettaMembrane design
+
+> python ~/CHAMP/bin/designPrep.py ~/CHAMP/a5/bb2Design/ ~/rosetta/
+
+## Try some local Design
+
+> cd match_1/
+
+> python ~/CHAMP/bin/champDesign_rosMem.py ~/CHAMP/a5/bb2Design/match_1/match_1.pdb ~/CHAMP/bin/helix_Design.xml ~/rosetta/
 
 
 
