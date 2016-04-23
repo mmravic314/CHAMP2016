@@ -1,5 +1,7 @@
 ## Pipeline for CHAMPS, done (so far) by Marco Mravic DeGrado lab
-## Dependencies: Python 2.7, ProDy, NumPy, Rosetta locally downloaded & compiled
+## Dependencies: Python 2.7, Biopython, ProDy, NumPy, Rosetta locally downloaded & compiled
+# add the CHAMP/bin/ to your python path!! $PYTHONPATH
+
 
 # Making base CAHMP dir and the working dir for CHAMP target of choice, e.g. a5 dir
 > mkdir ~/CHAMP
@@ -64,8 +66,11 @@
 
 > cd match_1/
 
+# 800 designs per run, 1 run per minute... ( over night, 12 hours or so)
 > python ~/CHAMP/bin/champDesign_rosMem.py ~/CHAMP/a5/bb2Design/match_1/match_1.pdb ~/CHAMP/bin/helix_Design.xml ~/rosetta/
+> python ~/CHAMP/bin/champDesign_rosMem.py ~/CHAMP/a5/bb2Design/match_4/match_4.pdb ~/CHAMP/bin/helix_Design.xml ~/rosetta/
+> python ~/CHAMP/bin/champDesign_rosMem.py ~/CHAMP/a5/bb2Design/match_20/match_20.pdb ~/CHAMP/bin/helix_Design.xml ~/rosetta/
 
-
+## Plot and analyze these jobs. This script is not final, but used to plot and move thing as user dictates... so this is separate from pipeline
 
 

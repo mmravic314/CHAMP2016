@@ -28,8 +28,14 @@
 > python ~/CHAMP/bin/templatePairsScreen.py ~/CHAMP/Cluster-004/ ~/CHAMP/a2/bbHits/ ~/CHAMP/a2/RosMem_Target-input/alignedInput_0001.pdb ~/CHAMP/Cluster-004_ext/ EKAEVPTGVIIGSIIAGILLLLALVAILWKLGFFKR 11 19 "[ASGT][AGST]\w\w[ASTG][ASGT]\w\w[ILVFNQDEH]"
 
 ## Good Models
-# 1, 2**, 3, 4, 5, 6, 8
+# 1*, 2**, 3*, 4, 5, 6, 8
 
 > cd ../
 
+# manually move them in 
 > mkdir bb2Design
+
+> python ~/CHAMP/bin/champDesign_rosMem.py ~/CHAMP/a2/bb2Design/match_1/match_1.pdb ~/CHAMP/bin/helix_Design.xml ~/rosetta/
+> python ~/CHAMP/bin/champDesign_rosMem.py ~/CHAMP/a2/bb2Design/match_4/match_4.pdb ~/CHAMP/bin/helix_Design.xml ~/rosetta/
+> python ~/CHAMP/bin/champDesign_rosMem.py ~/CHAMP/a2/bb2Design/match_2/match_2.pdb ~/CHAMP/bin/helix_Design.xml ~/rosetta/
+
