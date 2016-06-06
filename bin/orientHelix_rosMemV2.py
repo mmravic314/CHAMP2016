@@ -1,9 +1,9 @@
 # Marco Mravic DeGrado Lab 2016
 
 ## Input 1: pdb of ideal helix threaded with target sequence, e.g. a5-integrin TM region, and oriented originally by OPM/PPM or EZ
-## Input 2: path 2 Octopus txt file
-## Input 3: path to rosetta main
-## input 4: path to Rosetta scripts XML with protocol 
+## Input 2: path to rosetta main
+## input 3: path to Rosetta scripts XML with protocol 
+## input 4: path to resfile
 
 # puts all output and intermediate files to the directory in the path of the input helix
 
@@ -58,7 +58,7 @@ spanF = inPDB[:-4] + '.span'
 cmd = [  rosiScrps, 
 '-parser:protocol', protocolPth, 			# Path to Rosetta script (see above)
 '-in:file:s', inPDB,							# Input PDB structure
-'-nstruct', '1', 							# Generate 1000 models
+'-nstruct', '1', 							# Generate 1 model
 '-mp:setup:spanfiles', spanF,				# Input spanfile
 '-mp:scoring:hbond', 						# Turn on membrane hydrogen bonding
 '-relax:jump_move', 'true', 				# Allow jumps to move during relax

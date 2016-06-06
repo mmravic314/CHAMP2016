@@ -1,0 +1,3493 @@
+>pdb|2KS1|B Chain B, Heterodimeric Association Of Transmembrane Domains Of 
+Erbb1 Receptors Enabling Kinase Activation
+ pdb|2M0B|A Chain A, Homodimeric Transmembrane Domain Of The Human Receptor 
+Tyrosine Kinase Erbb1 (egfr, Her1) In Micelles
+ pdb|2M0B|B Chain B, Homodimeric Transmembrane Domain Of The Human Receptor 
+Tyrosine Kinase Erbb1 (egfr, Her1) In Micelles
+Length=44
+
+ Score = 96.1 bits (219),  Expect = 3e-23
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+           KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  9   KIPSIATGMVGALLLLLVVALGIGLFMRRR  38
+
+
+>pdb|2N5S|A Chain A, Spatial Structure Of Egfr Transmembrane And Juxtamembrane 
+Domains In Dpc Micelles
+Length=54
+
+ Score = 96.1 bits (219),  Expect = 9e-23
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+           KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  4   KIPSIATGMVGALLLLLVVALGIGLFMRRR  33
+
+
+>gb|AAG43243.1| epidermal growth factor receptor, partial [Homo sapiens]
+Length=113
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+           KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  68  KIPSIATGMVGALLLLLVVALGIGLFMRRR  97
+
+
+>ref|XP_011920794.1| PREDICTED: epidermal growth factor receptor isoform X1 [Cercocebus 
+atys]
+Length=1242
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  674  KIPSIATGMVGALLLLLVVALGIGLFMRRR  703
+
+
+>gb|AAX41033.1| epidermal growth factor receptor [synthetic construct]
+Length=1211
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  642  KIPSIATGMVGALLLLLVVALGIGLFMRRR  671
+
+
+>gb|AAT52212.1| cell growth inhibiting protein 40 [Homo sapiens]
+Length=1210
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  642  KIPSIATGMVGALLLLLVVALGIGLFMRRR  671
+
+
+>emb|CAA25240.1| epidermal growth factor receptor [Homo sapiens]
+ prf||1006266A epidermal growth factor receptor
+Length=1210
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  642  KIPSIATGMVGALLLLLVVALGIGLFMRRR  671
+
+
+>ref|XP_011758798.1| PREDICTED: epidermal growth factor receptor isoform X1 [Macaca 
+nemestrina]
+Length=1210
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  642  KIPSIATGMVGALLLLLVVALGIGLFMRRR  671
+
+
+>ref|XP_010378850.1| PREDICTED: epidermal growth factor receptor isoform X1 [Rhinopithecus 
+roxellana]
+Length=1210
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  642  KIPSIATGMVGALLLLLVVALGIGLFMRRR  671
+
+
+>dbj|BAI46646.1| epidermal growth factor receptor [synthetic construct]
+Length=1210
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  642  KIPSIATGMVGALLLLLVVALGIGLFMRRR  671
+
+
+>ref|NP_005219.2| epidermal growth factor receptor isoform a precursor [Homo sapiens]
+ sp|P00533.2|EGFR_HUMAN RecName: Full=Epidermal growth factor receptor; AltName: Full=Proto-oncogene 
+c-ErbB-1; AltName: Full=Receptor tyrosine-protein 
+kinase erbB-1; Flags: Precursor
+ gb|AAG35789.1|AF288738_4 p170 epidermal growth factor receptor [Homo sapiens]
+ gb|AAS83109.1| epidermal growth factor receptor (erythroblastic leukemia viral 
+(v-erb-b) oncogene homolog, avian) [Homo sapiens]
+ gb|AAX41052.1| epidermal growth factor receptor [synthetic construct]
+ gb|AAX41053.1| epidermal growth factor receptor [synthetic construct]
+ gb|EAW50962.1| epidermal growth factor receptor (erythroblastic leukemia viral 
+(v-erb-b) oncogene homolog, avian), isoform CRA_a [Homo sapiens]
+Length=1210
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  642  KIPSIATGMVGALLLLLVVALGIGLFMRRR  671
+
+
+>ref|XP_014988922.1| PREDICTED: epidermal growth factor receptor isoform X1 [Macaca 
+mulatta]
+ sp|P55245.2|EGFR_MACMU RecName: Full=Epidermal growth factor receptor; Flags: Precursor
+Length=1210
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  642  KIPSIATGMVGALLLLLVVALGIGLFMRRR  671
+
+
+>ref|XP_005549616.1| PREDICTED: epidermal growth factor receptor isoform X1 [Macaca 
+fascicularis]
+ ref|XP_007979471.1| PREDICTED: epidermal growth factor receptor [Chlorocebus sabaeus]
+Length=1210
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  642  KIPSIATGMVGALLLLLVVALGIGLFMRRR  671
+
+
+>ref|XP_003896012.1| PREDICTED: epidermal growth factor receptor isoform X1 [Papio 
+anubis]
+ ref|XP_011920795.1| PREDICTED: epidermal growth factor receptor isoform X2 [Cercocebus 
+atys]
+Length=1210
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  642  KIPSIATGMVGALLLLLVVALGIGLFMRRR  671
+
+
+>ref|XP_519102.3| PREDICTED: epidermal growth factor receptor isoform X1 [Pan troglodytes]
+Length=1210
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  642  KIPSIATGMVGALLLLLVVALGIGLFMRRR  671
+
+
+>gb|AAZ66620.1| cell proliferation-inducing protein 61 [Homo sapiens]
+Length=1210
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  642  KIPSIATGMVGALLLLLVVALGIGLFMRRR  671
+
+
+>dbj|BAF83041.1| unnamed protein product [Homo sapiens]
+Length=1210
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  642  KIPSIATGMVGALLLLLVVALGIGLFMRRR  671
+
+
+>ref|XP_011758799.1| PREDICTED: epidermal growth factor receptor isoform X2 [Macaca 
+nemestrina]
+Length=1196
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  628  KIPSIATGMVGALLLLLVVALGIGLFMRRR  657
+
+
+>ref|XP_009201189.1| PREDICTED: epidermal growth factor receptor isoform X2 [Papio 
+anubis]
+Length=1187
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  619  KIPSIATGMVGALLLLLVVALGIGLFMRRR  648
+
+
+>ref|XP_011920796.1| PREDICTED: epidermal growth factor receptor isoform X3 [Cercocebus 
+atys]
+Length=1183
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  615  KIPSIATGMVGALLLLLVVALGIGLFMRRR  644
+
+
+>gb|EHH17303.1| Epidermal growth factor receptor, partial [Macaca mulatta]
+ gb|EHH52122.1| Epidermal growth factor receptor, partial [Macaca fascicularis]
+Length=1181
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  613  KIPSIATGMVGALLLLLVVALGIGLFMRRR  642
+
+
+>ref|XP_009201190.1| PREDICTED: epidermal growth factor receptor isoform X3 [Papio 
+anubis]
+Length=1169
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  601  KIPSIATGMVGALLLLLVVALGIGLFMRRR  630
+
+
+>gb|ADZ75461.1| epidermal growth factor receptor [Homo sapiens]
+Length=1167
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  597  KIPSIATGMVGALLLLLVVALGIGLFMRRR  626
+
+
+>ref|XP_014988923.1| PREDICTED: epidermal growth factor receptor isoform X2 [Macaca 
+mulatta]
+Length=1157
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  589  KIPSIATGMVGALLLLLVVALGIGLFMRRR  618
+
+
+>ref|XP_011758800.1| PREDICTED: epidermal growth factor receptor isoform X3 [Macaca 
+nemestrina]
+Length=1157
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  589  KIPSIATGMVGALLLLLVVALGIGLFMRRR  618
+
+
+>ref|XP_011781089.1| PREDICTED: epidermal growth factor receptor [Colobus angolensis 
+palliatus]
+Length=1157
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  589  KIPSIATGMVGALLLLLVVALGIGLFMRRR  618
+
+
+>ref|XP_010378851.1| PREDICTED: epidermal growth factor receptor isoform X2 [Rhinopithecus 
+roxellana]
+Length=1157
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  589  KIPSIATGMVGALLLLLVVALGIGLFMRRR  618
+
+
+>dbj|BAH11869.1| unnamed protein product [Homo sapiens]
+Length=1157
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  589  KIPSIATGMVGALLLLLVVALGIGLFMRRR  618
+
+
+>ref|XP_005549617.1| PREDICTED: epidermal growth factor receptor isoform X2 [Macaca 
+fascicularis]
+Length=1157
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  589  KIPSIATGMVGALLLLLVVALGIGLFMRRR  618
+
+
+>ref|XP_004045514.1| PREDICTED: epidermal growth factor receptor [Gorilla gorilla 
+gorilla]
+Length=1157
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  589  KIPSIATGMVGALLLLLVVALGIGLFMRRR  618
+
+
+>ref|XP_009201191.1| PREDICTED: epidermal growth factor receptor isoform X4 [Papio 
+anubis]
+ ref|XP_011920797.1| PREDICTED: epidermal growth factor receptor isoform X4 [Cercocebus 
+atys]
+ ref|XP_011920798.1| PREDICTED: epidermal growth factor receptor isoform X4 [Cercocebus 
+atys]
+ ref|XP_011920799.1| PREDICTED: epidermal growth factor receptor isoform X4 [Cercocebus 
+atys]
+ ref|XP_011822163.1| PREDICTED: epidermal growth factor receptor [Mandrillus leucophaeus]
+ ref|XP_011822164.1| PREDICTED: epidermal growth factor receptor [Mandrillus leucophaeus]
+Length=1157
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  589  KIPSIATGMVGALLLLLVVALGIGLFMRRR  618
+
+
+>ref|XP_008967087.1| PREDICTED: epidermal growth factor receptor [Pan paniscus]
+Length=1157
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  589  KIPSIATGMVGALLLLLVVALGIGLFMRRR  618
+
+
+>ref|XP_003275061.1| PREDICTED: epidermal growth factor receptor [Nomascus leucogenys]
+Length=1156
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  588  KIPSIATGMVGALLLLLVVALGIGLFMRRR  617
+
+
+>gb|ADL28125.1| epidermal growth factor receptor variant A [Homo sapiens]
+Length=1136
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  642  KIPSIATGMVGALLLLLVVALGIGLFMRRR  671
+
+
+>gb|AIC61960.1| EGFR, partial [synthetic construct]
+Length=1091
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  597  KIPSIATGMVGALLLLLVVALGIGLFMRRR  626
+
+
+>gb|AAH94761.1| EGFR protein [Homo sapiens]
+Length=1091
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  597  KIPSIATGMVGALLLLLVVALGIGLFMRRR  626
+
+
+>dbj|BAD92679.1| epidermal growth factor receptor isoform a variant [Homo sapiens]
+Length=1081
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  513  KIPSIATGMVGALLLLLVVALGIGLFMRRR  542
+
+
+>ref|XP_011920800.1| PREDICTED: epidermal growth factor receptor isoform X5 [Cercocebus 
+atys]
+Length=934
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  674  KIPSIATGMVGALLLLLVVALGIGLFMRRR  703
+
+
+>emb|CAA25282.1| unnamed protein product [Homo sapiens]
+Length=800
+
+ Score = 96.1 bits (219),  Expect = 2e-21
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLFMRRR
+Sbjct  500  KIPSIATGMVGALLLLLVVALGIGLFMRRR  529
+
+
+>pdb|2M20|A Chain A, Egfr Transmembrane - Juxtamembrane (tm-jm) Segment In 
+Bicelles: Md Guided Nmr Refined Structure.
+ pdb|2M20|B Chain B, Egfr Transmembrane - Juxtamembrane (tm-jm) Segment In 
+Bicelles: Md Guided Nmr Refined Structure.
+Length=60
+
+ Score = 86.7 bits (197),  Expect = 6e-19
+ Identities = 28/30 (93%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+           KIPSIATG+VGALLLLLVVALGIGLF RRR
+Sbjct  1   KIPSIATGLVGALLLLLVVALGIGLFIRRR  30
+
+
+>ref|XP_009000441.1| PREDICTED: LOW QUALITY PROTEIN: epidermal growth factor receptor 
+[Callithrix jacchus]
+Length=1215
+
+ Score = 83.8 bits (190),  Expect = 4e-17
+ Identities = 27/30 (90%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG V ALLL LVVALGIGLFMRRR
+Sbjct  642  KIPSIATGIVAALLLVLVVALGIGLFMRRR  671
+
+
+>ref|XP_010330053.1| PREDICTED: epidermal growth factor receptor [Saimiri boliviensis 
+boliviensis]
+Length=1157
+
+ Score = 83.8 bits (190),  Expect = 4e-17
+ Identities = 27/30 (90%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG V ALLL LVVALGIGLFMRRR
+Sbjct  589  KIPSIATGIVAALLLVLVVALGIGLFMRRR  618
+
+
+>ref|XP_012314500.1| PREDICTED: epidermal growth factor receptor [Aotus nancymaae]
+Length=829
+
+ Score = 83.8 bits (190),  Expect = 4e-17
+ Identities = 27/30 (90%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG V ALLL LVVALGIGLFMRRR
+Sbjct  642  KIPSIATGIVAALLLVLVVALGIGLFMRRR  671
+
+
+>prf||1007208A epidermal growth factor receptor
+Length=797
+
+ Score = 83.8 bits (190),  Expect = 4e-17
+ Identities = 28/30 (93%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATGMVGALLLLLVVALGIGLF  RR
+Sbjct  497  KIPSIATGMVGALLLLLVVALGIGLFIGRR  526
+
+
+>ref|XP_004384022.2| PREDICTED: epidermal growth factor receptor [Trichechus manatus 
+latirostris]
+Length=1209
+
+ Score = 81.2 bits (184),  Expect = 3e-16
+ Identities = 26/30 (87%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLLL V ALGIGLFMRRR
+Sbjct  642  KIPSIATGIVGSLLLLVVMALGIGLFMRRR  671
+
+
+>ref|XP_008063855.1| PREDICTED: epidermal growth factor receptor [Tarsius syrichta]
+Length=1154
+
+ Score = 81.2 bits (184),  Expect = 3e-16
+ Identities = 26/30 (87%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLLL VVALG+GLFMRRR
+Sbjct  586  KIPSIATGIVGGLLLLVVVALGVGLFMRRR  615
+
+
+>ref|XP_010585451.1| PREDICTED: epidermal growth factor receptor isoform X1 [Loxodonta 
+africana]
+Length=1205
+
+ Score = 80.4 bits (182),  Expect = 7e-16
+ Identities = 26/30 (87%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLLL V ALGIGLFMRRR
+Sbjct  642  KIPSIATGIVGGLLLLVVMALGIGLFMRRR  671
+
+
+>ref|XP_010585452.1| PREDICTED: epidermal growth factor receptor isoform X2 [Loxodonta 
+africana]
+Length=1204
+
+ Score = 80.4 bits (182),  Expect = 7e-16
+ Identities = 26/30 (87%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLLL V ALGIGLFMRRR
+Sbjct  642  KIPSIATGIVGGLLLLVVMALGIGLFMRRR  671
+
+
+>ref|XP_006861927.1| PREDICTED: epidermal growth factor receptor [Chrysochloris asiatica]
+Length=1157
+
+ Score = 80.4 bits (182),  Expect = 7e-16
+ Identities = 26/30 (87%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLLL V ALGIGLFMRRR
+Sbjct  589  KIPSIATGIVGGLLLLVVMALGIGLFMRRR  618
+
+
+>ref|XP_006900257.1| PREDICTED: epidermal growth factor receptor-like [Elephantulus 
+edwardii]
+Length=1156
+
+ Score = 80.4 bits (182),  Expect = 7e-16
+ Identities = 26/30 (87%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLLL V ALGIGLFMRRR
+Sbjct  589  KIPSIATGIVGGLLLLVVMALGIGLFMRRR  618
+
+
+>ref|XP_007535281.1| PREDICTED: epidermal growth factor receptor [Erinaceus europaeus]
+Length=1157
+
+ Score = 79.5 bits (180),  Expect = 1e-15
+ Identities = 26/30 (87%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLLL VVALGIGLF+RRR
+Sbjct  590  KIPSIATGIVGGLLLLVVVALGIGLFLRRR  619
+
+
+>gb|ELW65778.1| Epidermal growth factor receptor [Tupaia chinensis]
+Length=1166
+
+ Score = 79.5 bits (180),  Expect = 1e-15
+ Identities = 26/30 (87%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLLLL VALGIGLF+RRR
+Sbjct  599  KIPSIATGIVGGLLLLLLVALGIGLFLRRR  628
+
+
+>ref|XP_006148980.1| PREDICTED: epidermal growth factor receptor [Tupaia chinensis]
+Length=1246
+
+ Score = 79.5 bits (180),  Expect = 1e-15
+ Identities = 26/30 (87%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLLLL VALGIGLF+RRR
+Sbjct  679  KIPSIATGIVGGLLLLLLVALGIGLFLRRR  708
+
+
+>ref|XP_012806743.1| PREDICTED: epidermal growth factor receptor [Jaculus jaculus]
+Length=1305
+
+ Score = 79.5 bits (180),  Expect = 1e-15
+ Identities = 26/30 (87%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG L LL VVALGIGLFMRRR
+Sbjct  740  KIPSIATGIVGGLFLLVVVALGIGLFMRRR  769
+
+
+>ref|XP_008576883.1| PREDICTED: epidermal growth factor receptor, partial [Galeopterus 
+variegatus]
+Length=646
+
+ Score = 77.4 bits (175),  Expect = 7e-15
+ Identities = 25/30 (83%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LLLLL VALG+GLFMRRR
+Sbjct  97   KIPSIAIGIVGGLLLLLLVALGVGLFMRRR  126
+
+
+>ref|XP_008587569.1| PREDICTED: epidermal growth factor receptor-like, partial [Galeopterus 
+variegatus]
+Length=819
+
+ Score = 77.4 bits (175),  Expect = 7e-15
+ Identities = 25/30 (83%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LLLLL VALG+GLFMRRR
+Sbjct  648  KIPSIAIGIVGGLLLLLLVALGVGLFMRRR  677
+
+
+>ref|XP_012861453.1| PREDICTED: epidermal growth factor receptor [Echinops telfairi]
+Length=1176
+
+ Score = 77.4 bits (175),  Expect = 7e-15
+ Identities = 25/30 (83%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLLL V+ALGIGLF+RRR
+Sbjct  613  KIPSIATGIVGGLLLLVVIALGIGLFLRRR  642
+
+
+>ref|XP_013219270.1| PREDICTED: epidermal growth factor receptor [Ictidomys tridecemlineatus]
+Length=1195
+
+ Score = 77.4 bits (175),  Expect = 7e-15
+ Identities = 25/30 (83%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG L LL +VALGIGLFMRRR
+Sbjct  628  KIPSIATGIVGGLFLLVIVALGIGLFMRRR  657
+
+
+>ref|XP_015345596.1| PREDICTED: LOW QUALITY PROTEIN: epidermal growth factor receptor 
+[Marmota marmota marmota]
+Length=1199
+
+ Score = 77.4 bits (175),  Expect = 7e-15
+ Identities = 25/30 (83%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG L LL +VALGIGLFMRRR
+Sbjct  632  KIPSIATGIVGGLFLLVIVALGIGLFMRRR  661
+
+
+>ref|XP_004283056.1| PREDICTED: epidermal growth factor receptor [Orcinus orca]
+Length=1209
+
+ Score = 77.0 bits (174),  Expect = 1e-14
+ Identities = 25/29 (86%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIATGMVGALLL LV ALG+GLF+RRR
+Sbjct  643  IPSIATGMVGALLLALVLALGVGLFLRRR  671
+
+
+>ref|XP_004310873.1| PREDICTED: epidermal growth factor receptor [Tursiops truncatus]
+Length=1212
+
+ Score = 77.0 bits (174),  Expect = 1e-14
+ Identities = 25/29 (86%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIATGMVGALLL LV ALG+GLF+RRR
+Sbjct  643  IPSIATGMVGALLLALVLALGVGLFLRRR  671
+
+
+>ref|XP_007939420.1| PREDICTED: epidermal growth factor receptor [Orycteropus afer 
+afer]
+Length=1155
+
+ Score = 76.6 bits (173),  Expect = 1e-14
+ Identities = 25/30 (83%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL  V ALGIGLFMRRR
+Sbjct  589  KIPSIATGIVGGLLLVVVMALGIGLFMRRR  618
+
+
+>gb|ADT91285.1| epidermal growth factor receptor [Rattus norvegicus]
+Length=1209
+
+ Score = 76.6 bits (173),  Expect = 1e-14
+ Identities = 25/30 (83%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LL   VVALGIGLFMRRR
+Sbjct  643  KIPSIATGIVGGLLFIIVVALGIGLFMRRR  672
+
+
+>ref|XP_004646697.1| PREDICTED: epidermal growth factor receptor [Octodon degus]
+Length=1248
+
+ Score = 76.6 bits (173),  Expect = 1e-14
+ Identities = 25/30 (83%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLLL V  LGIGLFMRRR
+Sbjct  682  KIPSIATGIVGGLLLLVVLGLGIGLFMRRR  711
+
+
+>emb|CAA42219.1| EGF-receptor [Mus musculus]
+Length=714
+
+ Score = 76.1 bits (172),  Expect = 2e-14
+ Identities = 25/30 (83%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LL   VVALGIGLFMRRR
+Sbjct  644  KIPSIATGIVGGLLFIVVVALGIGLFMRRR  673
+
+
+>gb|EDL97896.1| epidermal growth factor receptor, isoform CRA_b [Rattus norvegicus]
+Length=1209
+
+ Score = 76.1 bits (172),  Expect = 2e-14
+ Identities = 25/30 (83%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LL   VVALGIGLFMRRR
+Sbjct  643  KIPSIATGIVGGLLFIVVVALGIGLFMRRR  672
+
+
+>ref|NP_113695.1| epidermal growth factor receptor precursor [Rattus norvegicus]
+ gb|AAF14008.1| epidermal growth factor receptor [Rattus norvegicus]
+Length=1209
+
+ Score = 76.1 bits (172),  Expect = 2e-14
+ Identities = 25/30 (83%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LL   VVALGIGLFMRRR
+Sbjct  643  KIPSIATGIVGGLLFIVVVALGIGLFMRRR  672
+
+
+>gb|ADT91284.1| epidermal growth factor receptor [Rattus norvegicus]
+Length=1209
+
+ Score = 76.1 bits (172),  Expect = 2e-14
+ Identities = 25/30 (83%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LL   VVALGIGLFMRRR
+Sbjct  643  KIPSIATGIVGGLLFIVVVALGIGLFMRRR  672
+
+
+>gb|AAG24386.1|AF275367_1 epidermal growth factor receptor [Mus musculus]
+ gb|AAG28045.1| epidermal growth factor receptor isoform 1 [Mus musculus]
+Length=1210
+
+ Score = 76.1 bits (172),  Expect = 2e-14
+ Identities = 25/30 (83%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LL   VVALGIGLFMRRR
+Sbjct  644  KIPSIATGIVGGLLFIVVVALGIGLFMRRR  673
+
+
+>gb|AAA17899.1| EGF receptor [Mus musculus]
+Length=1210
+
+ Score = 76.1 bits (172),  Expect = 2e-14
+ Identities = 25/30 (83%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LL   VVALGIGLFMRRR
+Sbjct  644  KIPSIATGIVGGLLFIVVVALGIGLFMRRR  673
+
+
+>ref|NP_997538.1| epidermal growth factor receptor isoform 1 precursor [Mus musculus]
+ sp|Q01279.1|EGFR_MOUSE RecName: Full=Epidermal growth factor receptor; Flags: Precursor
+ emb|CAA55587.1| epidermal growth factor receptor [Mus musculus]
+ gb|EDL40667.1| epidermal growth factor receptor, isoform CRA_b [Mus musculus]
+Length=1210
+
+ Score = 76.1 bits (172),  Expect = 2e-14
+ Identities = 25/30 (83%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LL   VVALGIGLFMRRR
+Sbjct  644  KIPSIATGIVGGLLFIVVVALGIGLFMRRR  673
+
+
+>ref|XP_008768639.1| PREDICTED: epidermal growth factor receptor isoform X2 [Rattus 
+norvegicus]
+Length=1228
+
+ Score = 76.1 bits (172),  Expect = 2e-14
+ Identities = 25/30 (83%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LL   VVALGIGLFMRRR
+Sbjct  662  KIPSIATGIVGGLLFIVVVALGIGLFMRRR  691
+
+
+>ref|XP_008768638.1| PREDICTED: epidermal growth factor receptor isoform X1 [Rattus 
+norvegicus]
+Length=1242
+
+ Score = 76.1 bits (172),  Expect = 2e-14
+ Identities = 25/30 (83%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LL   VVALGIGLFMRRR
+Sbjct  676  KIPSIATGIVGGLLFIVVVALGIGLFMRRR  705
+
+
+>ref|XP_014685769.1| PREDICTED: epidermal growth factor receptor isoform X2 [Equus 
+asinus]
+Length=1155
+
+ Score = 75.7 bits (171),  Expect = 3e-14
+ Identities = 25/30 (83%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL  VVALGIGLF+RRR
+Sbjct  589  KIPSIATGIVGGLLLVVVVALGIGLFLRRR  618
+
+
+>ref|XP_014685768.1| PREDICTED: epidermal growth factor receptor isoform X1 [Equus 
+asinus]
+Length=1156
+
+ Score = 75.7 bits (171),  Expect = 3e-14
+ Identities = 25/30 (83%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL  VVALGIGLF+RRR
+Sbjct  589  KIPSIATGIVGGLLLVVVVALGIGLFLRRR  618
+
+
+>ref|XP_008532280.1| PREDICTED: LOW QUALITY PROTEIN: epidermal growth factor receptor, 
+partial [Equus przewalskii]
+Length=1186
+
+ Score = 75.7 bits (171),  Expect = 3e-14
+ Identities = 25/30 (83%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL  VVALGIGLF+RRR
+Sbjct  619  KIPSIATGIVGGLLLVVVVALGIGLFLRRR  648
+
+
+>ref|XP_014649151.1| PREDICTED: epidermal growth factor receptor isoform X3 [Ceratotherium 
+simum simum]
+Length=1192
+
+ Score = 75.7 bits (171),  Expect = 3e-14
+ Identities = 25/30 (83%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL  VVALGIGLF+RRR
+Sbjct  642  KIPSIATGIVGGLLLVVVVALGIGLFLRRR  671
+
+
+>ref|XP_014649150.1| PREDICTED: epidermal growth factor receptor isoform X2 [Ceratotherium 
+simum simum]
+Length=1208
+
+ Score = 75.7 bits (171),  Expect = 3e-14
+ Identities = 25/30 (83%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL  VVALGIGLF+RRR
+Sbjct  642  KIPSIATGIVGGLLLVVVVALGIGLFLRRR  671
+
+
+>ref|XP_004438430.1| PREDICTED: epidermal growth factor receptor isoform X1 [Ceratotherium 
+simum simum]
+Length=1209
+
+ Score = 75.7 bits (171),  Expect = 3e-14
+ Identities = 25/30 (83%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL  VVALGIGLF+RRR
+Sbjct  642  KIPSIATGIVGGLLLVVVVALGIGLFLRRR  671
+
+
+>ref|XP_005609210.2| PREDICTED: epidermal growth factor receptor [Equus caballus]
+Length=1239
+
+ Score = 75.7 bits (171),  Expect = 3e-14
+ Identities = 25/30 (83%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL  VVALGIGLF+RRR
+Sbjct  672  KIPSIATGIVGGLLLVVVVALGIGLFLRRR  701
+
+
+>ref|XP_012382279.1| PREDICTED: epidermal growth factor receptor, partial [Dasypus 
+novemcinctus]
+Length=1034
+
+ Score = 75.3 bits (170),  Expect = 4e-14
+ Identities = 25/30 (83%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG L  L VVALGIGLFMRRR
+Sbjct  500  KIPSIATGIVGGLFFLVVVALGIGLFMRRR  529
+
+
+>gb|AAI18666.1| EGFR protein [Homo sapiens]
+Length=464
+
+ Score = 74.4 bits (168),  Expect = 8e-14
+ Identities = 24/24 (100%), Positives = 24/24 (100%), Gaps = 0/24 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIG  24
+            KIPSIATGMVGALLLLLVVALGIG
+Sbjct  436  KIPSIATGMVGALLLLLVVALGIG  459
+
+
+>ref|XP_004601854.1| PREDICTED: epidermal growth factor receptor [Sorex araneus]
+Length=1154
+
+ Score = 74.4 bits (168),  Expect = 8e-14
+ Identities = 24/29 (83%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIATG VG LLLLLVVAL +GLF+RRR
+Sbjct  590  IPSIATGIVGGLLLLLVVALAVGLFLRRR  618
+
+
+>ref|XP_005975689.1| PREDICTED: epidermal growth factor receptor [Pantholops hodgsonii]
+Length=1188
+
+ Score = 74.0 bits (167),  Expect = 1e-13
+ Identities = 24/30 (80%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL LV AL +GLFMRRR
+Sbjct  622  KIPSIATGIVGGLLLVLVLALSVGLFMRRR  651
+
+
+>ref|XP_013828759.1| PREDICTED: epidermal growth factor receptor [Capra hircus]
+Length=1208
+
+ Score = 74.0 bits (167),  Expect = 1e-13
+ Identities = 24/30 (80%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL LV AL +GLFMRRR
+Sbjct  642  KIPSIATGIVGGLLLVLVLALSVGLFMRRR  671
+
+
+>ref|XP_012504240.1| PREDICTED: epidermal growth factor receptor isoform X4 [Propithecus 
+coquereli]
+Length=1208
+
+ Score = 74.0 bits (167),  Expect = 1e-13
+ Identities = 25/30 (83%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL  VVALGIGLF+RRR
+Sbjct  642  KIPSIATGIVGGLLLAVVVALGIGLFLRRR  671
+
+
+>ref|XP_012026085.1| PREDICTED: epidermal growth factor receptor [Ovis aries musimon]
+ ref|XP_014957685.1| PREDICTED: epidermal growth factor receptor [Ovis aries]
+Length=1208
+
+ Score = 74.0 bits (167),  Expect = 1e-13
+ Identities = 24/30 (80%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL LV AL +GLFMRRR
+Sbjct  642  KIPSIATGIVGGLLLVLVLALSVGLFMRRR  671
+
+
+>ref|XP_012504239.1| PREDICTED: epidermal growth factor receptor isoform X3 [Propithecus 
+coquereli]
+Length=1209
+
+ Score = 74.0 bits (167),  Expect = 1e-13
+ Identities = 25/30 (83%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL  VVALGIGLF+RRR
+Sbjct  642  KIPSIATGIVGGLLLAVVVALGIGLFLRRR  671
+
+
+>ref|XP_006069694.1| PREDICTED: epidermal growth factor receptor [Bubalus bubalis]
+Length=1262
+
+ Score = 74.0 bits (167),  Expect = 1e-13
+ Identities = 24/30 (80%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL LV AL +GLFMRRR
+Sbjct  696  KIPSIATGIVGGLLLVLVLALSVGLFMRRR  725
+
+
+>ref|XP_012504238.1| PREDICTED: epidermal growth factor receptor isoform X2 [Propithecus 
+coquereli]
+Length=1273
+
+ Score = 74.0 bits (167),  Expect = 1e-13
+ Identities = 25/30 (83%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL  VVALGIGLF+RRR
+Sbjct  707  KIPSIATGIVGGLLLAVVVALGIGLFLRRR  736
+
+
+>ref|XP_012504237.1| PREDICTED: epidermal growth factor receptor isoform X1 [Propithecus 
+coquereli]
+Length=1274
+
+ Score = 74.0 bits (167),  Expect = 1e-13
+ Identities = 25/30 (83%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL  VVALGIGLF+RRR
+Sbjct  707  KIPSIATGIVGGLLLAVVVALGIGLFLRRR  736
+
+
+>ref|XP_005396934.2| PREDICTED: epidermal growth factor receptor [Chinchilla lanigera]
+Length=1159
+
+ Score = 73.6 bits (166),  Expect = 2e-13
+ Identities = 24/29 (83%), Positives = 24/29 (83%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIATG VG LLLL V  LGIGLFMRRR
+Sbjct  594  IPSIATGIVGGLLLLVVLGLGIGLFMRRR  622
+
+
+>gb|AAS17990.1| epidermal growth factor receptor [Canis lupus familiaris]
+Length=202
+
+ Score = 73.2 bits (165),  Expect = 2e-13
+ Identities = 24/30 (80%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1   KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+           KIPSIATG VG LLL  VVALG+GLF+RRR
+Sbjct  31  KIPSIATGIVGGLLLVVVVALGVGLFLRRR  60
+
+
+>gb|ADN88103.1| epidermal growth factor receptor [Felis catus]
+Length=443
+
+ Score = 73.2 bits (165),  Expect = 2e-13
+ Identities = 24/30 (80%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL  VVALG+GLF+RRR
+Sbjct  72   KIPSIATGIVGGLLLVVVVALGVGLFLRRR  101
+
+
+>ref|XP_006729898.1| PREDICTED: epidermal growth factor receptor [Leptonychotes weddellii]
+Length=931
+
+ Score = 73.2 bits (165),  Expect = 2e-13
+ Identities = 24/30 (80%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL  VVALG+GLF+RRR
+Sbjct  504  KIPSIATGIVGGLLLVVVVALGVGLFLRRR  533
+
+
+>gb|EGW06709.1| Epidermal growth factor receptor, partial [Cricetulus griseus]
+Length=962
+
+ Score = 73.2 bits (165),  Expect = 2e-13
+ Identities = 24/29 (83%), Positives = 24/29 (83%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIATG VG LL   VVALGIGLFMRRR
+Sbjct  412  IPSIATGIVGGLLFIVVVALGIGLFMRRR  440
+
+
+>gb|ERE90248.1| epidermal growth factor receptor [Cricetulus griseus]
+Length=1019
+
+ Score = 73.2 bits (165),  Expect = 2e-13
+ Identities = 24/29 (83%), Positives = 24/29 (83%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIATG VG LL   VVALGIGLFMRRR
+Sbjct  469  IPSIATGIVGGLLFIVVVALGIGLFMRRR  497
+
+
+>gb|ALJ56200.1| epidermal growth factor receptor, partial [Felis catus]
+Length=1111
+
+ Score = 73.2 bits (165),  Expect = 2e-13
+ Identities = 24/30 (80%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL  VVALG+GLF+RRR
+Sbjct  546  KIPSIATGIVGGLLLVVVVALGVGLFLRRR  575
+
+
+>ref|XP_015398711.1| PREDICTED: epidermal growth factor receptor, partial [Panthera 
+tigris altaica]
+Length=1170
+
+ Score = 73.2 bits (165),  Expect = 2e-13
+ Identities = 24/30 (80%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL  VVALG+GLF+RRR
+Sbjct  605  KIPSIATGIVGGLLLVVVVALGVGLFLRRR  634
+
+
+>ref|XP_014929930.1| PREDICTED: LOW QUALITY PROTEIN: epidermal growth factor receptor 
+[Acinonyx jubatus]
+Length=1191
+
+ Score = 73.2 bits (165),  Expect = 2e-13
+ Identities = 24/30 (80%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL  VVALG+GLF+RRR
+Sbjct  626  KIPSIATGIVGGLLLVVVVALGVGLFLRRR  655
+
+
+>ref|XP_013976231.1| PREDICTED: epidermal growth factor receptor [Canis lupus familiaris]
+Length=1205
+
+ Score = 73.2 bits (165),  Expect = 2e-13
+ Identities = 24/30 (80%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL  VVALG+GLF+RRR
+Sbjct  640  KIPSIATGIVGGLLLVVVVALGVGLFLRRR  669
+
+
+>ref|XP_012661369.1| PREDICTED: epidermal growth factor receptor [Otolemur garnettii]
+Length=1205
+
+ Score = 73.2 bits (165),  Expect = 2e-13
+ Identities = 24/30 (80%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL  VVALG+GLF+RRR
+Sbjct  642  KIPSIATGIVGGLLLVVVVALGVGLFLRRR  671
+
+
+>ref|XP_006929148.1| PREDICTED: epidermal growth factor receptor [Felis catus]
+Length=1207
+
+ Score = 73.2 bits (165),  Expect = 2e-13
+ Identities = 24/30 (80%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL  VVALG+GLF+RRR
+Sbjct  642  KIPSIATGIVGGLLLVVVVALGVGLFLRRR  671
+
+
+>ref|XP_005070463.1| PREDICTED: epidermal growth factor receptor isoform X2 [Mesocricetus 
+auratus]
+Length=1207
+
+ Score = 73.2 bits (165),  Expect = 2e-13
+ Identities = 24/29 (83%), Positives = 24/29 (83%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIATG VG LL   VVALGIGLFMRRR
+Sbjct  642  IPSIATGIVGGLLFIVVVALGIGLFMRRR  670
+
+
+ Score = 22.3 bits (45),  Expect = 90319
+ Identities = 10/19 (53%), Positives = 10/19 (53%), Gaps = 3/19 (16%)
+
+Query  3   PSIATGMVGALLLLLVVAL  21
+           PS   G  G  LLLL  AL
+Sbjct  3   PS---GITGTILLLLLAAL  18
+
+
+>ref|XP_004416290.1| PREDICTED: epidermal growth factor receptor isoform X2 [Odobenus 
+rosmarus divergens]
+Length=1207
+
+ Score = 73.2 bits (165),  Expect = 2e-13
+ Identities = 24/30 (80%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL  VVALG+GLF+RRR
+Sbjct  642  KIPSIATGIVGGLLLVVVVALGVGLFLRRR  671
+
+
+>ref|XP_012969065.1| PREDICTED: epidermal growth factor receptor isoform X1 [Mesocricetus 
+auratus]
+Length=1208
+
+ Score = 73.2 bits (165),  Expect = 2e-13
+ Identities = 24/29 (83%), Positives = 24/29 (83%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIATG VG LL   VVALGIGLFMRRR
+Sbjct  642  IPSIATGIVGGLLFIVVVALGIGLFMRRR  670
+
+
+ Score = 22.3 bits (45),  Expect = 90319
+ Identities = 10/19 (53%), Positives = 10/19 (53%), Gaps = 3/19 (16%)
+
+Query  3   PSIATGMVGALLLLLVVAL  21
+           PS   G  G  LLLL  AL
+Sbjct  3   PS---GITGTILLLLLAAL  18
+
+
+>ref|XP_007641185.1| PREDICTED: epidermal growth factor receptor isoform X1 [Cricetulus 
+griseus]
+Length=1208
+
+ Score = 73.2 bits (165),  Expect = 2e-13
+ Identities = 24/29 (83%), Positives = 24/29 (83%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIATG VG LL   VVALGIGLFMRRR
+Sbjct  642  IPSIATGIVGGLLFIVVVALGIGLFMRRR  670
+
+
+>ref|XP_012423491.1| PREDICTED: epidermal growth factor receptor isoform X1 [Odobenus 
+rosmarus divergens]
+Length=1209
+
+ Score = 73.2 bits (165),  Expect = 2e-13
+ Identities = 24/30 (80%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL  VVALG+GLF+RRR
+Sbjct  642  KIPSIATGIVGGLLLVVVVALGVGLFLRRR  671
+
+
+>ref|XP_008701798.1| PREDICTED: epidermal growth factor receptor [Ursus maritimus]
+Length=1212
+
+ Score = 73.2 bits (165),  Expect = 2e-13
+ Identities = 24/30 (80%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL  VVALG+GLF+RRR
+Sbjct  645  KIPSIATGIVGGLLLVVVVALGVGLFLRRR  674
+
+
+>gb|ERE90249.1| epidermal growth factor receptor [Cricetulus griseus]
+Length=1220
+
+ Score = 73.2 bits (165),  Expect = 2e-13
+ Identities = 24/29 (83%), Positives = 24/29 (83%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIATG VG LL   VVALGIGLFMRRR
+Sbjct  670  IPSIATGIVGGLLFIVVVALGIGLFMRRR  698
+
+
+>ref|XP_015844048.1| PREDICTED: epidermal growth factor receptor isoform X2 [Peromyscus 
+maniculatus bairdii]
+Length=1207
+
+ Score = 72.7 bits (164),  Expect = 3e-13
+ Identities = 24/30 (80%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIAT  VG LL   VVALGIGLFMRRR
+Sbjct  641  KIPSIATAIVGGLLFIVVVALGIGLFMRRR  670
+
+
+>ref|XP_015844047.1| PREDICTED: epidermal growth factor receptor isoform X1 [Peromyscus 
+maniculatus bairdii]
+Length=1208
+
+ Score = 72.7 bits (164),  Expect = 3e-13
+ Identities = 24/30 (80%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIAT  VG LL   VVALGIGLFMRRR
+Sbjct  641  KIPSIATAIVGGLLFIVVVALGIGLFMRRR  670
+
+
+>ref|XP_009241058.1| PREDICTED: epidermal growth factor receptor-like [Pongo abelii]
+Length=185
+
+ Score = 72.3 bits (163),  Expect = 4e-13
+ Identities = 22/22 (100%), Positives = 22/22 (100%), Gaps = 0/22 (0%)
+
+Query  9   MVGALLLLLVVALGIGLFMRRR  30
+           MVGALLLLLVVALGIGLFMRRR
+Sbjct  1   MVGALLLLLVVALGIGLFMRRR  22
+
+
+>ref|XP_008260066.1| PREDICTED: epidermal growth factor receptor isoform X2 [Oryctolagus 
+cuniculus]
+Length=1208
+
+ Score = 72.3 bits (163),  Expect = 4e-13
+ Identities = 24/30 (80%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG L LL V  LGIGLFMRRR
+Sbjct  642  KIPSIATGVVGGLFLLVVLGLGIGLFMRRR  671
+
+
+>gb|AKZ42272.1| epidermal growth factor receptor [Castor fiber]
+Length=1209
+
+ Score = 72.3 bits (163),  Expect = 4e-13
+ Identities = 24/30 (80%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G V  L LL VVALGIGLFMRRR
+Sbjct  642  KIPSIAIGIVSGLFLLVVVALGIGLFMRRR  671
+
+
+ Score = 22.3 bits (45),  Expect = 90320
+ Identities = 11/19 (58%), Positives = 11/19 (58%), Gaps = 3/19 (16%)
+
+Query  3   PSIATGMVGALLLLLVVAL  21
+           PS   G  GA LL L VAL
+Sbjct  3   PS---GTAGAALLVLLVAL  18
+
+
+>ref|XP_013208961.1| PREDICTED: epidermal growth factor receptor [Microtus ochrogaster]
+Length=1209
+
+ Score = 72.3 bits (163),  Expect = 4e-13
+ Identities = 24/30 (80%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL   VVALGIGLFMRRR
+Sbjct  642  KIPSIAIGIVGGLLFIVVVALGIGLFMRRR  671
+
+
+>ref|XP_008260065.1| PREDICTED: epidermal growth factor receptor isoform X1 [Oryctolagus 
+cuniculus]
+Length=1209
+
+ Score = 72.3 bits (163),  Expect = 4e-13
+ Identities = 24/30 (80%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG L LL V  LGIGLFMRRR
+Sbjct  642  KIPSIATGVVGGLFLLVVLGLGIGLFMRRR  671
+
+
+>ref|XP_007187726.1| PREDICTED: epidermal growth factor receptor isoform X3 [Balaenoptera 
+acutorostrata scammoni]
+Length=1109
+
+ Score = 71.9 bits (162),  Expect = 6e-13
+ Identities = 24/29 (83%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIATG VGALLL LV ALG+GLF+RRR
+Sbjct  543  IPSIATGIVGALLLALVLALGVGLFLRRR  571
+
+
+>ref|XP_007463742.1| PREDICTED: epidermal growth factor receptor isoform X2 [Lipotes 
+vexillifer]
+Length=1155
+
+ Score = 71.9 bits (162),  Expect = 6e-13
+ Identities = 24/29 (83%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIATG VGALLL LV ALG+GLF+RRR
+Sbjct  590  IPSIATGIVGALLLALVLALGVGLFLRRR  618
+
+
+>ref|XP_007187725.1| PREDICTED: epidermal growth factor receptor isoform X2 [Balaenoptera 
+acutorostrata scammoni]
+Length=1155
+
+ Score = 71.9 bits (162),  Expect = 6e-13
+ Identities = 24/29 (83%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIATG VGALLL LV ALG+GLF+RRR
+Sbjct  590  IPSIATGIVGALLLALVLALGVGLFLRRR  618
+
+
+>ref|XP_007187724.1| PREDICTED: epidermal growth factor receptor isoform X1 [Balaenoptera 
+acutorostrata scammoni]
+Length=1156
+
+ Score = 71.9 bits (162),  Expect = 6e-13
+ Identities = 24/29 (83%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIATG VGALLL LV ALG+GLF+RRR
+Sbjct  590  IPSIATGIVGALLLALVLALGVGLFLRRR  618
+
+
+>ref|XP_007463741.1| PREDICTED: epidermal growth factor receptor isoform X1 [Lipotes 
+vexillifer]
+Length=1209
+
+ Score = 71.9 bits (162),  Expect = 6e-13
+ Identities = 24/29 (83%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIATG VGALLL LV ALG+GLF+RRR
+Sbjct  643  IPSIATGIVGALLLALVLALGVGLFLRRR  671
+
+
+>ref|XP_005907220.1| PREDICTED: epidermal growth factor receptor, partial [Bos mutus]
+ gb|ELR48033.1| Epidermal growth factor receptor, partial [Bos mutus]
+Length=664
+
+ Score = 70.2 bits (158),  Expect = 2e-12
+ Identities = 23/30 (77%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL  V AL +GLFMRRR
+Sbjct  98   KIPSIATGIVGGLLLVVVLALSVGLFMRRR  127
+
+
+>ref|XP_012589411.1| PREDICTED: epidermal growth factor receptor isoform X2 [Condylura 
+cristata]
+Length=1151
+
+ Score = 70.2 bits (158),  Expect = 2e-12
+ Identities = 23/30 (77%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSI TG VG LL+L VVALG+GLF RRR
+Sbjct  589  KIPSIVTGIVGGLLMLVVVALGVGLFVRRR  618
+
+
+>ref|XP_004694569.1| PREDICTED: epidermal growth factor receptor isoform X1 [Condylura 
+cristata]
+Length=1152
+
+ Score = 70.2 bits (158),  Expect = 2e-12
+ Identities = 23/30 (77%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSI TG VG LL+L VVALG+GLF RRR
+Sbjct  589  KIPSIVTGIVGGLLMLVVVALGVGLFVRRR  618
+
+
+>gb|AIC80891.1| epidermal growth factor receptor [Bos grunniens]
+Length=1185
+
+ Score = 70.2 bits (158),  Expect = 2e-12
+ Identities = 23/30 (77%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL  V AL +GLFMRRR
+Sbjct  619  KIPSIATGIVGGLLLVVVLALSVGLFMRRR  648
+
+
+>gb|ADK98534.1| epidermal growth factor receptor [Bos taurus]
+Length=1185
+
+ Score = 70.2 bits (158),  Expect = 2e-12
+ Identities = 23/30 (77%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL  V AL +GLFMRRR
+Sbjct  619  KIPSIATGIVGGLLLVVVLALSVGLFMRRR  648
+
+
+>tpg|DAA17224.1| TPA: epidermal growth factor receptor [Bos taurus]
+Length=1185
+
+ Score = 70.2 bits (158),  Expect = 2e-12
+ Identities = 23/30 (77%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL  V AL +GLFMRRR
+Sbjct  619  KIPSIATGIVGGLLLVVVLALSVGLFMRRR  648
+
+
+>ref|XP_592211.4| PREDICTED: epidermal growth factor receptor [Bos taurus]
+ ref|XP_002696936.2| PREDICTED: epidermal growth factor receptor [Bos taurus]
+Length=1208
+
+ Score = 70.2 bits (158),  Expect = 2e-12
+ Identities = 23/30 (77%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL  V AL +GLFMRRR
+Sbjct  642  KIPSIATGIVGGLLLVVVLALSVGLFMRRR  671
+
+
+>ref|XP_004839898.1| PREDICTED: epidermal growth factor receptor [Heterocephalus glaber]
+Length=1211
+
+ Score = 70.2 bits (158),  Expect = 2e-12
+ Identities = 23/29 (79%), Positives = 24/29 (83%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIATG VG L LL V ALG+GLFMRRR
+Sbjct  646  IPSIATGIVGGLFLLVVLALGVGLFMRRR  674
+
+
+>gb|EHA98286.1| Epidermal growth factor receptor [Heterocephalus glaber]
+Length=1226
+
+ Score = 70.2 bits (158),  Expect = 2e-12
+ Identities = 23/29 (79%), Positives = 24/29 (83%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIATG VG L LL V ALG+GLFMRRR
+Sbjct  594  IPSIATGIVGGLFLLVVLALGVGLFMRRR  622
+
+
+>ref|XP_010840455.1| PREDICTED: epidermal growth factor receptor [Bison bison bison]
+Length=1287
+
+ Score = 70.2 bits (158),  Expect = 2e-12
+ Identities = 23/30 (77%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL  V AL +GLFMRRR
+Sbjct  721  KIPSIATGIVGGLLLVVVLALSVGLFMRRR  750
+
+
+>ref|XP_010623361.1| PREDICTED: epidermal growth factor receptor [Fukomys damarensis]
+Length=1241
+
+ Score = 69.8 bits (157),  Expect = 3e-12
+ Identities = 23/30 (77%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG L LL V AL +GLFMRRR
+Sbjct  676  KIPSIATGIVGGLFLLVVLALAVGLFMRRR  705
+
+
+>gb|KFO33012.1| Epidermal growth factor receptor [Fukomys damarensis]
+Length=1382
+
+ Score = 69.8 bits (157),  Expect = 3e-12
+ Identities = 23/30 (77%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG L LL V AL +GLFMRRR
+Sbjct  755  KIPSIATGIVGGLFLLVVLALAVGLFMRRR  784
+
+
+>ref|XP_008849864.1| PREDICTED: epidermal growth factor receptor-like [Nannospalax 
+galili]
+Length=117
+
+ Score = 68.5 bits (154),  Expect = 9e-12
+ Identities = 23/30 (77%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1   KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+           KIPSIATG VG L L    ALGIGLFMRRR
+Sbjct  26  KIPSIATGIVGGLFLIVLLALGIGLFMRRR  55
+
+
+>ref|XP_007112084.1| PREDICTED: epidermal growth factor receptor-like isoform X3 [Physeter 
+catodon]
+Length=1125
+
+ Score = 68.1 bits (153),  Expect = 1e-11
+ Identities = 23/29 (79%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIATG VGALLL  V ALG+GLF+RRR
+Sbjct  559  IPSIATGIVGALLLAVVLALGVGLFLRRR  587
+
+
+>ref|XP_007112083.1| PREDICTED: epidermal growth factor receptor-like isoform X2 [Physeter 
+catodon]
+Length=1155
+
+ Score = 68.1 bits (153),  Expect = 1e-11
+ Identities = 23/29 (79%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIATG VGALLL  V ALG+GLF+RRR
+Sbjct  590  IPSIATGIVGALLLAVVLALGVGLFLRRR  618
+
+
+>ref|XP_007112082.1| PREDICTED: epidermal growth factor receptor-like isoform X1 [Physeter 
+catodon]
+Length=1156
+
+ Score = 68.1 bits (153),  Expect = 1e-11
+ Identities = 23/29 (79%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIATG VGALLL  V ALG+GLF+RRR
+Sbjct  590  IPSIATGIVGALLLAVVLALGVGLFLRRR  618
+
+
+>ref|XP_007500446.1| PREDICTED: epidermal growth factor receptor isoform X2 [Monodelphis 
+domestica]
+Length=1212
+
+ Score = 68.1 bits (153),  Expect = 1e-11
+ Identities = 23/30 (77%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG +G LLLL V  LGIGLF RRR
+Sbjct  642  KIPSIATGIIGGLLLLVVLGLGIGLFFRRR  671
+
+
+>ref|XP_007500445.1| PREDICTED: epidermal growth factor receptor isoform X1 [Monodelphis 
+domestica]
+Length=1213
+
+ Score = 68.1 bits (153),  Expect = 1e-11
+ Identities = 23/30 (77%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG +G LLLL V  LGIGLF RRR
+Sbjct  642  KIPSIATGIIGGLLLLVVLGLGIGLFFRRR  671
+
+
+>dbj|BAF62298.1| epidermal growth factor receptor [Sus scrofa]
+Length=1204
+
+ Score = 67.7 bits (152),  Expect = 2e-11
+ Identities = 23/30 (77%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL  V ALG+GLF+RRR
+Sbjct  637  KIPSIATGIVGGLLLAVVLALGVGLFLRRR  666
+
+
+>ref|NP_999172.1| epidermal growth factor receptor precursor [Sus scrofa]
+ gb|AAM77472.1| epidermal growth factor receptor [Sus scrofa]
+Length=1209
+
+ Score = 67.7 bits (152),  Expect = 2e-11
+ Identities = 23/30 (77%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LLL  V ALG+GLF+RRR
+Sbjct  642  KIPSIATGIVGGLLLAVVLALGVGLFLRRR  671
+
+
+>ref|XP_010951593.1| PREDICTED: epidermal growth factor receptor [Camelus bactrianus]
+Length=1134
+
+ Score = 66.8 bits (150),  Expect = 4e-11
+ Identities = 22/30 (73%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LL+  V ALG+GLF+RRR
+Sbjct  585  KIPSIATGIVGGLLMVVVLALGVGLFLRRR  614
+
+
+>ref|XP_010997864.1| PREDICTED: LOW QUALITY PROTEIN: epidermal growth factor receptor-like 
+[Camelus dromedarius]
+Length=1148
+
+ Score = 66.8 bits (150),  Expect = 4e-11
+ Identities = 22/30 (73%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LL+  V ALG+GLF+RRR
+Sbjct  586  KIPSIATGIVGGLLMVVVLALGVGLFLRRR  615
+
+
+>ref|XP_006218226.1| PREDICTED: LOW QUALITY PROTEIN: epidermal growth factor receptor 
+[Vicugna pacos]
+Length=1151
+
+ Score = 66.8 bits (150),  Expect = 4e-11
+ Identities = 22/30 (73%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIATG VG LL+  V ALG+GLF+RRR
+Sbjct  589  KIPSIATGIVGGLLMVVVLALGVGLFLRRR  618
+
+
+>ref|XP_012631045.1| PREDICTED: epidermal growth factor receptor isoform X3 [Microcebus 
+murinus]
+Length=1138
+
+ Score = 65.1 bits (146),  Expect = 1e-10
+ Identities = 22/29 (76%), Positives = 23/29 (79%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIATG VG LL   VVALG+GLF RRR
+Sbjct  589  IPSIATGIVGGLLFVVVVALGVGLFVRRR  617
+
+
+>ref|XP_012631044.1| PREDICTED: epidermal growth factor receptor isoform X2 [Microcebus 
+murinus]
+Length=1139
+
+ Score = 65.1 bits (146),  Expect = 1e-10
+ Identities = 22/29 (76%), Positives = 23/29 (79%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIATG VG LL   VVALG+GLF RRR
+Sbjct  589  IPSIATGIVGGLLFVVVVALGVGLFVRRR  617
+
+
+>ref|XP_012631043.1| PREDICTED: epidermal growth factor receptor isoform X1 [Microcebus 
+murinus]
+Length=1154
+
+ Score = 65.1 bits (146),  Expect = 1e-10
+ Identities = 22/29 (76%), Positives = 23/29 (79%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIATG VG LL   VVALG+GLF RRR
+Sbjct  589  IPSIATGIVGGLLFVVVVALGVGLFVRRR  617
+
+
+>ref|XP_012631047.1| PREDICTED: epidermal growth factor receptor isoform X5 [Microcebus 
+murinus]
+ ref|XP_012631048.1| PREDICTED: epidermal growth factor receptor isoform X5 [Microcebus 
+murinus]
+Length=1155
+
+ Score = 65.1 bits (146),  Expect = 1e-10
+ Identities = 22/29 (76%), Positives = 23/29 (79%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIATG VG LL   VVALG+GLF RRR
+Sbjct  589  IPSIATGIVGGLLFVVVVALGVGLFVRRR  617
+
+
+>ref|XP_012631046.1| PREDICTED: epidermal growth factor receptor isoform X4 [Microcebus 
+murinus]
+Length=1208
+
+ Score = 65.1 bits (146),  Expect = 1e-10
+ Identities = 22/29 (76%), Positives = 23/29 (79%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIATG VG LL   VVALG+GLF RRR
+Sbjct  642  IPSIATGIVGGLLFVVVVALGVGLFVRRR  670
+
+
+>ref|XP_012399165.1| PREDICTED: epidermal growth factor receptor [Sarcophilus harrisii]
+Length=1030
+
+ Score = 62.6 bits (140),  Expect = 1e-09
+ Identities = 21/29 (72%), Positives = 22/29 (76%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIA G VG  LLL+V  LGIGLF RRR
+Sbjct  460  IPSIAIGIVGGFLLLMVLSLGIGLFIRRR  488
+
+
+>ref|XP_014457981.1| PREDICTED: epidermal growth factor receptor [Alligator mississippiensis]
+Length=1152
+
+ Score = 62.6 bits (140),  Expect = 1e-09
+ Identities = 22/30 (73%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L V+ALGIGL++RRR
+Sbjct  580  KIPSIAAGVVGSLLCLVVIALGIGLYLRRR  609
+
+
+>ref|XP_006022222.2| PREDICTED: epidermal growth factor receptor [Alligator sinensis]
+Length=1164
+
+ Score = 62.6 bits (140),  Expect = 1e-09
+ Identities = 22/30 (73%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L V+ALGIGL++RRR
+Sbjct  592  KIPSIAAGVVGSLLCLVVIALGIGLYLRRR  621
+
+
+>ref|XP_012891421.1| PREDICTED: epidermal growth factor receptor [Dipodomys ordii]
+Length=1183
+
+ Score = 62.6 bits (140),  Expect = 1e-09
+ Identities = 21/30 (70%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G V  L L+ V+ALGIGLF RRR
+Sbjct  616  KIPSIAIGIVSGLFLMVVIALGIGLFVRRR  645
+
+
+>ref|XP_014418757.1| PREDICTED: epidermal growth factor receptor-like [Camelus ferus]
+Length=512
+
+ Score = 62.1 bits (139),  Expect = 2e-09
+ Identities = 21/30 (70%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1   KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+           KIPSIA G VG LL+  V ALG+GLF+RRR
+Sbjct  24  KIPSIAPGIVGGLLMVVVLALGVGLFLRRR  53
+
+
+>gb|EPY77596.1| epidermal growth factor receptor [Camelus ferus]
+Length=635
+
+ Score = 62.1 bits (139),  Expect = 2e-09
+ Identities = 21/30 (70%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL+  V ALG+GLF+RRR
+Sbjct  598  KIPSIAPGIVGGLLMVVVLALGVGLFLRRR  627
+
+
+>gb|ELK12683.1| Epidermal growth factor receptor [Pteropus alecto]
+Length=850
+
+ Score = 61.7 bits (138),  Expect = 2e-09
+ Identities = 21/29 (72%), Positives = 23/29 (79%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIATG VG LLL  V ALG+ LF+RRR
+Sbjct  589  IPSIATGIVGGLLLVVVLALGVVLFLRRR  617
+
+
+>ref|XP_011379347.1| PREDICTED: epidermal growth factor receptor-like, partial [Pteropus 
+vampyrus]
+Length=977
+
+ Score = 61.7 bits (138),  Expect = 2e-09
+ Identities = 21/29 (72%), Positives = 23/29 (79%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIATG VG LLL  V ALG+ LF+RRR
+Sbjct  673  IPSIATGIVGGLLLVVVLALGVVLFLRRR  701
+
+
+>ref|XP_008148853.1| PREDICTED: epidermal growth factor receptor [Eptesicus fuscus]
+Length=1223
+
+ Score = 61.7 bits (138),  Expect = 2e-09
+ Identities = 21/29 (72%), Positives = 23/29 (79%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIA G VG L LLL  ALG+GLF+RRR
+Sbjct  658  IPSIAMGIVGGLFLLLMAALGVGLFLRRR  686
+
+
+>ref|XP_015444903.1| PREDICTED: epidermal growth factor receptor [Pteropus alecto]
+Length=1323
+
+ Score = 61.7 bits (138),  Expect = 2e-09
+ Identities = 21/29 (72%), Positives = 23/29 (79%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIATG VG LLL  V ALG+ LF+RRR
+Sbjct  717  IPSIATGIVGGLLLVVVLALGVVLFLRRR  745
+
+
+>gb|KFW06011.1| Epidermal growth factor receptor, partial [Eurypyga helias]
+Length=928
+
+ Score = 61.3 bits (137),  Expect = 3e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  358  KIPSIAAGVVGGLLCLVVVSLGIGLYLRRR  387
+
+
+>ref|XP_010150739.1| PREDICTED: epidermal growth factor receptor, partial [Eurypyga 
+helias]
+Length=937
+
+ Score = 61.3 bits (137),  Expect = 3e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  365  KIPSIAAGVVGGLLCLVVVSLGIGLYLRRR  394
+
+
+>ref|XP_013811172.1| PREDICTED: epidermal growth factor receptor [Apteryx australis 
+mantelli]
+Length=1164
+
+ Score = 61.3 bits (137),  Expect = 3e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  592  KIPSIAAGVVGGLLCLVVVSLGIGLYLRRR  621
+
+
+>ref|XP_015668284.1| PREDICTED: epidermal growth factor receptor isoform X1 [Protobothrops 
+mucrosquamatus]
+Length=1169
+
+ Score = 61.3 bits (137),  Expect = 3e-09
+ Identities = 22/30 (73%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG  L L V+ALGIGLF RRR
+Sbjct  598  KIPSIAAGVVGSILCLVVIALGIGLFVRRR  627
+
+
+>ref|XP_015668285.1| PREDICTED: epidermal growth factor receptor isoform X2 [Protobothrops 
+mucrosquamatus]
+Length=1170
+
+ Score = 61.3 bits (137),  Expect = 3e-09
+ Identities = 22/30 (73%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG  L L V+ALGIGLF RRR
+Sbjct  598  KIPSIAAGVVGSILCLVVIALGIGLFVRRR  627
+
+
+>gb|KFQ27231.1| Epidermal growth factor receptor, partial [Mesitornis unicolor]
+Length=1186
+
+ Score = 61.3 bits (137),  Expect = 3e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  616  KIPSIAAGVVGGLLCLVVVSLGIGLYLRRR  645
+
+
+>ref|XP_010182761.1| PREDICTED: epidermal growth factor receptor, partial [Mesitornis 
+unicolor]
+Length=1187
+
+ Score = 61.3 bits (137),  Expect = 3e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  615  KIPSIAAGVVGGLLCLVVVSLGIGLYLRRR  644
+
+
+>ref|XP_003465863.2| PREDICTED: epidermal growth factor receptor [Cavia porcellus]
+Length=1214
+
+ Score = 60.9 bits (136),  Expect = 4e-09
+ Identities = 21/30 (70%), Positives = 22/30 (73%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            K+PSIATG VG L LL    LGIGL MRRR
+Sbjct  648  KVPSIATGIVGGLFLLVLLGLGIGLLMRRR  677
+
+
+>ref|XP_010009831.1| PREDICTED: epidermal growth factor receptor-like, partial [Nestor 
+notabilis]
+Length=586
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1   KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+           KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  14  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  43
+
+
+>gb|KFP51417.1| hypothetical protein N323_02911, partial [Cathartes aura]
+Length=738
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  616  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  645
+
+
+>gb|KFQ62822.1| Epidermal growth factor receptor, partial [Pelecanus crispus]
+Length=814
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  244  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  273
+
+
+>ref|XP_009484360.1| PREDICTED: epidermal growth factor receptor-like, partial [Pelecanus 
+crispus]
+Length=815
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  243  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  272
+
+
+>gb|KFV46499.1| Epidermal growth factor receptor, partial [Gavia stellata]
+Length=965
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  395  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  424
+
+
+>ref|XP_009806760.1| PREDICTED: epidermal growth factor receptor, partial [Gavia stellata]
+Length=979
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  407  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  436
+
+
+>gb|KFQ00606.1| Epidermal growth factor receptor, partial [Haliaeetus albicilla]
+Length=1074
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  505  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  534
+
+
+>ref|XP_009912828.1| PREDICTED: epidermal growth factor receptor [Haliaeetus albicilla]
+Length=1076
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  505  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  534
+
+
+>gb|KFO98914.1| Epidermal growth factor receptor, partial [Calypte anna]
+Length=1118
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  548  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  577
+
+
+>ref|XP_013152953.1| PREDICTED: epidermal growth factor receptor [Falco peregrinus]
+Length=1123
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  551  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  580
+
+
+>ref|XP_010580114.1| PREDICTED: epidermal growth factor receptor [Haliaeetus leucocephalus]
+Length=1162
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  592  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  621
+
+
+>ref|XP_012950672.1| PREDICTED: epidermal growth factor receptor isoform X2 [Anas 
+platyrhynchos]
+Length=1163
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  592  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  621
+
+
+>ref|XP_011588108.1| PREDICTED: epidermal growth factor receptor [Aquila chrysaetos 
+canadensis]
+Length=1163
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  592  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  621
+
+
+>ref|XP_010165778.1| PREDICTED: epidermal growth factor receptor [Caprimulgus carolinensis]
+Length=1163
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  592  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  621
+
+
+>ref|XP_010130286.1| PREDICTED: epidermal growth factor receptor [Buceros rhinoceros 
+silvestris]
+Length=1163
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  592  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  621
+
+
+>ref|XP_009580408.1| PREDICTED: epidermal growth factor receptor [Fulmarus glacialis]
+Length=1163
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  592  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  621
+
+
+>ref|XP_009319858.1| PREDICTED: epidermal growth factor receptor [Pygoscelis adeliae]
+Length=1163
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  592  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  621
+
+
+>ref|XP_008919587.1| PREDICTED: epidermal growth factor receptor [Manacus vitellinus]
+Length=1163
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  592  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  621
+
+
+>ref|XP_016152023.1| PREDICTED: epidermal growth factor receptor [Ficedula albicollis]
+Length=1164
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  592  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  621
+
+
+>ref|XP_014802469.1| PREDICTED: epidermal growth factor receptor isoform X2 [Calidris 
+pugnax]
+Length=1164
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  592  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  621
+
+
+>ref|XP_014743130.1| PREDICTED: epidermal growth factor receptor [Sturnus vulgaris]
+ ref|XP_014743131.1| PREDICTED: epidermal growth factor receptor [Sturnus vulgaris]
+Length=1164
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  592  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  621
+
+
+>ref|XP_014164399.1| PREDICTED: epidermal growth factor receptor [Geospiza fortis]
+Length=1164
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  592  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  621
+
+
+>ref|XP_014140372.1| PREDICTED: epidermal growth factor receptor [Falco cherrug]
+Length=1164
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  592  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  621
+
+
+>ref|XP_012983964.1| PREDICTED: epidermal growth factor receptor [Melopsittacus undulatus]
+Length=1164
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  592  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  621
+
+
+>ref|XP_012950671.1| PREDICTED: epidermal growth factor receptor isoform X1 [Anas 
+platyrhynchos]
+Length=1164
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  592  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  621
+
+
+>ref|XP_010304226.1| PREDICTED: LOW QUALITY PROTEIN: epidermal growth factor receptor 
+[Balearica regulorum gibbericeps]
+Length=1164
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  592  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  621
+
+
+>ref|XP_010076040.1| PREDICTED: epidermal growth factor receptor [Pterocles gutturalis]
+Length=1164
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  592  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  621
+
+
+>ref|XP_010001293.1| PREDICTED: LOW QUALITY PROTEIN: epidermal growth factor receptor 
+[Chaetura pelagica]
+Length=1164
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  592  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  621
+
+
+>ref|XP_009984586.1| PREDICTED: epidermal growth factor receptor [Tauraco erythrolophus]
+Length=1164
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  592  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  621
+
+
+>ref|XP_009677693.1| PREDICTED: epidermal growth factor receptor isoform X3 [Struthio 
+camelus australis]
+Length=1164
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  592  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  621
+
+
+>ref|XP_009506574.1| PREDICTED: epidermal growth factor receptor, partial [Phalacrocorax 
+carbo]
+Length=1164
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  592  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  621
+
+
+>ref|XP_008939420.1| PREDICTED: epidermal growth factor receptor [Merops nubicus]
+Length=1164
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  592  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  621
+
+
+>ref|XP_010279705.1| PREDICTED: epidermal growth factor receptor [Phaethon lepturus]
+Length=1172
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  600  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  629
+
+
+>ref|XP_009871187.1| PREDICTED: LOW QUALITY PROTEIN: epidermal growth factor receptor 
+[Apaloderma vittatum]
+Length=1174
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  602  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  631
+
+
+>ref|XP_009643062.1| PREDICTED: LOW QUALITY PROTEIN: epidermal growth factor receptor 
+[Egretta garzetta]
+Length=1178
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  606  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  635
+
+
+>gb|KGL96809.1| Epidermal growth factor receptor, partial [Charadrius vociferus]
+Length=1186
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  616  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  645
+
+
+>gb|KFZ57716.1| Epidermal growth factor receptor, partial [Caprimulgus carolinensis]
+Length=1186
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  616  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  645
+
+
+>gb|KFW92958.1| Epidermal growth factor receptor, partial [Phalacrocorax carbo]
+Length=1186
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  616  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  645
+
+
+>gb|KFW78804.1| Epidermal growth factor receptor, partial [Manacus vitellinus]
+Length=1186
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  616  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  645
+
+
+>gb|KFW08818.1| Epidermal growth factor receptor, partial [Fulmarus glacialis]
+Length=1186
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  616  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  645
+
+
+>gb|KFV18065.1| Epidermal growth factor receptor, partial [Tauraco erythrolophus]
+Length=1186
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  616  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  645
+
+
+>gb|KFV10548.1| Epidermal growth factor receptor, partial [Pterocles gutturalis]
+Length=1186
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  616  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  645
+
+
+>gb|KFU93668.1| Epidermal growth factor receptor, partial [Chaetura pelagica]
+Length=1186
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  616  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  645
+
+
+>gb|KFQ96719.1| Epidermal growth factor receptor, partial [Nipponia nippon]
+Length=1186
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  616  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  645
+
+
+>gb|KFQ85965.1| Epidermal growth factor receptor, partial [Phoenicopterus ruber 
+ruber]
+Length=1186
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  616  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  645
+
+
+>gb|KFQ70884.1| Epidermal growth factor receptor, partial [Phaethon lepturus]
+Length=1186
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  616  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  645
+
+
+>gb|KFQ30509.1| Epidermal growth factor receptor, partial [Merops nubicus]
+Length=1186
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  616  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  645
+
+
+>gb|KFQ10241.1| Epidermal growth factor receptor, partial [Leptosomus discolor]
+Length=1186
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  616  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  645
+
+
+>gb|KFP90569.1| Epidermal growth factor receptor, partial [Apaloderma vittatum]
+Length=1186
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  616  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  645
+
+
+>gb|KFP67643.1| Epidermal growth factor receptor, partial [Cariama cristata]
+Length=1186
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  616  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  645
+
+
+>gb|KFO87175.1| Epidermal growth factor receptor, partial [Buceros rhinoceros 
+silvestris]
+Length=1186
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  616  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  645
+
+
+>gb|KFO81743.1| Epidermal growth factor receptor, partial [Cuculus canorus]
+Length=1186
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  616  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  645
+
+
+>gb|KFO59253.1| Epidermal growth factor receptor, partial [Corvus brachyrhynchos]
+Length=1186
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  616  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  645
+
+
+>gb|KFO12560.1| Epidermal growth factor receptor, partial [Balearica regulorum 
+gibbericeps]
+Length=1186
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  616  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  645
+
+
+>gb|KFM00769.1| Epidermal growth factor receptor, partial [Aptenodytes forsteri]
+Length=1186
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  616  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  645
+
+
+>ref|XP_009703802.1| PREDICTED: epidermal growth factor receptor, partial [Cariama 
+cristata]
+Length=1187
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  615  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  644
+
+
+>gb|EOB04764.1| Epidermal growth factor receptor, partial [Anas platyrhynchos]
+Length=1188
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  616  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  645
+
+
+>gb|KFV83633.1| Epidermal growth factor receptor, partial [Struthio camelus australis]
+Length=1189
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  619  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  648
+
+
+>ref|XP_009948357.1| PREDICTED: epidermal growth factor receptor [Leptosomus discolor]
+Length=1191
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  619  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  648
+
+
+>ref|XP_009896664.1| PREDICTED: epidermal growth factor receptor [Picoides pubescens]
+Length=1191
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  619  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  648
+
+
+>ref|XP_009677692.1| PREDICTED: epidermal growth factor receptor isoform X2 [Struthio 
+camelus australis]
+Length=1193
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  622  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  651
+
+
+>ref|XP_009677691.1| PREDICTED: epidermal growth factor receptor isoform X1 [Struthio 
+camelus australis]
+Length=1194
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  622  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  651
+
+
+>gb|KFW61080.1| Epidermal growth factor receptor, partial [Pygoscelis adeliae]
+Length=1194
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  624  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  653
+
+
+>gb|KFV65637.1| Epidermal growth factor receptor, partial [Picoides pubescens]
+Length=1194
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  616  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  645
+
+
+>ref|XP_009941364.1| PREDICTED: LOW QUALITY PROTEIN: epidermal growth factor receptor 
+[Opisthocomus hoazin]
+Length=1195
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  623  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  652
+
+
+>ref|XP_008632159.1| PREDICTED: epidermal growth factor receptor [Corvus brachyrhynchos]
+Length=1195
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  623  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  652
+
+
+>ref|XP_009887735.1| PREDICTED: epidermal growth factor receptor [Charadrius vociferus]
+Length=1206
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  634  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  663
+
+
+>ref|XP_009566793.1| PREDICTED: epidermal growth factor receptor [Cuculus canorus]
+Length=1213
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  641  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  670
+
+
+>ref|XP_013052874.1| PREDICTED: epidermal growth factor receptor isoform X2 [Anser 
+cygnoides domesticus]
+Length=1218
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  647  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  676
+
+
+>ref|XP_013052873.1| PREDICTED: epidermal growth factor receptor isoform X1 [Anser 
+cygnoides domesticus]
+Length=1219
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  647  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  676
+
+
+>ref|XP_014802468.1| PREDICTED: epidermal growth factor receptor isoform X1 [Calidris 
+pugnax]
+Length=1220
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  648  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  677
+
+
+>gb|KQK85145.1| epidermal growth factor receptor [Amazona aestiva]
+Length=1220
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  648  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  677
+
+
+>ref|XP_015474162.1| PREDICTED: epidermal growth factor receptor isoform X2 [Parus 
+major]
+Length=1222
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  651  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  680
+
+
+>ref|XP_002196468.2| PREDICTED: epidermal growth factor receptor [Taeniopygia guttata]
+Length=1222
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  651  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  680
+
+
+>ref|XP_015474161.1| PREDICTED: epidermal growth factor receptor isoform X1 [Parus 
+major]
+Length=1223
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  651  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  680
+
+
+>ref|XP_009092161.1| PREDICTED: epidermal growth factor receptor [Serinus canaria]
+Length=1223
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  651  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  680
+
+
+>ref|XP_005519152.1| PREDICTED: epidermal growth factor receptor [Pseudopodoces humilis]
+Length=1223
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  651  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  680
+
+
+>ref|XP_010397631.1| PREDICTED: epidermal growth factor receptor [Corvus cornix cornix]
+Length=1224
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  652  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  681
+
+
+>ref|XP_005487036.1| PREDICTED: epidermal growth factor receptor [Zonotrichia albicollis]
+Length=1224
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  652  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  681
+
+
+>ref|XP_009463096.1| PREDICTED: epidermal growth factor receptor [Nipponia nippon]
+Length=1246
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  674  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  703
+
+
+>ref|XP_009273315.1| PREDICTED: epidermal growth factor receptor [Aptenodytes forsteri]
+Length=1248
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  676  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  705
+
+
+>ref|XP_008489493.1| PREDICTED: epidermal growth factor receptor [Calypte anna]
+Length=1463
+
+ Score = 60.4 bits (135),  Expect = 6e-09
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL++RRR
+Sbjct  891  KIPSIAAGVVGGLLCLVVVGLGIGLYLRRR  920
+
+
+>gb|KGL77830.1| Epidermal growth factor receptor, partial [Tinamus guttatus]
+Length=1182
+
+ Score = 59.6 bits (133),  Expect = 1e-08
+ Identities = 22/30 (73%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL+ RRR
+Sbjct  616  KIPSIAAGVVGGLLCLVVVGLGIGLYVRRR  645
+
+
+>ref|XP_010213790.1| PREDICTED: epidermal growth factor receptor [Tinamus guttatus]
+Length=1212
+
+ Score = 59.6 bits (133),  Expect = 1e-08
+ Identities = 22/30 (73%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV LGIGL+ RRR
+Sbjct  643  KIPSIAAGVVGGLLCLVVVGLGIGLYVRRR  672
+
+
+>gb|EMP36194.1| Epidermal growth factor receptor, partial [Chelonia mydas]
+Length=1113
+
+ Score = 58.7 bits (131),  Expect = 2e-08
+ Identities = 21/30 (70%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG  L L V+AL IGL+MRRR
+Sbjct  558  KIPSIAAGVVGSILCLVVIALVIGLYMRRR  587
+
+
+>ref|XP_007059424.1| PREDICTED: epidermal growth factor receptor isoform X1 [Chelonia 
+mydas]
+Length=1165
+
+ Score = 58.7 bits (131),  Expect = 2e-08
+ Identities = 21/30 (70%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG  L L V+AL IGL+MRRR
+Sbjct  594  KIPSIAAGVVGSILCLVVIALVIGLYMRRR  623
+
+
+>ref|XP_007059425.1| PREDICTED: epidermal growth factor receptor isoform X2 [Chelonia 
+mydas]
+Length=1166
+
+ Score = 58.7 bits (131),  Expect = 2e-08
+ Identities = 21/30 (70%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG  L L V+AL IGL+MRRR
+Sbjct  594  KIPSIAAGVVGSILCLVVIALVIGLYMRRR  623
+
+
+>ref|XP_015976470.1| PREDICTED: epidermal growth factor receptor [Rousettus aegyptiacus]
+Length=1188
+
+ Score = 58.7 bits (131),  Expect = 2e-08
+ Identities = 21/29 (72%), Positives = 23/29 (79%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            I SIATG VG LLLL V ALG+ LF+RRR
+Sbjct  626  ISSIATGIVGGLLLLVVLALGVILFLRRR  654
+
+
+>ref|XP_005287379.1| PREDICTED: epidermal growth factor receptor isoform X2 [Chrysemys 
+picta bellii]
+Length=1230
+
+ Score = 58.7 bits (131),  Expect = 2e-08
+ Identities = 21/30 (70%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG  L L V+AL IGL+MRRR
+Sbjct  659  KIPSIAAGVVGSILCLVVIALVIGLYMRRR  688
+
+
+>ref|XP_005287378.1| PREDICTED: epidermal growth factor receptor isoform X1 [Chrysemys 
+picta bellii]
+Length=1231
+
+ Score = 58.7 bits (131),  Expect = 2e-08
+ Identities = 21/30 (70%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG  L L V+AL IGL+MRRR
+Sbjct  659  KIPSIAAGVVGSILCLVVIALVIGLYMRRR  688
+
+
+>ref|XP_004739433.1| PREDICTED: epidermal growth factor receptor [Mustela putorius 
+furo]
+Length=1207
+
+ Score = 58.3 bits (130),  Expect = 3e-08
+ Identities = 20/30 (67%), Positives = 22/30 (73%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIP IA G VG L L   VALG+GLF+RRR
+Sbjct  642  KIPPIAIGIVGGLFLVVMVALGVGLFLRRR  671
+
+
+>ref|XP_008111109.1| PREDICTED: epidermal growth factor receptor [Anolis carolinensis]
+Length=1222
+
+ Score = 57.9 bits (129),  Expect = 5e-08
+ Identities = 20/30 (67%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            K+PSIA G VG  L L V+ALGIGL+ RRR
+Sbjct  650  KVPSIAAGVVGSILGLVVIALGIGLYVRRR  679
+
+
+>ref|XP_013223811.1| PREDICTED: epidermal growth factor receptor [Columba livia]
+Length=1164
+
+ Score = 57.1 bits (127),  Expect = 9e-08
+ Identities = 21/30 (70%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV L IGL++RRR
+Sbjct  592  KIPSIAAGVVGGLLCLVVVGLSIGLYLRRR  621
+
+
+>gb|EMC85931.1| Epidermal growth factor receptor, partial [Columba livia]
+Length=1188
+
+ Score = 57.1 bits (127),  Expect = 9e-08
+ Identities = 21/30 (70%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L VV L IGL++RRR
+Sbjct  616  KIPSIAAGVVGGLLCLVVVGLSIGLYLRRR  645
+
+
+>gb|AAA42394.1| erbB protein, partial [Avian erythroblastosis virus]
+Length=157
+
+ Score = 56.2 bits (125),  Expect = 2e-07
+ Identities = 21/30 (70%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1   KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+           K PSIA G VG LL L VV LGIGL++RRR
+Sbjct  67  KTPSIAAGVVGGLLCLVVVGLGIGLYLRRR  96
+
+
+>gb|AAA42401.1| v-erbB protein [Avian erythroblastosis virus]
+Length=540
+
+ Score = 56.2 bits (125),  Expect = 2e-07
+ Identities = 21/30 (70%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1   KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+           K PSIA G VG LL L VV LGIGL++RRR
+Sbjct  62  KTPSIAAGVVGGLLCLVVVGLGIGLYLRRR  91
+
+
+>sp|P11273.1|ERBB_AVIEU RecName: Full=Tyrosine-protein kinase transforming protein erbB
+Length=540
+
+ Score = 56.2 bits (125),  Expect = 2e-07
+ Identities = 21/30 (70%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1   KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+           K PSIA G VG LL L VV LGIGL++RRR
+Sbjct  62  KTPSIAAGVVGGLLCLVVVGLGIGLYLRRR  91
+
+
+>emb|CAA30024.1| unnamed protein product [Avian erythroblastosis virus]
+Length=545
+
+ Score = 56.2 bits (125),  Expect = 2e-07
+ Identities = 21/30 (70%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1   KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+           K PSIA G VG LL L VV LGIGL++RRR
+Sbjct  67  KTPSIAAGVVGGLLCLVVVGLGIGLYLRRR  96
+
+
+>gb|AAC60727.1|S69372_2 v-erbB gene product, partial [Rous-associated virus type 1]
+Length=567
+
+ Score = 56.2 bits (125),  Expect = 2e-07
+ Identities = 21/30 (70%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1   KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+           K PSIA G VG LL L VV LGIGL++RRR
+Sbjct  67  KTPSIAAGVVGGLLCLVVVGLGIGLYLRRR  96
+
+
+>sp|P00535.1|ERBB_AVIER RecName: Full=Tyrosine-protein kinase transforming protein erbB
+ gb|AAA42400.1| erbB peptide (putative); putative [Avian erythroblastosis virus]
+Length=604
+
+ Score = 56.2 bits (125),  Expect = 2e-07
+ Identities = 21/30 (70%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1   KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+           K PSIA G VG LL L VV LGIGL++RRR
+Sbjct  62  KTPSIAAGVVGGLLCLVVVGLGIGLYLRRR  91
+
+
+>sp|P00534.2|ERBB_ALV RecName: Full=Tyrosine-protein kinase transforming protein erbB
+Length=634
+
+ Score = 56.2 bits (125),  Expect = 2e-07
+ Identities = 21/30 (70%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1   KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+           K PSIA G VG LL L VV LGIGL++RRR
+Sbjct  62  KTPSIAAGVVGGLLCLVVVGLGIGLYLRRR  91
+
+
+>gb|AAA48763.1| gag-env-erbB fusion protein [Gallus gallus]
+Length=698
+
+ Score = 56.2 bits (125),  Expect = 2e-07
+ Identities = 21/30 (70%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            K PSIA G VG LL L VV LGIGL++RRR
+Sbjct  126  KTPSIAAGVVGGLLCLVVVGLGIGLYLRRR  155
+
+
+>sp|P13387.1|EGFR_CHICK RecName: Full=Epidermal growth factor receptor; Short=CER; Flags: 
+Precursor
+ gb|AAA48760.1| epidermal growth factor receptor precursor, partial [Gallus gallus]
+Length=703
+
+ Score = 56.2 bits (125),  Expect = 2e-07
+ Identities = 21/30 (70%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            K PSIA G VG LL L VV LGIGL++RRR
+Sbjct  651  KTPSIAAGVVGGLLCLVVVGLGIGLYLRRR  680
+
+
+ Score = 21.4 bits (43),  Expect = 171955
+ Identities = 7/8 (88%), Positives = 7/8 (88%), Gaps = 0/8 (0%)
+
+Query  14  LLLLVVAL  21
+           LLLL VAL
+Sbjct  20  LLLLGVAL  27
+
+
+>gb|AAC60725.1| polyprotein [Rous-associated virus type 1]
+Length=729
+
+ Score = 56.2 bits (125),  Expect = 2e-07
+ Identities = 21/30 (70%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            K PSIA G VG LL L VV LGIGL++RRR
+Sbjct  216  KTPSIAAGVVGGLLCLVVVGLGIGLYLRRR  245
+
+
+>ref|XP_014385835.1| PREDICTED: LOW QUALITY PROTEIN: epidermal growth factor receptor 
+[Myotis brandtii]
+Length=913
+
+ Score = 56.2 bits (125),  Expect = 2e-07
+ Identities = 21/29 (72%), Positives = 23/29 (79%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIATG VG L LLL VAL +GL +RRR
+Sbjct  671  IPSIATGIVGGLFLLLMVALVVGLCLRRR  699
+
+
+>emb|CAA36459.1| gag,v-erb-A,v-erb-B [Avian erythroblastosis virus]
+Length=962
+
+ Score = 56.2 bits (125),  Expect = 2e-07
+ Identities = 21/30 (70%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            K PSIA G VG LL L VV LGIGL++RRR
+Sbjct  484  KTPSIAAGVVGGLLCLVVVGLGIGLYLRRR  513
+
+
+>ref|XP_015136816.1| PREDICTED: epidermal growth factor receptor isoform X3 [Gallus 
+gallus]
+Length=1041
+
+ Score = 56.2 bits (125),  Expect = 2e-07
+ Identities = 21/30 (70%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            K PSIA G VG LL L VV LGIGL++RRR
+Sbjct  469  KTPSIAAGVVGGLLCLVVVGLGIGLYLRRR  498
+
+
+>ref|XP_010711420.1| PREDICTED: epidermal growth factor receptor isoform X2 [Meleagris 
+gallopavo]
+Length=1164
+
+ Score = 56.2 bits (125),  Expect = 2e-07
+ Identities = 21/30 (70%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            K PSIA G VG LL L VV LGIGL++RRR
+Sbjct  592  KTPSIAAGVVGGLLCLVVVGLGIGLYLRRR  621
+
+
+>ref|XP_015136815.1| PREDICTED: epidermal growth factor receptor isoform X2 [Gallus 
+gallus]
+Length=1208
+
+ Score = 56.2 bits (125),  Expect = 2e-07
+ Identities = 21/30 (70%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            K PSIA G VG LL L VV LGIGL++RRR
+Sbjct  636  KTPSIAAGVVGGLLCLVVVGLGIGLYLRRR  665
+
+
+>pir||TVCHLV epidermal growth factor receptor precursor - chicken [Gallus 
+gallus]
+Length=1223
+
+ Score = 56.2 bits (125),  Expect = 2e-07
+ Identities = 21/30 (70%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            K PSIA G VG LL L VV LGIGL++RRR
+Sbjct  651  KTPSIAAGVVGGLLCLVVVGLGIGLYLRRR  680
+
+
+ Score = 21.4 bits (43),  Expect = 173010
+ Identities = 7/8 (88%), Positives = 7/8 (88%), Gaps = 0/8 (0%)
+
+Query  14  LLLLVVAL  21
+           LLLL VAL
+Sbjct  20  LLLLGVAL  27
+
+
+>ref|XP_015136814.1| PREDICTED: epidermal growth factor receptor isoform X1 [Gallus 
+gallus]
+Length=1225
+
+ Score = 56.2 bits (125),  Expect = 2e-07
+ Identities = 21/30 (70%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            K PSIA G VG LL L VV LGIGL++RRR
+Sbjct  654  KTPSIAAGVVGGLLCLVVVGLGIGLYLRRR  683
+
+
+>ref|XP_015710377.1| PREDICTED: epidermal growth factor receptor isoform X2 [Coturnix 
+japonica]
+Length=1226
+
+ Score = 56.2 bits (125),  Expect = 2e-07
+ Identities = 21/30 (70%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            K PSIA G VG LL L VV LGIGL++RRR
+Sbjct  655  KTPSIAAGVVGGLLCLVVVGLGIGLYLRRR  684
+
+
+>ref|NP_990828.2| epidermal growth factor receptor precursor [Gallus gallus]
+Length=1226
+
+ Score = 56.2 bits (125),  Expect = 2e-07
+ Identities = 21/30 (70%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            K PSIA G VG LL L VV LGIGL++RRR
+Sbjct  654  KTPSIAAGVVGGLLCLVVVGLGIGLYLRRR  683
+
+
+>ref|XP_015710376.1| PREDICTED: epidermal growth factor receptor isoform X1 [Coturnix 
+japonica]
+Length=1227
+
+ Score = 56.2 bits (125),  Expect = 2e-07
+ Identities = 21/30 (70%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            K PSIA G VG LL L VV LGIGL++RRR
+Sbjct  655  KTPSIAAGVVGGLLCLVVVGLGIGLYLRRR  684
+
+
+>ref|XP_010711419.1| PREDICTED: epidermal growth factor receptor isoform X1 [Meleagris 
+gallopavo]
+Length=1227
+
+ Score = 56.2 bits (125),  Expect = 2e-07
+ Identities = 21/30 (70%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            K PSIA G VG LL L VV LGIGL++RRR
+Sbjct  655  KTPSIAAGVVGGLLCLVVVGLGIGLYLRRR  684
+
+
+>ref|XP_013909332.1| PREDICTED: epidermal growth factor receptor [Thamnophis sirtalis]
+Length=1125
+
+ Score = 55.8 bits (124),  Expect = 3e-07
+ Identities = 20/30 (67%), Positives = 22/30 (73%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG  L L V+ LG+GLF RRR
+Sbjct  665  KIPSIAAGVVGSILCLVVITLGVGLFVRRR  694
+
+
+>ref|XP_015742745.1| PREDICTED: epidermal growth factor receptor isoform X3 [Python 
+bivittatus]
+Length=1164
+
+ Score = 55.8 bits (124),  Expect = 3e-07
+ Identities = 20/29 (69%), Positives = 22/29 (76%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            +PSIA G VG  L L V+ALGIGLF RRR
+Sbjct  594  VPSIAAGVVGSILCLVVIALGIGLFVRRR  622
+
+
+>ref|XP_007423497.1| PREDICTED: epidermal growth factor receptor isoform X2 [Python 
+bivittatus]
+Length=1233
+
+ Score = 55.8 bits (124),  Expect = 3e-07
+ Identities = 20/29 (69%), Positives = 22/29 (76%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            +PSIA G VG  L L V+ALGIGLF RRR
+Sbjct  664  VPSIAAGVVGSILCLVVIALGIGLFVRRR  692
+
+
+>ref|XP_007423496.1| PREDICTED: epidermal growth factor receptor isoform X1 [Python 
+bivittatus]
+ ref|XP_015742744.1| PREDICTED: epidermal growth factor receptor isoform X1 [Python 
+bivittatus]
+Length=1234
+
+ Score = 55.8 bits (124),  Expect = 3e-07
+ Identities = 20/29 (69%), Positives = 22/29 (76%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            +PSIA G VG  L L V+ALGIGLF RRR
+Sbjct  664  VPSIAAGVVGSILCLVVIALGIGLFVRRR  692
+
+
+>ref|XP_007661633.1| PREDICTED: epidermal growth factor receptor isoform X5 [Ornithorhynchus 
+anatinus]
+Length=1186
+
+ Score = 54.9 bits (122),  Expect = 5e-07
+ Identities = 21/30 (70%), Positives = 22/30 (73%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L  V L IGL+MRRR
+Sbjct  616  KIPSIAAGIVGSLLCLVMVGLIIGLYMRRR  645
+
+
+>ref|XP_007661632.1| PREDICTED: epidermal growth factor receptor isoform X4 [Ornithorhynchus 
+anatinus]
+Length=1201
+
+ Score = 54.9 bits (122),  Expect = 5e-07
+ Identities = 21/30 (70%), Positives = 22/30 (73%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L  V L IGL+MRRR
+Sbjct  631  KIPSIAAGIVGSLLCLVMVGLIIGLYMRRR  660
+
+
+>ref|XP_007661631.1| PREDICTED: epidermal growth factor receptor isoform X3 [Ornithorhynchus 
+anatinus]
+Length=1205
+
+ Score = 54.9 bits (122),  Expect = 5e-07
+ Identities = 21/30 (70%), Positives = 22/30 (73%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L  V L IGL+MRRR
+Sbjct  635  KIPSIAAGIVGSLLCLVMVGLIIGLYMRRR  664
+
+
+>ref|XP_007661630.1| PREDICTED: epidermal growth factor receptor isoform X2 [Ornithorhynchus 
+anatinus]
+Length=1214
+
+ Score = 54.9 bits (122),  Expect = 5e-07
+ Identities = 21/30 (70%), Positives = 22/30 (73%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L  V L IGL+MRRR
+Sbjct  645  KIPSIAAGIVGSLLCLVMVGLIIGLYMRRR  674
+
+
+>ref|XP_007661629.1| PREDICTED: epidermal growth factor receptor isoform X1 [Ornithorhynchus 
+anatinus]
+Length=1215
+
+ Score = 54.9 bits (122),  Expect = 5e-07
+ Identities = 21/30 (70%), Positives = 22/30 (73%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KIPSIA G VG LL L  V L IGL+MRRR
+Sbjct  645  KIPSIAAGIVGSLLCLVMVGLIIGLYMRRR  674
+
+
+>ref|XP_006124174.1| PREDICTED: epidermal growth factor receptor [Pelodiscus sinensis]
+Length=1079
+
+ Score = 54.5 bits (121),  Expect = 7e-07
+ Identities = 20/30 (67%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            K+PSIA G VG  L L V+AL IGL+MRRR
+Sbjct  507  KVPSIAAGVVGSILCLVVIALCIGLYMRRR  536
+
+
+>ref|XP_016053776.1| PREDICTED: epidermal growth factor receptor isoform X2 [Miniopterus 
+natalensis]
+Length=1153
+
+ Score = 52.4 bits (116),  Expect = 4e-06
+ Identities = 19/29 (66%), Positives = 21/29 (72%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIA G VG L   L VALG+GL +RRR
+Sbjct  588  IPSIAMGIVGGLFFVLMVALGVGLLLRRR  616
+
+
+>ref|XP_016053775.1| PREDICTED: epidermal growth factor receptor isoform X1 [Miniopterus 
+natalensis]
+Length=1154
+
+ Score = 52.4 bits (116),  Expect = 4e-06
+ Identities = 19/29 (66%), Positives = 21/29 (72%), Gaps = 0/29 (0%)
+
+Query  2    IPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            IPSIA G VG L   L VALG+GL +RRR
+Sbjct  588  IPSIAMGIVGGLFFVLMVALGVGLLLRRR  616
+
+
+>ref|XP_015277177.1| PREDICTED: epidermal growth factor receptor, partial [Gekko japonicus]
+Length=1268
+
+ Score = 52.4 bits (116),  Expect = 4e-06
+ Identities = 19/30 (63%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            K+PSIA G VG +  LL +ALGIGL+ RRR
+Sbjct  701  KVPSIAAGVVGIMFGLLLIALGIGLYVRRR  730
+
+
+>ref|XP_014304781.1| PREDICTED: epidermal growth factor receptor [Myotis lucifugus]
+Length=821
+
+ Score = 50.3 bits (111),  Expect = 2e-05
+ Identities = 20/30 (67%), Positives = 22/30 (73%), Gaps = 0/30 (0%)
+
+Query  1    KIPSIATGMVGALLLLLVVALGIGLFMRRR  30
+            KI SIA G VG L LLL VAL +GL +RRR
+Sbjct  679  KISSIAMGIVGGLFLLLMVALVVGLCLRRR  708
+
+
+>gb|KYO43161.1| hypothetical protein Y1Q_0017491 [Alligator mississippiensis]
+Length=138
+
+ Score = 44.8 bits (98),  Expect = 0.002
+ Identities = 16/23 (70%), Positives = 19/23 (83%), Gaps = 0/23 (0%)
+
+Query  8   GMVGALLLLLVVALGIGLFMRRR  30
+           G VG LL L V+ALGIGL++RRR
+Sbjct  32  GVVGSLLCLVVIALGIGLYLRRR  54

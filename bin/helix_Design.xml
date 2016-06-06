@@ -48,9 +48,9 @@
 
  <FILTERS>
 
-    <PackStat name=packstat threshold=0.4 confidence=1/>
- 	<BuriedUnsatHbonds name=uhb scorefxn=memb_hires confidence=1 jump_number=0 cutoff=2/>
- 	<ScoreType name=score_eval scorefxn=memb_hires threshold=-200/>
+    <PackStat name=packstat threshold=0.5 confidence=1/>
+ 	<BuriedUnsatHbonds name=uhb scorefxn=memb_hires confidence=1 jump_number=0 cutoff=6/>
+ 	<ScoreType name=score_eval scorefxn=memb_hires threshold=-230/>
 
 
  </FILTERS>
@@ -84,10 +84,10 @@
  		<Add mover=fast_relax/>
 
 
-		<Add filter=uhb/>
+
 		<Add filter=packstat/>
  		<Add filter=score_eval/>
-
+        <Add filter=uhb/>
 
 	</PROTOCOLS>
 

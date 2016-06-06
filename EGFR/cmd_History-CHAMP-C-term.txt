@@ -1,0 +1,67 @@
+## Pipeline for CHAMPS, done (so far) by Marco Mravic DeGrado lab
+## Dependencies: Python 2.7, Biopython, ProDy, NumPy, Rosetta locally downloaded & compiled
+# add the CHAMP/bin/ to your python path!! $PYTHONPATH
+
+### THIS IS A CHAMP DESIGN CMD LINE HISTORY FOR EGFR/ErbB1, 
+
+
+# Making working dir
+> cd ~/CHAMP
+> mkdir EGFR
+> cd EGFR
+
+# get sequence for TM region of TM target flanked by a few residues, <= 40 residues
+# EGFR: (PKI)-- PSIATGMVGALLLLLVVALGIGLFMRRRH
+# Uniprot suggested TM (Same as OPM)
+# >sp|P00533|646-668 >IATGMVGALLLLLVVALGIGLFM
+
+# Skip the structure prediction and threading steps, since EGFR structure exists
+# for C-terminal champ design use homodimer (pdb: 2m0b, chain A)
+# make rosetta folder of membrane relax step
+
+> mkdir ~/CHAMP/EGFR/RosMem_Target-input-CTERM/
+
+# just extract this file in pymol, and name it alignedInput.pdb... then renumber residues from 1 and set chain to A (Chimera)
+# Hand write resfile from another, since this is probably quicker than scripting
+
+> python ~/CHAMP/bin/orientHelix_rosMemV2.py ~/CHAMP/EGFR/RosMem_Target-input-CTERM/alignedInput.pdb ~/rosetta/ ~/CHAMP/bin/helix_Relax.xml  ~/CHAMP/EGFR/RosMem_Target-input-CTERM/resfile
+
+
+## Now define dimerization motif and search par-right-close cluster
+
+# full seq:  	PSIATGMVGALLLLLVVALGIGLFMRRRH
+# to match:		A-mid-XXG-mid
+# regex: 		[ASTG][VLIF]\w\w[ASG][VLIF]
+# indices:		17 22
+
+
+> python ~/CHAMP/bin/templatePairsScreen.py ~/CHAMP/Cluster-004/ ~/CHAMP/EGFR/bbHits_Cterm /home/xray/CHAMP/EGFR/RosMem_Target-input-CTERM/alignedInput_0001.pdb ~/CHAMP/Cluster-004_ext/ PSIATGMVGALLLLLVVALGIGLFMRRRH 17 22 "[ASTG][VLIF]\w\w[ASG][VLIF]"
+
+
+# Visually picked match 1 and 3 to be good templates.... especially 1
+
+> mkdir ../bb2Design_Cterm
+
+
+> cp ~/CHAMP/EGFR/bbHits_Cterm/match_1.pdb ../bb2Design_Cterm/
+> cp ~/CHAMP/EGFR/bbHits_Cterm/match_3.pdb ../bb2Design_Cterm/
+
+> cd ../bb2Design_Cterm/
+
+> python ~/CHAMP/bin/designPrep.py ~/CHAMP/EGFR/bb2Design_Cterm/ ~/rosetta/
+
+
+
+## Change number of trajectories to 7000
+> python ~/CHAMP/bin/champDesign_rosMem.py ~/CHAMP/EGFR/bb2Design_Cterm/match_1/match_1.pdb ~/CHAMP/bin/helix_Design.xml ~/rosetta/
+
+> python ~/CHAMP/bin/champDesign_rosMem.py ~/CHAMP/EGFR/bb2Design_Cterm/match_3/match_3.pdb ~/CHAMP/bin/helix_Design.xml ~/rosetta/
+
+
+
+
+
+> python ~/CHAMP/bin/analyzeChampDesigns.py ~/CHAMP/EGFR/bb2Design/match_9/outputs anti-EGFR_backbone_9_designs > ~/CHAMP/EGFR/bb2Design/match_9/designs.fasta
+
+> python ~/CHAMP/bin/analyzeChampDesigns.py ~/CHAMP/EGFR/bb2Design/match_1/outputs anti-EGFR_backbone_1_designs > ~/CHAMP/EGFR/bb2Design/match_1/m1_designs.fasta
+

@@ -33,7 +33,7 @@ if not os.path.exists( oDir ):
 
 #
 
-n = '800'
+n = '7000'
 
 cmd = [  rosiScrps, 
 '-parser:protocol', inXML, 					# Path to Rosetta script (see above)

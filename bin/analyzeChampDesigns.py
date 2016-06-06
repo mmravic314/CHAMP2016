@@ -62,22 +62,25 @@ for m in os.listdir( sys.argv[1] ):
 	packstats.append( packstat )
 
 	# only read out subset 
-	if packstat < 0.50 or score > -210: continue
+	#if packstat < 0.50 or score > -210: continue
 
-	print '>', label
-	print cSeq
+	print '>', label, score, packstat
+	print cSeq, '\n'
 #	print label, cSeq, score, packstat, uhb
 
 
 packstats 	= np.array( packstats )
 scores		= np.array( scores )
 
-sys.exit()
+
 # plotting stuff
 import matplotlib.pyplot as plt
-print len(cSeq)
+#print len(cSeq)
 
 
 plt.scatter( scores, packstats, color='blue',s=5,edgecolor='none')
+plt.xlabel( 'Rosetta Score (REU)' )
+plt.ylabel( 'Packing/Holes Score ' )
+plt.title( sys.argv[2]  )
 #plt.set_aspect(1./ax1.get_data_ratio())
 plt.show()
