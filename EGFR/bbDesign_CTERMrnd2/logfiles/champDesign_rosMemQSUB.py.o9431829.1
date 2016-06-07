@@ -1,0 +1,813 @@
+core.init: Rosetta version 6b19faa778b621691d2c55a4659a05447fe5aa07 2016-01-26 09:11:10 -0600 from git@github.com:RosettaCommons/main.git
+core.init: command: /netapp/home/mmravic/bin/Rosetta/source/bin/rosetta_scripts.linuxgccrelease -parser:protocol /netapp/home/mmravic/CHAMP/bin/helix_Design.xml -in:file:s /netapp/home/mmravic/CHAMP/EGFR/bbDesign_CTERMrnd2/match_1/match_1.pdb -nstruct 1 -mp:setup:spanfiles /netapp/home/mmravic/CHAMP/EGFR/bbDesign_CTERMrnd2/match_1/match_1.span -mp:scoring:hbond -relax:jump_move true -out:prefix /netapp/home/mmravic/CHAMP/EGFR/bbDesign_CTERMrnd2/match_1/outputs/ -out:suffix _out1 -packing:resfile /netapp/home/mmravic/CHAMP/EGFR/bbDesign_CTERMrnd2/match_1/resfile -out:overwrite -packing:pack_missing_sidechains 0
+core.init: 'RNG device' seed mode, using '/dev/urandom', seed=-1092037915 seed_offset=0 real_seed=-1092037915
+core.init.random: RandomGenerator:init: Normal mode, seed=-1092037915 RG_type=mt19937
+core.init: Resolved executable path: /netapp/home/mmravic/bin/Rosetta/source/build/src/release/linux/2.6/64/x86/gcc/4.4/default/rosetta_scripts.default.linuxgccrelease
+core.init: Looking for database based on location of executable: /netapp/home/mmravic/bin/Rosetta/database/
+protocols.jd2.PDBJobInputter: Instantiate PDBJobInputter
+protocols.jd2.PDBJobInputter: PDBJobInputter::fill_jobs
+protocols.jd2.PDBJobInputter: pushed /netapp/home/mmravic/CHAMP/EGFR/bbDesign_CTERMrnd2/match_1/match_1.pdb nstruct index 1
+protocols.evaluation.ChiWellRmsdEvaluatorCreator: Evaluation Creator active ... 
+protocols.jd2.JobDistributor: Parser is present.  Input mover will be overwritten with whatever the parser creates.
+protocols.jd2.PDBJobInputter: PDBJobInputter::pose_from_job
+protocols.jd2.PDBJobInputter: filling pose from PDB /netapp/home/mmravic/CHAMP/EGFR/bbDesign_CTERMrnd2/match_1/match_1.pdb
+core.chemical.ResidueTypeSet: Finished initializing fa_standard residue type set.  Created 384 residue types
+core.chemical.ResidueTypeSet: Total time to initialize 1.04 seconds.
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OXT on residue HIS:CtermProteinFull 29
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CB  on residue ALA:NtermProteinFull 30
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CB  on residue ALA 31
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CB  on residue ALA 32
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CB  on residue ALA 33
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CB  on residue ALA 34
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CB  on residue ALA 35
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CB  on residue ALA 36
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CB  on residue ALA 37
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CB  on residue ALA 38
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CB  on residue ALA 39
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CB  on residue ALA 40
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CB  on residue ILE 41
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG1 on residue ILE 41
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG2 on residue ILE 41
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD1 on residue ILE 41
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CB  on residue LEU 42
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LEU 42
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD1 on residue LEU 42
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD2 on residue LEU 42
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CB  on residue PRO 43
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue PRO 43
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue PRO 43
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CB  on residue MET 44
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue MET 44
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  SD  on residue MET 44
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE  on residue MET 44
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CB  on residue ILE 45
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG1 on residue ILE 45
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG2 on residue ILE 45
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD1 on residue ILE 45
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CB  on residue ILE 46
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG1 on residue ILE 46
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG2 on residue ILE 46
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD1 on residue ILE 46
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CB  on residue THR 47
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OG1 on residue THR 47
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG2 on residue THR 47
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CB  on residue CYS 48
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  SG  on residue CYS 48
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CB  on residue LEU 49
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LEU 49
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD1 on residue LEU 49
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD2 on residue LEU 49
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CB  on residue ALA 51
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CB  on residue THR 52
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OG1 on residue THR 52
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG2 on residue THR 52
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CB  on residue LEU 53
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LEU 53
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD1 on residue LEU 53
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD2 on residue LEU 53
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CB  on residue LEU 54
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue LEU 54
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD1 on residue LEU 54
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD2 on residue LEU 54
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CB  on residue ALA 55
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CB  on residue GLN 56
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue GLN 56
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD  on residue GLN 56
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OE1 on residue GLN 56
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  NE2 on residue GLN 56
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CB  on residue PHE 57
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CG  on residue PHE 57
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD1 on residue PHE 57
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD2 on residue PHE 57
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE1 on residue PHE 57
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE2 on residue PHE 57
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CZ  on residue PHE 57
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD2 on residue PHE 57
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CE2 on residue PHE 57
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CD2 on residue PHE 57
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CB  on residue ALA 58
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CB  on residue ALA 59
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CB  on residue ALA 60
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OXT on residue ALA:CtermProteinFull 61
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  CB  on residue ALA:CtermProteinFull 61
+protocols.rosetta_scripts.RosettaScriptsParser: dock_design_filename=/netapp/home/mmravic/CHAMP/bin/helix_Design.xml
+protocols.rosetta_scripts.RosettaScriptsParser: Parsed script:
+<ROSETTASCRIPTS>
+	<SCOREFXNS>
+		<memb_hires weights=mpframework_smooth_fa_2012/>
+	</SCOREFXNS>
+	<TASKOPERATIONS>
+		<ReadResfile name=resfile/>
+		<LimitAromaChi2 name=arochi/>
+		<ExtraRotamersGeneric ex1=1 ex2=1 name=ex1_ex2/>
+		<LayerDesign ignore_pikaa_natro=true layer=others make_pymol_script=1 name=all_layers>
+			<CombinedTasks name=interface_core>
+				<SelectBySASA core=1 core_asa=35 mode=mc probe_radius=2.0 state=bound surface_asa=50 verbose=0/>
+				<all copy_layer=core/>
+				<Helix exclude=WDE/>
+				<Helix append=GTHNSMQ/>
+			</CombinedTasks>
+			<CombinedTasks name=interface_boundary>
+				<SelectBySASA boundary=1 core_asa=35 mode=mc probe_radius=2.0 state=bound surface_asa=50 verbose=0/>
+				<all copy_layer=boundary/>
+				<Helix append=GFYVILAMST/>
+				<Helix exclude=DEKRL/>
+			</CombinedTasks>
+			<CombinedTasks name=interface_surface>
+				<SelectBySASA core_asa=35 mode=mc probe_radius=2.0 state=bound surface=1 surface_asa=50 verbose=0/>
+				<all copy_layer=surface/>
+				<Helix exclude=W/>
+				<Helix append=FYVILA/>
+			</CombinedTasks>
+		</LayerDesign>
+		<SelectBySASA core=1 core_asa=35 mode=mc name=select_core probe_radius=2.0 state=bound surface_asa=50 verbose=0/>
+		<SelectBySASA boundary=1 core_asa=35 mode=mc name=select_boundary probe_radius=2.0 state=bound surface_asa=50 verbose=0/>
+		<SelectBySASA core_asa=35 mode=mc name=select_surface probe_radius=2.0 state=bound surface=1 surface_asa=50 verbose=0/>
+	</TASKOPERATIONS>
+	<FILTERS>
+		<PackStat confidence=1 name=packstat threshold=0.55/>
+		<BuriedUnsatHbonds confidence=0 cutoff=6 jump_number=0 name=uhb scorefxn=memb_hires/>
+		<ScoreType name=score_eval scorefxn=memb_hires threshold=-205/>
+	</FILTERS>
+	<MOVERS>
+		<AddMembraneMover name=add_memb/>
+		<MembranePositionFromTopologyMover name=init_pos/>
+		<PackRotamersMover name=pack_core scorefxn=memb_hires task_operations=resfile,select_core,arochi,ex1_ex2/>
+		<PackRotamersMover name=pack_boundary scorefxn=memb_hires task_operations=resfile,select_boundary,arochi,ex1_ex2/>
+		<PackRotamersMover name=pack_surface scorefxn=memb_hires task_operations=resfile,arochi,select_surface,ex1_ex2/>
+		<MinMover bb=0 bondangle=0 bondlength=0 chi=1 name=hardmin_sconly scorefxn=memb_hires/>
+		<FastRelax name=fast_relax repeats=8 scorefxn=memb_hires task_operations=arochi,ex1_ex2/>
+	</MOVERS>
+	<PROTOCOLS>
+		<Add mover=add_memb/>
+		<Add mover=init_pos/>
+		<Add mover=fast_relax/>
+		<Add mover=pack_core/>
+		<Add mover=pack_boundary/>
+		<Add mover=pack_surface/>
+		<Add mover=fast_relax/>
+		<Add filter=packstat/>
+		<Add filter=score_eval/>
+		<Add filter=uhb/>
+	</PROTOCOLS>
+	<OUTPUT scorefxn=memb_hires/>
+</ROSETTASCRIPTS>
+core.scoring.ScoreFunctionFactory: SCOREFUNCTION: talaris2013
+core.scoring.etable: Starting energy table calculation
+core.scoring.etable: smooth_etable: changing atr/rep split to bottom of energy well
+core.scoring.etable: smooth_etable: spline smoothing lj etables (maxdis = 6)
+core.scoring.etable: smooth_etable: spline smoothing solvation etables (max_dis = 6)
+core.scoring.etable: Finished calculating energy tables.
+basic.io.database: Database file opened: scoring/score_functions/hbonds/sp2_elec_params/HBPoly1D.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/sp2_elec_params/HBFadeIntervals.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/sp2_elec_params/HBEval.csv
+basic.io.database: Database file opened: scoring/score_functions/rama/Rama_smooth_dyn.dat_ss_6.4
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/P_AA
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/P_AA_n
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/P_AA_pp
+basic.io.database: Database file opened: scoring/score_functions/PairEPotential/pdb_pair_stats_fine
+core.scoring.etable: Using alternate parameters: LJ_RADIUS_SOFT in Etable construction.
+core.scoring.etable: Starting energy table calculation
+core.scoring.etable: smooth_etable: changing atr/rep split to bottom of energy well
+core.scoring.etable: smooth_etable: spline smoothing lj etables (maxdis = 6)
+core.scoring.etable: smooth_etable: spline smoothing solvation etables (max_dis = 6)
+core.scoring.etable: Finished calculating energy tables.
+basic.io.database: Database file opened: scoring/score_functions/InterchainPotential/interchain_env_log.txt
+basic.io.database: Database file opened: scoring/score_functions/InterchainPotential/interchain_pair_log.txt
+basic.io.database: Database file opened: scoring/score_functions/EnvPairPotential/env_log.txt
+basic.io.database: Database file opened: scoring/score_functions/EnvPairPotential/cbeta_den.txt
+basic.io.database: Database file opened: scoring/score_functions/EnvPairPotential/pair_log.txt
+basic.io.database: Database file opened: scoring/score_functions/EnvPairPotential/cenpack_log.txt
+core.scoring.etable: Starting energy table calculation
+core.scoring.etable: smooth_etable: changing atr/rep split to bottom of energy well
+core.scoring.etable: smooth_etable: spline smoothing lj etables (maxdis = 6)
+core.scoring.etable: smooth_etable: spline smoothing solvation etables (max_dis = 6)
+core.scoring.etable: Finished calculating energy tables.
+core.scoring.etable: Using alternate parameters: LK_DGFREE in MembEtable construction.
+core.scoring.etable: Using alternate parameters: MEMB_LK_DGFREE in MembEtable construction.
+core.scoring.etable: Using alternate parameters: LK_DGREFCE in MembEtable construction.
+core.scoring.etable: Using alternate parameters: MEMB_LK_DGREFCE in MembEtable construction.
+core.scoring.etable: Starting membrane specific energy table calculation
+core.scoring.etable: smooth_etable: spline smoothing solvation etables (max_dis = 6)
+core.scoring.etable: Finished calculating membrane specific energy tables.
+basic.io.database: Database file opened: scoring/score_functions/MembranePotential/CEN10_Menv_smooth_log.txt
+protocols.jd2.parser.ScoreFunctionLoader: defined score function "memb_hires" with weights "mpframework_smooth_fa_2012"
+protocols.jd2.parser.TaskOperationLoader: Defined TaskOperation named "resfile" of type ReadResfile
+protocols.jd2.parser.TaskOperationLoader: Defined TaskOperation named "arochi" of type LimitAromaChi2
+protocols.jd2.parser.TaskOperationLoader: Defined TaskOperation named "ex1_ex2" of type ExtraRotamersGeneric
+protocols.flxbb.LayerDesignOperation: Initializing the layers with the default residues
+protocols.flxbb.LayerDesignOperation: Making a combined task named interface_core
+protocols.flxbb.LayerDesignOperation: Copying definitions from layer core to layer interface_core
+protocols.flxbb.LayerDesignOperation: Excluding residues WDE from layer interface_core secstruct Helix
+protocols.flxbb.LayerDesignOperation: layer Cterm has no specification for residues in Helix.  The layer will be filled with the residues defined for all secondary structure types.
+protocols.flxbb.LayerDesignOperation: layer Cterm has no specification for residues in HelixCapping.  The layer will be filled with the residues defined for all secondary structure types.
+protocols.flxbb.LayerDesignOperation: layer Cterm has no specification for residues in HelixStart.  The layer will be filled with the residues defined for all secondary structure types.
+protocols.flxbb.LayerDesignOperation: layer Cterm has no specification for residues in Loop.  The layer will be filled with the residues defined for all secondary structure types.
+protocols.flxbb.LayerDesignOperation: layer Cterm has no specification for residues in Strand.  The layer will be filled with the residues defined for all secondary structure types.
+protocols.flxbb.LayerDesignOperation: layer Nterm has no specification for residues in Helix.  The layer will be filled with the residues defined for all secondary structure types.
+protocols.flxbb.LayerDesignOperation: layer Nterm has no specification for residues in HelixCapping.  The layer will be filled with the residues defined for all secondary structure types.
+protocols.flxbb.LayerDesignOperation: layer Nterm has no specification for residues in HelixStart.  The layer will be filled with the residues defined for all secondary structure types.
+protocols.flxbb.LayerDesignOperation: layer Nterm has no specification for residues in Loop.  The layer will be filled with the residues defined for all secondary structure types.
+protocols.flxbb.LayerDesignOperation: layer Nterm has no specification for residues in Strand.  The layer will be filled with the residues defined for all secondary structure types.
+protocols.flxbb.LayerDesignOperation: Making a combined task named interface_boundary
+protocols.flxbb.LayerDesignOperation: Copying definitions from layer boundary to layer interface_boundary
+protocols.flxbb.LayerDesignOperation: Excluding residues DEKRL from layer interface_boundary secstruct Helix
+protocols.flxbb.LayerDesignOperation: Making a combined task named interface_surface
+protocols.flxbb.LayerDesignOperation: Copying definitions from layer surface to layer interface_surface
+protocols.flxbb.LayerDesignOperation: Excluding residues W from layer interface_surface secstruct Helix
+protocols.flxbb.LayerDesignOperation: Layers to be designed:	interface_boundary	interface_core	interface_surface	others
+protocols.flxbb.LayerDesignOperation: Layer Cterm
+protocols.flxbb.LayerDesignOperation: 	Helix          aa = ACDEFGHIKLMNPQRSTVWY	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	HelixCapping   aa = ACDEFGHIKLMNPQRSTVWY	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	HelixStart     aa = ACDEFGHIKLMNPQRSTVWY	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	Loop           aa = ACDEFGHIKLMNPQRSTVWY	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	Strand         aa = ACDEFGHIKLMNPQRSTVWY	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	all            aa = ACDEFGHIKLMNPQRSTVWY	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 
+protocols.flxbb.LayerDesignOperation: Layer Nterm
+protocols.flxbb.LayerDesignOperation: 	Helix          aa = ACDEFGHIKLMNPQRSTVWY	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	HelixCapping   aa = ACDEFGHIKLMNPQRSTVWY	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	HelixStart     aa = ACDEFGHIKLMNPQRSTVWY	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	Loop           aa = ACDEFGHIKLMNPQRSTVWY	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	Strand         aa = ACDEFGHIKLMNPQRSTVWY	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	all            aa = ACDEFGHIKLMNPQRSTVWY	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 
+protocols.flxbb.LayerDesignOperation: Layer boundary
+protocols.flxbb.LayerDesignOperation: 	Helix          aa = ADEIKLNQRSTVWY	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	HelixCapping   aa = DNST	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	HelixStart     aa = ADEIKLNQRSTVWYP	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	Loop           aa = ADEFGIKLNPQRSTVWY	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	Strand         aa = DEFIKLNQRSTVWY	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	all            aa = ADEFGIKLNPQRSTVWY	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 
+protocols.flxbb.LayerDesignOperation: Layer core
+protocols.flxbb.LayerDesignOperation: 	Helix          aa = AFILVWY	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	HelixCapping   aa = DNST	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	HelixStart     aa = AFILVWYP	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	Loop           aa = AFILPVWY	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	Strand         aa = FILVWY	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	all            aa = AFILPVWYDNST	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 
+protocols.flxbb.LayerDesignOperation: Layer interface_boundary
+protocols.flxbb.LayerDesignOperation: 	Helix          aa = AFGIMNQSTVWY	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	HelixCapping   aa = DNST	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	HelixStart     aa = ADEIKLNQRSTVWYP	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	Loop           aa = ADEFGIKLNPQRSTVWY	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	Strand         aa = DEFIKLNQRSTVWY	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	all            aa = ADEFGIKLNPQRSTVWY	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 
+protocols.flxbb.LayerDesignOperation: Layer interface_core
+protocols.flxbb.LayerDesignOperation: 	Helix          aa = AFGHILMNQSTVY	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	HelixCapping   aa = DNST	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	HelixStart     aa = AFILVWYP	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	Loop           aa = AFILPVWY	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	Strand         aa = FILVWY	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	all            aa = AFILPVWYDNST	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 
+protocols.flxbb.LayerDesignOperation: Layer interface_surface
+protocols.flxbb.LayerDesignOperation: 	Helix          aa = ADEFHIKLNQRSTVY	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	HelixCapping   aa = DNST	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	HelixStart     aa = DEHKNQRSTP	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	Loop           aa = DEGHKNPQRST	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	Strand         aa = DEHKNQRST	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	all            aa = DEGHKNPQRST	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 
+protocols.flxbb.LayerDesignOperation: Layer surface
+protocols.flxbb.LayerDesignOperation: 	Helix          aa = DEHKNQRST	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	HelixCapping   aa = DNST	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	HelixStart     aa = DEHKNQRSTP	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	Loop           aa = DEGHKNPQRST	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	Strand         aa = DEHKNQRST	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 	all            aa = DEGHKNPQRST	 ncaa = 
+protocols.flxbb.LayerDesignOperation: 
+protocols.jd2.parser.TaskOperationLoader: Defined TaskOperation named "all_layers" of type LayerDesign
+protocols.jd2.parser.TaskOperationLoader: Defined TaskOperation named "select_core" of type SelectBySASA
+protocols.jd2.parser.TaskOperationLoader: Defined TaskOperation named "select_boundary" of type SelectBySASA
+protocols.jd2.parser.TaskOperationLoader: Defined TaskOperation named "select_surface" of type SelectBySASA
+protocols.filters.PackStatFilter: Structures with packstat score 0.55 will be filtred.
+protocols.rosetta_scripts.RosettaScriptsParser: Defined filter named "packstat" of type PackStat
+protocols.simple_filters.BuriedUnsatHbondFilter: Buried Unsatisfied Hbond filter over jump number 0 with cutoff 6
+protocols.rosetta_scripts.RosettaScriptsParser: Defined filter named "uhb" of type BuriedUnsatHbonds
+protocols.simple_filters.ScoreTypeFilter: ScoreType filter for score_type total_score with threshold -205.
+protocols.rosetta_scripts.RosettaScriptsParser: Defined filter named "score_eval" of type ScoreType
+protocols.rosetta_scripts.RosettaScriptsParser: Defined mover named "add_memb" of type AddMembraneMover
+protocols.rosetta_scripts.RosettaScriptsParser: Defined mover named "init_pos" of type MembranePositionFromTopologyMover
+protocols.RosettaScripts.util: Object pack_core reading the following task_operations: Adding the following task operations
+resfile select_core arochi ex1_ex2 
+protocols.rosetta_scripts.RosettaScriptsParser: Defined mover named "pack_core" of type PackRotamersMover
+protocols.RosettaScripts.util: Object pack_boundary reading the following task_operations: Adding the following task operations
+resfile select_boundary arochi ex1_ex2 
+protocols.rosetta_scripts.RosettaScriptsParser: Defined mover named "pack_boundary" of type PackRotamersMover
+protocols.RosettaScripts.util: Object pack_surface reading the following task_operations: Adding the following task operations
+resfile arochi select_surface ex1_ex2 
+protocols.rosetta_scripts.RosettaScriptsParser: Defined mover named "pack_surface" of type PackRotamersMover
+protocols.simple_moves.MinMover: Options chi, bb: 1, 0 omega: 1
+protocols.rosetta_scripts.RosettaScriptsParser: Defined mover named "hardmin_sconly" of type MinMover
+protocols.relax.FastRelax: ================== Using default script ==================
+protocols.RosettaScripts.util: Object fast_relax reading the following task_operations: Adding the following task operations
+arochi ex1_ex2 
+protocols.relax.FastRelax: ================== Using default script ==================
+protocols.rosetta_scripts.RosettaScriptsParser: Defined mover named "fast_relax" of type FastRelax
+protocols.rosetta_scripts.ParsedProtocol: ParsedProtocol mover with the following movers and filters
+protocols.rosetta_scripts.ParsedProtocol: added mover "add_memb" with filter "true_filter"
+protocols.rosetta_scripts.ParsedProtocol: added mover "init_pos" with filter "true_filter"
+protocols.rosetta_scripts.ParsedProtocol: added mover "fast_relax" with filter "true_filter"
+protocols.rosetta_scripts.ParsedProtocol: added mover "pack_core" with filter "true_filter"
+protocols.rosetta_scripts.ParsedProtocol: added mover "pack_boundary" with filter "true_filter"
+protocols.rosetta_scripts.ParsedProtocol: added mover "pack_surface" with filter "true_filter"
+protocols.rosetta_scripts.ParsedProtocol: added mover "fast_relax" with filter "true_filter"
+protocols.rosetta_scripts.ParsedProtocol: added mover "NULL_MOVER" with filter "packstat"
+protocols.rosetta_scripts.ParsedProtocol: added mover "NULL_MOVER" with filter "score_eval"
+protocols.rosetta_scripts.ParsedProtocol: added mover "NULL_MOVER" with filter "uhb"
+protocols::checkpoint: Deleting checkpoints of FastRelax
+protocols.jd2.PDBJobInputter: PDBJobInputter::pose_from_job
+protocols.jd2.PDBJobInputter: filling pose from saved copy /netapp/home/mmravic/CHAMP/EGFR/bbDesign_CTERMrnd2/match_1/match_1.pdb
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN MOVER AddMembraneMover - add_memb=======================
+protocols.membrane.AddMembraneMover: =====================================================================
+protocols.membrane.AddMembraneMover: ||           WELCOME TO THE WORLD OF MEMBRANE PROTEINS...          ||
+protocols.membrane.AddMembraneMover: =====================================================================
+protocols.membrane.AddMembraneMover: No membrane residue was found
+protocols.membrane.AddMembraneMover: Adding a new membrane residue to the pose
+protocols.membrane.AddMembraneMover: Adding a membrane residue representing the position of the membrane after residue 61
+   Edge   	   Jump     Jump #
+          	0062--0001  002
+0001--0029
+          	0001--0030  001
+0030--0061
+
+core.conformation.membrane.SpanningTopology: Filling membrane spanning topology from spanfile /netapp/home/mmravic/CHAMP/EGFR/bbDesign_CTERMrnd2/match_1/match_1.span
+core.conformation.membrane.SpanningTopology: nres: 62
+core.conformation.membrane.SpanningTopology: nres_topo: 103
+core.conformation.membrane.SpanningTopology: total residues in spanfile: 103
+core.conformation.membrane.SpanningTopology: Total # of TM spans: 2
+core.conformation.membrane.SpanningTopology: Number of residues in spanfile: 103
+core.conformation.membrane.SpanningTopology: Span 1: start: 2, end: 22
+core.conformation.membrane.SpanningTopology: Span 2: start: 36, end: 56
+protocols.membrane.SetMembranePositionMover: Calling SetMembranePositionMover
+protocols.membrane.SetMembranePositionMover: Starting foldtree: Is membrane fixed? 1
+protocols.membrane.SetMembranePositionMover:    Edge   	   Jump     Jump #
+          	0062--0001  002
+0001--0029
+          	0001--0030  001
+0030--0061
+
+protocols.membrane.SetMembranePositionMover: Final foldtree: Is membrane fixed? 1
+protocols.membrane.SetMembranePositionMover:    Edge   	   Jump     Jump #
+          	0062--0001  002
+0001--0029
+          	0001--0030  001
+0030--0061
+
+protocols.membrane.AddMembraneMover: Final foldtree: Is membrane fixed? 1
+protocols.membrane.AddMembraneMover:    Edge   	   Jump     Jump #
+          	0062--0001  002
+0001--0029
+          	0001--0030  001
+0030--0061
+
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN FILTER =======================
+protocols.rosetta_scripts.ParsedProtocol: =======================END FILTER =======================
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN MOVER MembranePositionFromTopologyMover - init_pos=======================
+protocols.membrane.MembranePositionMoverFromTopologyMover: Reordering foldtree:
+protocols.membrane.MembranePositionMoverFromTopologyMover: Starting foldtree: Is membrane fixed? 0
+protocols.membrane.MembranePositionMoverFromTopologyMover:    Edge   	   Jump     Jump #
+          	0001--0062  002
+0001--0029
+          	0001--0030  001
+0030--0061
+
+protocols.membrane.MembranePositionMoverFromTopologyMover: Computing initial membrane position from structure...
+protocols.membrane.geometry.Embedding: Constructing Embedding object from topology and pose
+protocols.membrane.geometry.Embedding: Computing membrane embedding from TMspans: 
+protocols.membrane.geometry.EmbeddingDef: Computing membrane embedding from TMspan 2 to 22
+protocols.membrane.geometry.EmbeddingDef: Computing membrane embedding from TMspan 2 to 22
+protocols.membrane.geometry.EmbeddingDef: Computing membrane embedding from TMspan 36 to 56
+protocols.membrane.geometry.Embedding: Span Embedding: 
+protocols.membrane.geometry.EmbeddingDef: Embedding: center: (-1.6845, 5.213, 1.3405), normal: (-0.403984, 0.350507, 0.844951)
+protocols.membrane.geometry.EmbeddingDef: Embedding: center: (6.0215, -1.5685, -0.61), normal: (-0.0130569, 0.401213, 0.915892)
+protocols.membrane.geometry.Embedding: 		Total Embedding: 
+protocols.membrane.geometry.EmbeddingDef: Embedding: center: (2.1685, 1.82225, 0.36525), normal: (-0.212832, 0.383632, 0.898626)
+protocols.membrane.MembranePositionMoverFromTopologyMover: Final foldtree after reset: Is membrane fixed? 1
+protocols.membrane.MembranePositionMoverFromTopologyMover:    Edge   	   Jump     Jump #
+          	0062--0001  002
+0001--0029
+          	0001--0030  001
+0030--0061
+
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN FILTER =======================
+protocols.rosetta_scripts.ParsedProtocol: =======================END FILTER =======================
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN MOVER FastRelax - fast_relax=======================
+core.pack.dunbrack.RotamerLibrary: Using Dunbrack library binary file '/netapp/home/mmravic/bin/Rosetta/database/rotamer/ExtendedOpt1-5/Dunbrack10.lib.bin'.
+core.pack.dunbrack.RotamerLibrary: Dunbrack 2010 library took 0.75 seconds to load from binary
+protocols.relax.FastRelax: CMD: repeat  11003.1  0  0  0.44
+core.pack.pack_rotamers: built 666 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 434252 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -154.872  0.0888027  0.0888027  0.0088
+core.pack.pack_rotamers: built 548 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 310320 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -143.361  0.518098  0.518098  0.11
+core.pack.pack_rotamers: built 564 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 313740 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -132.667  0.515633  0.515633  0.242
+core.pack.pack_rotamers: built 546 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 303972 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -156.512  1.53977  1.53977  0.44
+protocols.relax.FastRelax: MRP: 0  -156.512  -156.512  1.53977  1.53977  
+protocols.relax.FastRelax: CMD: accept_to_best  -156.512  1.53977  1.53977  0.44
+protocols.relax.FastRelax: CMD: endrepeat  -156.512  1.53977  1.53977  0.44
+core.pack.pack_rotamers: built 844 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 742348 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -187.227  1.59942  1.59942  0.0088
+core.pack.pack_rotamers: built 662 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 467256 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -175.637  1.74151  1.74151  0.11
+core.pack.pack_rotamers: built 672 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 481460 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -165.495  1.7373  1.7373  0.242
+core.pack.pack_rotamers: built 663 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 468880 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -156.799  1.59084  1.59084  0.44
+protocols.relax.FastRelax: MRP: 1  -156.799  -156.799  1.59084  1.59084  
+protocols.relax.FastRelax: CMD: accept_to_best  -156.799  1.59084  1.59084  0.44
+protocols.relax.FastRelax: CMD: endrepeat  -156.799  1.59084  1.59084  0.44
+core.pack.pack_rotamers: built 909 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 831536 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -188.312  1.66118  1.66118  0.0088
+core.pack.pack_rotamers: built 722 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 538700 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -175.053  1.74841  1.74841  0.11
+core.pack.pack_rotamers: built 714 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 519912 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -165.073  1.75733  1.75733  0.242
+core.pack.pack_rotamers: built 713 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 506308 bytes
+core.optimization.LineMinimizer: Inaccurate G! step= 3.8147e-06 Deriv= -0.00767652 Finite Diff= 0.00864121
+protocols.relax.FastRelax: CMD: ramp_repack_min  -156.86  1.58985  1.58985  0.44
+protocols.relax.FastRelax: MRP: 2  -156.86  -156.86  1.58985  1.58985  
+protocols.relax.FastRelax: CMD: accept_to_best  -156.86  1.58985  1.58985  0.44
+protocols.relax.FastRelax: CMD: endrepeat  -156.86  1.58985  1.58985  0.44
+core.pack.pack_rotamers: built 911 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 834424 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -195.337  1.8345  1.8345  0.0088
+core.pack.pack_rotamers: built 754 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 580464 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -174.635  1.68775  1.68775  0.11
+core.pack.pack_rotamers: built 724 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 542780 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -164.765  1.66695  1.66695  0.242
+core.pack.pack_rotamers: built 739 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 555712 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -155.789  1.57454  1.57454  0.44
+protocols.relax.FastRelax: MRP: 3  -155.789  -156.86  1.58985  1.58985  
+protocols.relax.FastRelax: CMD: accept_to_best  -155.789  1.57454  1.57454  0.44
+protocols.relax.FastRelax: CMD: endrepeat  -155.789  1.57454  1.57454  0.44
+core.pack.pack_rotamers: built 920 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 843496 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -195.587  1.9194  1.9194  0.0088
+core.pack.pack_rotamers: built 740 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 571300 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -174.265  1.73121  1.73121  0.11
+core.pack.pack_rotamers: built 696 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 503400 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -166.081  1.71835  1.71835  0.242
+core.pack.pack_rotamers: built 672 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 473728 bytes
+core.optimization.LineMinimizer: Inaccurate G! step= 3.8147e-06 Deriv= -0.0144974 Finite Diff= 5.74514e-05
+protocols.relax.FastRelax: CMD: ramp_repack_min  -155.85  1.55391  1.55391  0.44
+protocols.relax.FastRelax: MRP: 4  -155.85  -156.86  1.58985  1.58985  
+protocols.relax.FastRelax: CMD: accept_to_best  -155.85  1.55391  1.55391  0.44
+protocols.relax.FastRelax: CMD: endrepeat  -155.85  1.55391  1.55391  0.44
+core.pack.pack_rotamers: built 903 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 822116 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -190.227  1.69792  1.69792  0.0088
+core.pack.pack_rotamers: built 686 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 497260 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -174.378  1.642  1.642  0.11
+core.pack.pack_rotamers: built 689 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 490744 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -165.471  1.63724  1.63724  0.242
+core.pack.pack_rotamers: built 656 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 450184 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -156.029  1.51723  1.51723  0.44
+protocols.relax.FastRelax: MRP: 5  -156.029  -156.86  1.58985  1.58985  
+protocols.relax.FastRelax: CMD: accept_to_best  -156.029  1.51723  1.51723  0.44
+protocols.relax.FastRelax: CMD: endrepeat  -156.029  1.51723  1.51723  0.44
+core.pack.pack_rotamers: built 895 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 816508 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -195.928  1.92163  1.92163  0.0088
+core.pack.pack_rotamers: built 714 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 533988 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -176.633  1.82127  1.82127  0.11
+core.pack.pack_rotamers: built 677 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 485432 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -165.352  1.79004  1.79004  0.242
+core.pack.pack_rotamers: built 671 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 476308 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -155.993  1.62235  1.62235  0.44
+protocols.relax.FastRelax: MRP: 6  -155.993  -156.86  1.58985  1.58985  
+protocols.relax.FastRelax: CMD: accept_to_best  -155.993  1.62235  1.62235  0.44
+protocols.relax.FastRelax: CMD: endrepeat  -155.993  1.62235  1.62235  0.44
+core.pack.pack_rotamers: built 901 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 822544 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -189.544  1.69768  1.69768  0.0088
+core.pack.pack_rotamers: built 668 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 487328 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -177.569  1.9367  1.9367  0.11
+core.pack.pack_rotamers: built 666 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 466808 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -165.41  1.91541  1.91541  0.242
+core.pack.pack_rotamers: built 656 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 457792 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -156.013  1.63249  1.63249  0.44
+protocols.relax.FastRelax: MRP: 7  -156.013  -156.86  1.58985  1.58985  
+protocols.relax.FastRelax: CMD: accept_to_best  -156.013  1.63249  1.63249  0.44
+protocols.relax.FastRelax: CMD: endrepeat  -156.013  1.63249  1.63249  0.44
+protocols::checkpoint: Deleting checkpoints of FastRelax
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN FILTER =======================
+protocols.rosetta_scripts.ParsedProtocol: =======================END FILTER =======================
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN MOVER PackRotamersMover - pack_core=======================
+core.pack.pack_rotamers: built 2563 rotamers at 10 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating PDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 7384696 bytes
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN FILTER =======================
+protocols.rosetta_scripts.ParsedProtocol: =======================END FILTER =======================
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN MOVER PackRotamersMover - pack_boundary=======================
+core.pack.pack_rotamers: built 1079 rotamers at 6 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating PDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 830404 bytes
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN FILTER =======================
+protocols.rosetta_scripts.ParsedProtocol: =======================END FILTER =======================
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN MOVER PackRotamersMover - pack_surface=======================
+core.pack.pack_rotamers: built 6055 rotamers at 48 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating PDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 22883272 bytes
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN FILTER =======================
+protocols.rosetta_scripts.ParsedProtocol: =======================END FILTER =======================
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN MOVER FastRelax - fast_relax=======================
+protocols.relax.FastRelax: CMD: repeat  -197.249  0  0  0.44
+core.pack.pack_rotamers: built 935 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 780408 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -235.523  0.378211  0.378211  0.0088
+core.pack.pack_rotamers: built 823 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 595172 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -217.774  0.301333  0.301333  0.11
+core.pack.pack_rotamers: built 709 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 441964 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -210.637  0.315989  0.315989  0.242
+core.pack.pack_rotamers: built 709 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 427828 bytes
+core.optimization.LineMinimizer: Inaccurate G! step= 2.44141e-06 Deriv= -2.42308 Finite Diff= 0.231248
+protocols.relax.FastRelax: CMD: ramp_repack_min  -199.786  0.256169  0.256169  0.44
+protocols.relax.FastRelax: MRP: 0  -199.786  -199.786  0.256169  0.256169  
+protocols.relax.FastRelax: CMD: accept_to_best  -199.786  0.256169  0.256169  0.44
+protocols.relax.FastRelax: CMD: endrepeat  -199.786  0.256169  0.256169  0.44
+core.pack.pack_rotamers: built 937 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 781948 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -243.692  0.972359  0.972359  0.0088
+core.pack.pack_rotamers: built 692 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 431896 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -219.702  0.848332  0.848332  0.11
+core.pack.pack_rotamers: built 714 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 426896 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -209.02  0.781904  0.781904  0.242
+core.pack.pack_rotamers: built 680 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 409580 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -204.78  0.795263  0.795263  0.44
+protocols.relax.FastRelax: MRP: 1  -204.78  -204.78  0.795263  0.795263  
+protocols.relax.FastRelax: CMD: accept_to_best  -204.78  0.795263  0.795263  0.44
+protocols.relax.FastRelax: CMD: endrepeat  -204.78  0.795263  0.795263  0.44
+core.pack.pack_rotamers: built 974 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 877720 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -238.852  0.863527  0.863527  0.0088
+core.pack.pack_rotamers: built 761 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 537232 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -224.572  0.870048  0.870048  0.11
+core.pack.pack_rotamers: built 717 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 458980 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -216.461  0.883254  0.883254  0.242
+core.pack.pack_rotamers: built 695 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 420244 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -208.861  0.980456  0.980456  0.44
+protocols.relax.FastRelax: MRP: 2  -208.861  -208.861  0.980456  0.980456  
+protocols.relax.FastRelax: CMD: accept_to_best  -208.861  0.980456  0.980456  0.44
+protocols.relax.FastRelax: CMD: endrepeat  -208.861  0.980456  0.980456  0.44
+core.pack.pack_rotamers: built 949 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 836252 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -239.587  1.0612  1.0612  0.0088
+core.pack.pack_rotamers: built 731 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 454800 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -228.035  1.00027  1.00027  0.11
+core.pack.pack_rotamers: built 675 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 417472 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -218.773  1.00143  1.00143  0.242
+core.pack.pack_rotamers: built 648 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 372576 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -209.438  1.02078  1.02078  0.44
+protocols.relax.FastRelax: MRP: 3  -209.438  -209.438  1.02078  1.02078  
+protocols.relax.FastRelax: CMD: accept_to_best  -209.438  1.02078  1.02078  0.44
+protocols.relax.FastRelax: CMD: endrepeat  -209.438  1.02078  1.02078  0.44
+core.pack.pack_rotamers: built 920 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 773656 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -246.261  1.17637  1.17637  0.0088
+core.pack.pack_rotamers: built 723 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 450316 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -225.783  1.03751  1.03751  0.11
+core.pack.pack_rotamers: built 647 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 374256 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -216.775  1.02327  1.02327  0.242
+core.pack.pack_rotamers: built 641 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 367884 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -208.51  1.018  1.018  0.44
+protocols.relax.FastRelax: MRP: 4  -208.51  -209.438  1.02078  1.02078  
+protocols.relax.FastRelax: CMD: accept_to_best  -208.51  1.018  1.018  0.44
+protocols.relax.FastRelax: CMD: endrepeat  -208.51  1.018  1.018  0.44
+core.pack.pack_rotamers: built 923 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 771468 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -247.41  1.19761  1.19761  0.0088
+core.pack.pack_rotamers: built 827 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 581052 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -226.434  1.01455  1.01455  0.11
+core.pack.pack_rotamers: built 641 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 370244 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -217.544  1.01973  1.01973  0.242
+core.pack.pack_rotamers: built 627 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 355728 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -208.587  1.02482  1.02482  0.44
+protocols.relax.FastRelax: MRP: 5  -208.587  -209.438  1.02078  1.02078  
+protocols.relax.FastRelax: CMD: accept_to_best  -208.587  1.02482  1.02482  0.44
+protocols.relax.FastRelax: CMD: endrepeat  -208.587  1.02482  1.02482  0.44
+core.pack.pack_rotamers: built 919 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 766236 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -238.911  1.03975  1.03975  0.0088
+core.pack.pack_rotamers: built 735 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 490756 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -228.803  1.08607  1.08607  0.11
+core.pack.pack_rotamers: built 652 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 380936 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -219.078  1.08148  1.08148  0.242
+core.pack.pack_rotamers: built 639 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 365648 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -209.938  1.0759  1.0759  0.44
+protocols.relax.FastRelax: MRP: 6  -209.938  -209.938  1.0759  1.0759  
+protocols.relax.FastRelax: CMD: accept_to_best  -209.938  1.0759  1.0759  0.44
+protocols.relax.FastRelax: CMD: endrepeat  -209.938  1.0759  1.0759  0.44
+core.pack.pack_rotamers: built 923 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 771792 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -248.81  1.21466  1.21466  0.0088
+core.pack.pack_rotamers: built 713 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 441848 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -228.863  1.06787  1.06787  0.11
+core.pack.pack_rotamers: built 725 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 427136 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -219.942  1.05468  1.05468  0.242
+core.pack.pack_rotamers: built 654 rotamers at 62 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 374804 bytes
+protocols.relax.FastRelax: CMD: ramp_repack_min  -209.88  1.07264  1.07264  0.44
+protocols.relax.FastRelax: MRP: 7  -209.88  -209.938  1.0759  1.0759  
+protocols.relax.FastRelax: CMD: accept_to_best  -209.88  1.07264  1.07264  0.44
+protocols.relax.FastRelax: CMD: endrepeat  -209.88  1.07264  1.07264  0.44
+protocols::checkpoint: Deleting checkpoints of FastRelax
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN FILTER =======================
+protocols.rosetta_scripts.ParsedProtocol: =======================END FILTER =======================
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN MOVER NullMover - NULL_MOVER=======================
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN FILTER packstat=======================
+protocols.packstat.SimplePDB: ignoring unknown atom types:
+protocols.packstat.SimplePDB: (THKN,MEM), 
+protocols.filters.PackStatFilter: repeat 1: packscore: 0.598394
+protocols.filters.PackStatFilter: Successfully filtered: 0.598394
+protocols.rosetta_scripts.ParsedProtocol: =======================END FILTER packstat=======================
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN MOVER NullMover - NULL_MOVER=======================
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN FILTER score_eval=======================
+protocols.simple_filters.ScoreTypeFilter: score total_score is -209.938. passing.
+protocols.rosetta_scripts.ParsedProtocol: =======================END FILTER score_eval=======================
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN MOVER NullMover - NULL_MOVER=======================
+protocols.rosetta_scripts.ParsedProtocol: =======================BEGIN FILTER uhb=======================
+protocols.filters.Filter: stochastic filter returning true
+protocols.filters.Filter: Compound logical statement is 1.
+protocols.rosetta_scripts.ParsedProtocol: =======================END FILTER uhb=======================
+protocols.rosetta_scripts.ParsedProtocol: setting status to success
+protocols.packstat.SimplePDB: ignoring unknown atom types:
+protocols.packstat.SimplePDB: (THKN,MEM), 
+protocols.filters.PackStatFilter: repeat 1: packscore: 0.593963
+core.scoring.ScoreFunctionFactory: SCOREFUNCTION: talaris2013
+protocols.simple_filters.BuriedUnsatHbondFilter: BOUND: [0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============Begin report for ==================
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============End report for ==================
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============Begin report for ==================
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============End report for ==================
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============Begin report for ==================
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============End report for ==================
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============Begin report for ==================
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============End report for ==================
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============Begin report for ==================
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============End report for ==================
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============Begin report for ==================
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============End report for ==================
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============Begin report for ==================
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============End report for ==================
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============Begin report for packstat==================
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============End report for packstat==================
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============Begin report for score_eval==================
+protocols.rosetta_scripts.ParsedProtocol.REPORT: Weighted score of total_score -209.938
+============End report for score_eval==================
+protocols.rosetta_scripts.ParsedProtocol.REPORT: ============Begin report for uhb==================
+core.scoring.ScoreFunctionFactory: SCOREFUNCTION: talaris2013
+protocols.simple_filters.BuriedUnsatHbondFilter: BOUND: [0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+protocols.filters.Filter: stochastic filter returning true
+protocols.rosetta_scripts.ParsedProtocol.REPORT: # unsatisfied hbonds: 8
+Compound filter returns: 1
+============End report for uhb==================
+protocols.membrane.geometry.Embedding: 	
+ERROR: Unable to open file: /netapp/home/mmravic/CHAMP/EGFR/bbDesign_CTERMrnd2/match_1/outputs/match_1_out1_0001.pdb
+
+ERROR:: Exit from: src/protocols/jd2/PDBJobOutputter.cc line: 95
+/netapp/home/mmravic/bin/Rosetta/source/build/src/release/linux/2.6/64/x86/gcc/4.4/default/libutility.so(print_backtrace()+0x23) [0x2b5a8430b413]
+/netapp/home/mmravic/bin/Rosetta/source/build/src/release/linux/2.6/64/x86/gcc/4.4/default/libutility.so(utility::exit(std::string const&, int, std::string const&, int)+0x107) [0x2b5a8430aba7]
+/netapp/home/mmravic/bin/Rosetta/source/build/src/release/linux/2.6/64/x86/gcc/4.4/default/libprotocols.1.so(protocols::jd2::PDBJobOutputter::final_pose(boost::shared_ptr<protocols::jd2::Job>, core::pose::Pose const&, std::string const&)+0x6a5) [0x2b5a7fa59bd5]
+/netapp/home/mmravic/bin/Rosetta/source/build/src/release/linux/2.6/64/x86/gcc/4.4/default/libprotocols.1.so(protocols::jd2::JobDistributor::job_succeeded(core::pose::Pose&, double, std::string const&)+0x45) [0x2b5a7fa28e35]
+/netapp/home/mmravic/bin/Rosetta/source/build/src/release/linux/2.6/64/x86/gcc/4.4/default/libprotocols.1.so(protocols::jd2::FileSystemJobDistributor::job_succeeded(core::pose::Pose&, double, std::string const&)+0x9) [0x2b5a7fa00329]
+/netapp/home/mmravic/bin/Rosetta/source/build/src/release/linux/2.6/64/x86/gcc/4.4/default/libprotocols.1.so(protocols::jd2::JobDistributor::write_output_from_job(core::pose::Pose&, boost::shared_ptr<protocols::moves::Mover>, protocols::moves::MoverStatus, unsigned long, unsigned long&)+0x3ac) [0x2b5a7fa2921c]
+/netapp/home/mmravic/bin/Rosetta/source/build/src/release/linux/2.6/64/x86/gcc/4.4/default/libprotocols.1.so(protocols::jd2::JobDistributor::run_one_job(boost::shared_ptr<protocols::moves::Mover>&, long, std::string&, std::string&, unsigned long&, unsigned long&, bool)+0x1421) [0x2b5a7fa2b821]
+/netapp/home/mmravic/bin/Rosetta/source/build/src/release/linux/2.6/64/x86/gcc/4.4/default/libprotocols.1.so(protocols::jd2::JobDistributor::go_main(boost::shared_ptr<protocols::moves::Mover>)+0x166) [0x2b5a7fa2cd66]
+/netapp/home/mmravic/bin/Rosetta/source/build/src/release/linux/2.6/64/x86/gcc/4.4/default/libprotocols.1.so(protocols::jd2::FileSystemJobDistributor::go(boost::shared_ptr<protocols::moves::Mover>)+0x3f) [0x2b5a7fa00aef]
+/netapp/home/mmravic/bin/Rosetta/source/bin/rosetta_scripts.linuxgccrelease() [0x402fe7]
+/lib64/libc.so.6(__libc_start_main+0xfd) [0x34c2c1ed1d]
+/netapp/home/mmravic/bin/Rosetta/source/bin/rosetta_scripts.linuxgccrelease() [0x402569]
+protocols::checkpoint: Deleting checkpoints of FastRelax
+protocols::checkpoint: Deleting checkpoints of FastRelax
+Error: ERROR: Exception caught by rosetta_scripts application:
+
+[ERROR] EXCN_utility_exit has been thrown from: src/protocols/jd2/PDBJobOutputter.cc line: 95
+ERROR: Unable to open file: /netapp/home/mmravic/CHAMP/EGFR/bbDesign_CTERMrnd2/match_1/outputs/match_1_out1_0001.pdb
+
+
+
+
+['/netapp/home/mmravic/bin/Rosetta/source/bin/rosetta_scripts.linuxgccrelease', '-parser:protocol', '/netapp/home/mmravic/CHAMP/bin/helix_Design.xml', '-in:file:s', '/netapp/home/mmravic/CHAMP/EGFR/bbDesign_CTERMrnd2/match_1/match_1.pdb', '-nstruct', '1', '-mp:setup:spanfiles', '/netapp/home/mmravic/CHAMP/EGFR/bbDesign_CTERMrnd2/match_1/match_1.span', '-mp:scoring:hbond', '-relax:jump_move', 'true', '-out:prefix', '/netapp/home/mmravic/CHAMP/EGFR/bbDesign_CTERMrnd2/match_1/outputs/', '-out:suffix', '_out1', '-packing:resfile', '/netapp/home/mmravic/CHAMP/EGFR/bbDesign_CTERMrnd2/match_1/resfile', '-out:overwrite', '-packing:pack_missing_sidechains', '0']
+
+
+Entire run took this many seconds: 132.192252159

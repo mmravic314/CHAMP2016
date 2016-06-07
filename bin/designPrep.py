@@ -23,6 +23,7 @@ rosiSpanGen = os.path.join( rosiBase, 'source/bin/spanfile_from_pdb.linuxgccrele
 
 
 for f in os.listdir( sys.argv[1] ):
+	print f
 	if f[-4:] != '.pdb' or 'membrane' in f: continue
 	
 	## i/o for each input match
@@ -56,5 +57,5 @@ for f in os.listdir( sys.argv[1] ):
 		'-database', rosiDB, 
 		'-in:file:s', oPDBpath
 		]		
-
+	print cmdSpan
 	sp.call( cmdSpan )

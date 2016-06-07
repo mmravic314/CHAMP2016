@@ -14,7 +14,7 @@
  		<LayerDesign name=all_layers layer=others ignore_pikaa_natro=true make_pymol_script=1>
                 
                  <CombinedTasks name=interface_core>
-                        <SelectBySASA state=bound mode=mc core=1 probe_radius=2.0 core_asa=25 surface_asa=50 verbose=0/>
+                        <SelectBySASA state=bound mode=mc core=1 probe_radius=2.0 core_asa=35 surface_asa=50 verbose=0/>
                         <all copy_layer=core />
                         <Helix exclude="WDE"/>
                         <Helix append="GTHNSMQ"/>
@@ -22,7 +22,7 @@
 
          
                  <CombinedTasks name=interface_boundary>
-                        <SelectBySASA state=bound mode=mc boundary=1 probe_radius=2.0 core_asa=25 surface_asa=50 verbose=0/>
+                        <SelectBySASA state=bound mode=mc boundary=1 probe_radius=2.0 core_asa=35 surface_asa=50 verbose=0/>
                          <all copy_layer=boundary />
                          <Helix append="GFYVILAMST"/>
                          <Helix exclude="DEKRL"/>
@@ -30,7 +30,7 @@
 
 
                 <CombinedTasks name=interface_surface>
-                        <SelectBySASA state=bound mode=mc surface=1 probe_radius=2.0 core_asa=25 surface_asa=50 verbose=0/>
+                        <SelectBySASA state=bound mode=mc surface=1 probe_radius=2.0 core_asa=35 surface_asa=50 verbose=0/>
                         <all copy_layer=surface />
                         <Helix exclude="W"/>
                         <Helix append="FYVILA"/>
@@ -39,19 +39,18 @@
  
          </LayerDesign>
 
-<SelectBySASA name=select_core state=bound mode=mc core=1 probe_radius=2.0 core_asa=25 surface_asa=50 verbose=0/>
-<SelectBySASA name=select_boundary state=bound mode=mc boundary=1 probe_radius=2.0 core_asa=25 surface_asa=50 verbose=0/>
-<SelectBySASA name=select_surface state=bound mode=mc surface=1 probe_radius=2.0 core_asa=25 surface_asa=50 verbose=0/>
+<SelectBySASA name=select_core state=bound mode=mc core=1 probe_radius=2.0 core_asa=35 surface_asa=50 verbose=0/>
+<SelectBySASA name=select_boundary state=bound mode=mc boundary=1 probe_radius=2.0 core_asa=35 surface_asa=50 verbose=0/>
+<SelectBySASA name=select_surface state=bound mode=mc surface=1 probe_radius=2.0 core_asa=35 surface_asa=50 verbose=0/>
 
 
    </TASKOPERATIONS>
 
  <FILTERS>
 
-    <PackStat name=packstat threshold=0.5 confidence=1/>
- 	<BuriedUnsatHbonds name=uhb scorefxn=memb_hires confidence=1 jump_number=0 cutoff=6/>
- 	<ScoreType name=score_eval scorefxn=memb_hires threshold=-230/>
-
+    <PackStat name=packstat threshold=0.55 confidence=1/>
+ 	<BuriedUnsatHbonds name=uhb scorefxn=memb_hires confidence=0 jump_number=0 cutoff=6/>
+ 	<ScoreType name=score_eval scorefxn=memb_hires threshold=-205/>
 
  </FILTERS>
 
