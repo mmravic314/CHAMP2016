@@ -43,6 +43,8 @@
 > mkdir ../bb2Design_Cterm
 
 
+
+
 > cp ~/CHAMP/EGFR/bbHits_Cterm/match_1.pdb ../bb2Design_Cterm/
 > cp ~/CHAMP/EGFR/bbHits_Cterm/match_3.pdb ../bb2Design_Cterm/
 
@@ -57,11 +59,14 @@
 
 > python ~/CHAMP/bin/champDesign_rosMem.py ~/CHAMP/EGFR/bb2Design_Cterm/match_3/match_3.pdb ~/CHAMP/bin/helix_Design.xml ~/rosetta/
 
+.....
+## Actually wasn't happy with these designs or backbones... too long/angled. Probably due to input template geometry
 
+# Reran with the chain B of the same NMR dimer structure
+> python ~/CHAMP/bin/templatePairsScreen.py ~/CHAMP/Cluster-004/ ~/CHAMP/EGFR/bbHits_Cterm ~/CHAMP/EGFR/RosMem_Target-input-CTERM/alignedInput_ChB.pdb ~/CHAMP/Cluster-004_ext/ PSIATGMVGALLLLLVVALGIGLFMRRRH 17 22 "[ASTG][VLIF]\w\w[ASG][VLIF]"
 
+# First 3 matches much more reasonable, although input helix is distorted in matches outside matched region... so Swap the actual chain with the target chain coordinates... Copy paste alignedInput_ChB.pdb into the chain A region of each match 1 - 3... in the bbDesign_CTERMrnd2 input directory
 
+> mkdir bbDesign_CTERMrnd2
 
-> python ~/CHAMP/bin/analyzeChampDesigns.py ~/CHAMP/EGFR/bb2Design/match_9/outputs anti-EGFR_backbone_9_designs > ~/CHAMP/EGFR/bb2Design/match_9/designs.fasta
-
-> python ~/CHAMP/bin/analyzeChampDesigns.py ~/CHAMP/EGFR/bb2Design/match_1/outputs anti-EGFR_backbone_1_designs > ~/CHAMP/EGFR/bb2Design/match_1/m1_designs.fasta
 
