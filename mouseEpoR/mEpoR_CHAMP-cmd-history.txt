@@ -1,0 +1,36 @@
+## Pipeline for CHAMPS, done (so far) by Marco Mravic DeGrado lab
+## Dependencies: Python 2.7, Biopython, ProDy, NumPy, Rosetta locally downloaded & compiled
+# add the CHAMP/bin/ to your python path!! $PYTHONPATH
+
+### THIS IS A CHAMP DESIGN CMD LINE HISTORY FOR mouse EpoR. Anti-parallel dimer 
+
+
+######## Input file Prep #########
+
+# get sequence for TM region of TM target flanked by a few residues, <= 40 residues
+# > mouse_EPOR DLD PLI LTL SLI LVL ISL LLT VLA LLS HRR 
+# uniprot TM region: LI LTL SLI LVL ISL LLT VLA LLS
+# 
+
+> mkdir ~/CHAMP/mouseEpoR/RosMem_Target-input/
+> cd /CHAMP/mouseEpoR/RosMem_Target-input/
+
+# Got initial position from ROCKER peptide dimer (pdb:4p6j) in OPM, aligned 40-aa-ideal helix. saved as RosMem_Target-input/alignedInput.pdb
+# Rewrote resfile. 
+# Then threaded sequence in rosetta & relaxed helix in membrane
+
+> python ~/CHAMP/bin/orientHelix_rosMemV2.py ~/CHAMP/mouseEpoR/RosMem_Target-input/alignedInput.pdb  ~/rosetta/ ~/CHAMP/bin/helix_Relax.xml ~/CHAMP/mouseEpoR/RosMem_Target-input/resfile
+
+## Now define dimerization motif and search Ala-coil aka G-X6-G  cluster
+## Use ANTI-PARALLEL template screen python script, ~/CHAMP/bin/templatePairsScreen_AP.py
+
+# full seq:  	DLDPLILTLSLILVLISLLLTVLALLSHRR
+# to match:		GAST-xxxxxx-gast-xxxxxx-gast
+# regex: 		[ASTG]\w\w\w\w\w\w[ASGT]\w\w\w\w\w\w[ASGT]
+# indices:		9 23
+
+> cd ..
+> python ~/CHAMP/bin/templatePairsScreen_AP.py ~/CHAMP/Cluster-006/  ~/CHAMP/mouseEpoR/bbHits ~/CHAMP/mouseEpoR/RosMem_Target-input/alignedInput_0001.pdb ~/CHAMP/Cluster-006_ext/ DLDPLILTLSLILVLISLLLTVLALLSHRR 9 23 "[ASTG]\w\w\w\w\w\w[ASGT]\w\w\w\w\w\w[ASGT]"
+
+# Add membrane to visualized bbHits, got 53 ... so a lot, most are crap though
+> 
