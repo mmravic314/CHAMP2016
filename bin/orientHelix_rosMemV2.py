@@ -64,6 +64,7 @@ cmd = [  rosiScrps,
 '-relax:jump_move', 'true', 				# Allow jumps to move during relax
 '-out:prefix', oDir,
 '-out:overwrite',
+'-packing:resfile', resfile_path , 
 '-packing:pack_missing_sidechains', '0' ]
 
 print 

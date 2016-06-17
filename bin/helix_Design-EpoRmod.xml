@@ -1,0 +1,106 @@
+<ROSETTASCRIPTS>
+ 
+
+ <SCOREFXNS>
+ 		<memb_hires weights=mpframework_smooth_fa_2012/>
+ </SCOREFXNS>
+
+  <TASKOPERATIONS>
+
+  	     <ReadResfile name="resfile"/>
+         <LimitAromaChi2 name=arochi />
+         <ExtraRotamersGeneric name=ex1_ex2 ex1=1 ex2=1/>
+ 
+ 		<LayerDesign name=all_layers layer=others ignore_pikaa_natro=true make_pymol_script=0>
+                
+                 <CombinedTasks name=interface_core>
+                        <SelectBySASA state=bound mode=mc core=1 probe_radius=2.0 core_asa=35 surface_asa=55 verbose=0/>
+                        <all copy_layer=core />
+                        <Helix exclude="WDE"/>
+                        <Helix append="GTHNSMQ"/>
+                </CombinedTasks>
+
+         
+                 <CombinedTasks name=interface_boundary>
+                        <SelectBySASA state=bound mode=mc boundary=1 probe_radius=2.0 core_asa=35 surface_asa=55 verbose=0/>
+                         <all copy_layer=boundary />
+                         <Helix append="GFYVILAMST"/>
+                         <Helix exclude="DEKRL"/>
+                 </CombinedTasks>
+
+
+                <CombinedTasks name=interface_surface>
+                        <SelectBySASA state=bound mode=mc surface=1 probe_radius=2.0 core_asa=35 surface_asa=55 verbose=0/>
+                        <all copy_layer=surface />
+                        <Helix exclude="W"/>
+                        <Helix append="FYVILA"/>
+
+                </CombinedTasks>
+ 
+         </LayerDesign>
+
+<SelectBySASA name=select_core state=bound mode=mc core=1 probe_radius=2.0 core_asa=35 surface_asa=55 verbose=0/>
+<SelectBySASA name=select_boundary state=bound mode=mc boundary=1 probe_radius=2.0 core_asa=35 surface_asa=55 verbose=0/>
+<SelectBySASA name=select_surface state=bound mode=mc surface=1 probe_radius=2.0 core_asa=35 surface_asa=55 verbose=0/>
+
+
+   </TASKOPERATIONS>
+
+ <FILTERS>
+
+    <PackStat name=packstat threshold=0.4 confidence=1/>
+ 	<BuriedUnsatHbonds name=uhb scorefxn=memb_hires confidence=0 jump_number=0 cutoff=6/>
+ 	<ScoreType name=score_eval scorefxn=memb_hires threshold=-210/>
+
+ </FILTERS>
+
+
+
+ 
+	<MOVERS>
+
+ 		<AddMembraneMover name=add_memb/>
+ 		<MembranePositionFromTopologyMover name=init_pos/>
+
+ 		<PackRotamersMover name=pack_core scorefxn=memb_hires task_operations=resfile,all_layers,select_core,arochi,ex1_ex2/>
+        <PackRotamersMover name=pack_boundary scorefxn=memb_hires task_operations=resfile,all_layers,select_boundary,arochi,ex1_ex2/>
+        <PackRotamersMover name=pack_surface scorefxn=memb_hires task_operations=resfile,all_layers,arochi,select_surface,ex1_ex2/>
+        
+        <MinMover name=hardmin_sconly scorefxn=memb_hires chi=1 bb=0 bondangle=0 bondlength=0/>
+
+ 		<FastRelax name=fast_relax scorefxn=memb_hires repeats=8 task_operations=resfile,arochi,ex1_ex2/>
+        <Backrub name=bRub />
+
+	</MOVERS>
+ 
+	<PROTOCOLS>
+		<Add mover=add_memb/>
+ 		<Add mover=init_pos/>
+
+        <Add mover=pack_core/>
+        <Add mover=pack_boundary/>
+        <Add mover=pack_surface/>
+
+
+ 		<Add mover=fast_relax/>
+
+        <Backrub name=bRub />
+
+        <Add mover=pack_core/>
+        <Add mover=pack_boundary/>
+        <Add mover=pack_surface/>
+
+
+        <Add mover=fast_relax/>
+
+
+
+		<Add filter=packstat/>
+ 		<Add filter=score_eval/>
+        <Add filter=uhb/>
+
+	</PROTOCOLS>
+
+	<OUTPUT scorefxn=memb_hires />
+
+</ROSETTASCRIPTS>

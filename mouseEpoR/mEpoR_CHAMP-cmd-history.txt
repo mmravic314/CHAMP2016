@@ -34,3 +34,12 @@
 
 # Add membrane to visualized bbHits, got 53 ... so a lot, most are crap though
 > 
+
+
+
+### took serine zipper backbone, all glycine from paramterization. Aligned to mouse EpoR rosettla aligned_001.pdb; this orieints in membrane.
+## The design on this... hand made resfile 
+
+> python ~/CHAMP/bin/designPrep.py ~/CHAMP/mouseEpoR/serZipper_30bb/ ~/rosetta/
+> python ~/CHAMP/bin/champDesign_rosMemQSUB-epoRmod.py ~/CHAMP/mouseEpoR/serZipper_30bb/serZip_30AA/serZip_30AA.pdb ~/CHAMP/bin/helix_Design-EpoRmod.xml ~/rosetta/
+

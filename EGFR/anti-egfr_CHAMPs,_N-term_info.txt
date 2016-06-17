@@ -1,0 +1,29 @@
+anti-egfr CHAMPs, N-terminal. Prepared by Marco Mravic (marco.mravic@ucsf.edu) & Hailin Hu, DeGrado lab
+
+# Experimental notes:
+ACETYLATED at N-terminus. HPLC purified, mass checked w/ ESI-MS & MALDI-MS, >98% purity by Analytical HPLC. 
+Lyophilized powder, which was dissolved in in H20, isopropanol, ACN, & TFA (0.1%) solution. Trace TFA salt remains. 
+
+# EGFR N1 CHAMP, dissolved in DMSO
+Seq: KKK SLV TAL LMA LLV LLL FLF WWL LKK
+MALDI mass (main peaks): 3272.7 g/mol (peptide + 2 protons) & 3293.7 g/mol (peptide + Na)
+Dry weight: 1.13 mg 
+Volume remaining: 49 uL
+Solvent: DMSO, tissue culture grade
+estimated conc: 22.6 mg/mL
+Absorbance @ 280 nm after 200 fold dilution: 0.173
+Expected extinction at 280 (1/{cm * M}): 11380
+Concentraition of stock: 3.04 mM
+True mg/ml of peptide in stock: 9.95 mg/mL
+
+# EGFR N2 CHAMP, dissolved in DMSO
+Seq: KKK SLV MGL LMA LAI LLL FFL LWK KK
+MALDI mass (main peaks): 3089.7 g/mol (peptide + 3 protons) & 3112.7 g/mol (peptide + Na)
+Dry weight: 1.07 mg 
+Volume remaining: 49 uL
+Solvent: DMSO, tissue culture grade
+estimated conc: 21.4 mg/mL
+Absorbance @ 280 nm after 200 fold dilution: 0.166
+Expected extinction at 280 (1/{cm * M}): 5690
+Concentraition of stock: 5.83 mM
+mg/ml of stock: 18.0 mg/mL

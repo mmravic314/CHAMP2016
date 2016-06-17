@@ -1,0 +1,37 @@
+HBPLUS Hydrogen Bond Calculator v 3.2            Dec 05 11:23:31 PST 2014
+(c) I McDonald, D Naylor, D Jones and J Thornton 1993 All Rights Reserved.
+Citing HBPLUS in publications that use these results is condition of use.
+     <- Brookhaven Code "4kpp-005_009-0163_0182_A-0288_0300_A.pdb" <- PDB file
+<---DONOR---> <-ACCEPTOR-->    atom                        ^               
+c    i                          cat <-CA-CA->   ^        H-A-AA   ^      H- 
+h    n   atom  resd res      DA  || num        DHA   H-A  angle D-A-AA Bond
+n    s   type  num  typ     dist DA aas  dist angle  dist       angle   num
+A0005-LEU N   A0001-PRO O   3.08 MM   4  6.24 148.6  2.19 132.1 140.8     1
+A0006-VAL N   A0002-PHE O   2.92 MM   4  6.24 149.6  2.01 147.0 154.6     2
+A0006-VAL N   A0003-ASP O   3.07 MM   3  5.00 115.7  2.50  94.3 109.4     3
+A0007-PHE N   A0003-ASP O   2.94 MM   4  6.24 168.4  1.95 161.3 161.8     4
+A0008-VAL N   A0004-ALA O   2.89 MM   4  6.00 165.9  1.91 153.1 157.1     5
+A0009-SER N   A0005-LEU O   2.89 MM   4  5.92 150.0  1.98 137.2 146.4     6
+A0009-SER OG  A0005-LEU O   2.61 SM   4  5.92 162.9  1.64 142.6 145.9     7
+A0010-LEU N   A0006-VAL O   2.82 MM   4  6.08 160.0  1.86 159.2 164.0     8
+A0011-TYR N   A0007-PHE O   3.21 MM   4  6.40 158.9  2.26 142.6 147.2     9
+A0012-ALA N   A0008-VAL O   2.88 MM   4  6.00 162.2  1.91 150.4 155.9    10
+A0013-ILE N   A0009-SER O   2.92 MM   4  6.08 168.9  1.93 156.9 158.9    11
+A0014-TYR N   A0010-LEU O   2.91 MM   4  6.00 155.6  1.97 142.4 150.3    12
+A0015-ILE N   A0011-TYR O   2.75 MM   4  6.00 162.6  1.78 156.5 159.8    13
+A0016-TYR N   A0012-ALA O   2.96 MM   4  6.08 165.6  1.99 146.3 150.6    14
+A0017-LEU N   A0013-ILE O   2.94 MM   4  6.08 153.4  2.01 148.8 155.3    15
+A0018-SER N   A0014-TYR O   2.92 MM   4  6.00 129.5  2.18 137.2 151.6    16
+A0018-SER N   A0015-ILE O   2.98 MM   3  4.80 128.7  2.25  95.1 109.9    17
+A0019-THR OG1 A0015-ILE O   3.20 SM   4  6.48 170.0  2.21 142.3 140.8    18
+B0005-THR N   B0001-LEU O   2.81 MM   4  5.92 148.5  1.91 145.9 155.6    19
+B0005-THR OG1 B0001-LEU O   2.69 SM   4  5.92 168.2  1.70 133.3 135.5    20
+B0006-ILE N   B0002-LEU O   3.09 MM   4  6.32 160.6  2.13 156.6 157.4    21
+B0007-ALA N   B0003-ILE O   3.24 MM   4  6.32 160.4  2.29 148.2 153.6    22
+B0008-ILE N   B0004-GLY O   2.83 MM   4  5.92 160.2  1.87 151.8 158.0    23
+B0009-ILE N   B0005-THR O   2.84 MM   4  5.92 172.6  1.84 154.3 156.9    24
+B0010-TYR N   B0006-ILE O   3.02 MM   4  6.00 148.5  2.12 133.0 141.5    25
+B0011-SER N   B0008-ILE O   2.98 MM   3  5.29 131.9  2.21 106.3 118.3    26
+B0012-ILE N   B0008-ILE O   2.98 MM   4  6.24 153.0  2.05 148.3 157.1    27
+B0013-SER N   B0009-ILE O   2.86 MM   4  5.83 176.9  1.86 161.2 160.7    28
+B0013-SER OG  B0009-ILE O   3.03 SM   4  5.83 157.9  2.08 133.3 139.1    29

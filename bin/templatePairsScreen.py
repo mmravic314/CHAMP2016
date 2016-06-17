@@ -74,7 +74,7 @@ for f in sorted( os.listdir( sys.argv[1] ) ):
 	seqB	= ''.join( [ UnNatAA[x.getResname()] for x in inPdb.select( 'chain B' ).copy().iterResidues() ] )
 	seqHash = { 'A':seqA, 'B':seqB }
 	
-	# store sews for the extended chains 
+	# store seqs for the extended chains 
 	extPdb 	= parsePDB( os.path.join( sys.argv[4], f[:-4] + '_ext.pdb' ), subset = 'bb' )
 	seqAext = ''.join( [ UnNatAA[x.getResname()] for x in extPdb.select( 'chain A' ).copy().iterResidues() ] )
 	seqBext	= ''.join( [ UnNatAA[x.getResname()] for x in extPdb.select( 'chain B' ).copy().iterResidues() ] )
@@ -136,7 +136,8 @@ for f in sorted( os.listdir( sys.argv[1] ) ):
 
 			### Section Here: need to be added for trimming the extended helical portions to TM only
 
-			# get membrane-embedded residues by closest to 15, then add 5 to end 
+			# CHAMP CHAIN (X) get membrane-embedded residues by closest to 15, then add 5 to end 
+			## CHANGE THINGS IF ANTI-PARALLEL... Assumes Chain A is type I TM... N terminal is outside (+15) & champ N-term is inside (-15)
 			ca = outPdb.select( 'ca chain X').copy()
 			z_coords 	= ca.getCoords()[:,2] 
 			outRz, inRz = find_nearest( z_coords, 15 ), find_nearest( z_coords, -15 )
@@ -144,17 +145,19 @@ for f in sorted( os.listdir( sys.argv[1] ) ):
 			if np.fabs(np.fabs(outRz) - 15 ) > 2.0 or np.fabs(np.fabs(inRz) - 15 ) > 2.0:
 				continue
 
+			# *** NOTE if anti-parallel, reverse the addition/subtraction of 4 and 5: outR +5  & inR - 4
+			# *** NOTE  here is parallel eg outR -4  & inR + 5
 			outR, inR 	= list(z_coords).index( outRz ) - 4, list(z_coords).index( inRz ) + 5
 
 			# Make sure the entire region is part of the protein chain, otherwise skip template
 			if outR < 1 or inR > len( z_coords ):
 				continue
-			# set these residues to be those in CHAMP-chain (chain A)
-			## *** NOTE SWITCH inR & outR if this is not parallel insertion!!! 
+			# set those to be selected in TM champ helix
 			X_inside = ' '.join( [ str(x) for x in np.arange( outR, inR + 1 ) ] )
 
 
-			# Do same for the X chain, although this should be roughly the same for all pairs
+			# TARGET CHAIN A, assumed to be type I TM inserted. 
+			## ** NOTE: Switch integers added/subtracted to outR, inR if CHAIN A is every type II inserted TM
 			caA 		= outPdb.select( 'ca chain A').copy()
 			z_coords 	= caA.getCoords()[:,2] 
 			outRz, inRz = find_nearest( z_coords, 15 ), find_nearest( z_coords, -15 )
@@ -163,7 +166,6 @@ for f in sorted( os.listdir( sys.argv[1] ) ):
 				continue
 
 			# set these residues to be those in template/integrin-chain (chain X)
-			## *** NOTE SWITCH inR & outR if this is not parallel insertion!!! 
 			A_inside = ' '.join( [ str(x) for x in np.arange( outR, inR + 1 ) ] )
 
 			# Grab residue subset: membrane spanning region and a turn added on each end aka A_inside and X_inside arrays

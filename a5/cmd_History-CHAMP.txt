@@ -72,5 +72,7 @@
 > python ~/CHAMP/bin/champDesign_rosMem.py ~/CHAMP/a5/bb2Design/match_20/match_20.pdb ~/CHAMP/bin/helix_Design.xml ~/rosetta/
 
 ## Plot and analyze these jobs. This script is not final, but used to plot and move thing as user dictates... so this is separate from pipeline
+python ~/CHAMP/bin/analyzeChampDesigns.py ~/CHAMP/a5/bb2Design/match_4/outputs/ > a5_match_4.fasta
 
-
+# re-write pDB to build DUM hetatoms at the rosetta calculated membrane
+> python ~/CHAMP/bin/addMem2Pdb_fromMemRes.py match_1_0505.pdb > match_1_0505_MEM.pdb

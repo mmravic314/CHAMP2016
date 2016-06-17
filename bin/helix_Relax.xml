@@ -4,6 +4,7 @@
          <IncludeCurrent name=current/>
          <LimitAromaChi2 name=arochi />
          <ExtraRotamersGeneric name=ex1_ex2 ex1=1 ex2=1/>
+         <ReadResfile name="resfile"/>
    </TASKOPERATIONS>
 
  	<SCOREFXNS>
@@ -14,13 +15,14 @@
 
  		<AddMembraneMover name=add_memb/>
  		<MembranePositionFromTopologyMover name=init_pos/>
-
- 		<FastRelax name=fast_relax scorefxn=memb_hires repeats=8 task_operations=current,arochi,ex1_ex2/>
+ 		<PackRotamersMover name=buildSC scorefxn=memb_hires task_operations=resfile,arochi,ex1_ex2/>
+ 		<FastRelax name=fast_relax scorefxn=memb_hires repeats=8 task_operations=resfile,current,arochi,ex1_ex2/>
 	</MOVERS>
  
 	<PROTOCOLS>
 		<Add mover=add_memb/>
  		<Add mover=init_pos/>
+ 		<Add mover=buildSC/>
  		<Add mover=fast_relax/>
 
 	</PROTOCOLS>

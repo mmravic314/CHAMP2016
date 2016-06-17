@@ -1,0 +1,32 @@
+HBPLUS Hydrogen Bond Calculator v 3.2            Dec 05 11:23:31 PST 2014
+(c) I McDonald, D Naylor, D Jones and J Thornton 1993 All Rights Reserved.
+Citing HBPLUS in publications that use these results is condition of use.
+     <- Brookhaven Code "3k3f-000_005-0031_0044_A-0194_0207_A.pdb" <- PDB file
+<---DONOR---> <-ACCEPTOR-->    atom                        ^               
+c    i                          cat <-CA-CA->   ^        H-A-AA   ^      H- 
+h    n   atom  resd res      DA  || num        DHA   H-A  angle D-A-AA Bond
+n    s   type  num  typ     dist DA aas  dist angle  dist       angle   num
+A0005-LEU N   A0001-THR O   2.82 MM   4  6.08 166.6  1.84 150.0 154.5     1
+A0006-LEU N   A0002-VAL O   2.89 MM   4  6.08 161.1  1.92 151.8 155.1     2
+A0007-PHE N   A0003-THR O   2.90 MM   4  6.08 149.2  2.00 143.2 152.3     3
+A0003-THR OG1 B0010-ALA O   2.90 SM  -1  4.58 173.8  1.90 139.3 137.4     4
+A0008-PHE N   A0004-GLY O   2.92 MM   4  6.16 169.4  1.93 168.4 165.7     5
+A0009-ALA N   A0005-LEU O   2.92 MM   4  6.24 153.6  1.99 142.6 150.8     6
+A0010-GLY N   A0006-LEU O   2.93 MM   4  6.00 156.4  1.99 137.3 143.1     7
+A0011-ILE N   A0007-PHE O   2.95 MM   4  6.32 164.3  1.98 160.2 162.8     8
+A0012-PHE N   A0008-PHE O   2.83 MM   4  6.00 172.3  1.83 162.8 164.7     9
+A0013-TYR N   A0009-ALA O   2.88 MM   4  5.92 136.8  2.07 140.2 152.3    10
+B0003-THR OG1 A0010-GLY O   2.93 SM  -1  4.36 172.2  1.94 136.0 133.3    11
+A0014-ASN N   A0011-ILE O   2.89 MM   3  5.20 135.4  2.09 105.4 118.0    12
+B0005-VAL N   B0001-ILE O   2.93 MM   4  6.40 140.3  2.09 140.5 151.8    13
+B0005-VAL N   B0002-VAL O   2.96 MM   3  4.90 116.0  2.38  93.6 109.4    14
+B0006-ILE N   B0002-VAL O   2.73 MM   4  6.00 172.5  1.74 165.5 164.2    15
+B0007-PHE N   B0003-THR O   2.78 MM   4  6.00 145.7  1.90 149.7 160.2    16
+B0008-VAL N   B0004-GLY O   3.19 MM   4  6.40 155.0  2.26 141.1 145.9    17
+B0009-VAL N   B0005-VAL O   2.95 MM   4  6.24 168.0  1.97 162.3 165.1    18
+B0010-ALA N   B0006-ILE O   2.80 MM   4  6.00 162.4  1.83 152.5 158.0    19
+B0011-ILE N   B0007-PHE O   3.04 MM   4  6.32 166.7  2.06 151.6 152.7    20
+B0012-LEU N   B0008-VAL O   2.82 MM   4  6.00 173.9  1.82 162.6 164.7    21
+B0013-VAL N   B0009-VAL O   3.05 MM   4  6.40 132.8  2.28 146.4 158.5    22
+B0013-VAL N   B0010-ALA O   3.27 MM   3  5.29 134.9  2.48  95.4 106.4    23
+B0014-ASN N   B0011-ILE O   2.99 MM   3  5.39 123.8  2.31 113.5 125.8    24
