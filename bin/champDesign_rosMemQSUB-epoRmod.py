@@ -21,7 +21,7 @@
 # output: directory called 'designs' to store output files for design trajactories
 
 ## example command line
-# python ~/CHAMP/bin/champDesign_rosMem.py ~/CHAMP/a5/bb2Design/match_1/match_1.pdb ~/CHAMP/bin/helix_Design.xml ~/rosetta/
+# python ~/CHAMP/bin/champDesign_rosMemQSUB-epoRmod.py ~/CHAMP/mouseEpoR/serZipper_30bb/serZip_30AA/serZip_30AA.pdb ~/CHAMP/bin/helix_Design-EpoRmod.xml ~/rosetta/ ../resfile_freeCHAMP 
 
 
 
