@@ -35,6 +35,7 @@ with open( sys.argv[1] ) as fin:
 #		elif i[:3] 	== 'TER':
 #			txt += i
 		elif i[:6]  == 'HETATM':
+			if i.split()[4] != 'Y': continue
 			memDict[ i.split()[2] ] = np.array( [ float( i[30:38] ), float( i[38:46] ), float( i[46:54] ) ] )
 		else:
 			pass
@@ -84,11 +85,11 @@ for k in product( span , repeat = 2 )  :
 	skip_i = 0
 	for c in coords:
 
-		if np.linalg.norm(  c - [ x, y, z_o ]  ) < 3:
+		if np.linalg.norm(  c - [ x, y, z_o ]  ) < 3.5:
 			skip_o = 1
 			break 
 
-		if np.linalg.norm(  c - [ x, y, z_i ]  ) < 3:
+		if np.linalg.norm(  c - [ x, y, z_i ]  ) < 3.5:
 			skip_i = 1
 			break 
  

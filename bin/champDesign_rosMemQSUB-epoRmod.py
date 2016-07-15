@@ -55,7 +55,7 @@ if not os.path.exists( oDir ):
 
 #
 
-n = '1'
+n = '10'
 
 cmd = [  rosiScrps, 
 '-parser:protocol', inXML, 					# Path to Rosetta script (see above)
