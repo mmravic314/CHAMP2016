@@ -76,3 +76,16 @@ python ~/CHAMP/bin/analyzeChampDesigns.py ~/CHAMP/a5/bb2Design/match_4/outputs/ 
 
 # re-write pDB to build DUM hetatoms at the rosetta calculated membrane
 > python ~/CHAMP/bin/addMem2Pdb_fromMemRes.py match_1_0505.pdb > match_1_0505_MEM.pdb
+
+
+.
+.
+.
+.
+.
+
+### Way later, after experimental results were found, calculate the delta G of association, by subtracting the final score minus the score of two helices alone
+
+> python ~/CHAMP/bin/separate_Champ_Energy.py ~/CHAMP/a5/bb2Design/match_1/outputs/  ~/CHAMP/a5/m1_association/m1_separate.pdb  ~/rosetta/ ~/CHAMP/bin/helix_Relax-2Body.xml 
+
+xray@dgl-xray:~/CHAMP/a5/m1_association$ python ~/CHAMP/bin/association_analysis.py  ~/CHAMP/a5/m1_association/ > ../a_scores.txt
