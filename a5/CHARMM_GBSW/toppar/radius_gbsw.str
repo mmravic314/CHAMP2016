@@ -1,0 +1,64 @@
+* PMF guided optimization of input radii for charged residues: test2
+* sidechain-sidechain -> sidechain-backbone -> hsd and hsp 
+*   -> arg and lys revisited (02/01/05, no improvement?)
+* Jianhan Chen, Brooks Group, 01/2005
+* 
+
+! ASP and GLU (no change)
+
+! LYS: NZ(2.13->1.8->1.9->1.8)
+if @?knz eq 0  set knz = 1.8
+scalar wmain set @knz select ( resn LYS .or. resn LYSS ) .and. type NZ end
+scalar wmain set @knz select ( resn BLYS .or. resn BLYSS ) .and. type NZ end
+scalar wmain set @knz select ( resn BORN ) .and. type NZ end
+
+! ARG: N*(2.13->1.7->1.7), CZ(2.8->2.2->2.2->2.6?) 
+if @?rn  eq 0  set rn  = 1.7
+if @?rcz eq 0  set rcz = 2.2 
+scalar wmain set @rn select ( resn ARG .or. resn ARGS ) .and. ( type NH* .or. type NE ) end
+scalar wmain set @rn select ( resn BARG .or. resn BARGS ) .and. ( type NH* .or. type NE ) end
+scalar wmain set @rcz select ( resn ARG .or. resn ARGS ) .and. type CZ end
+scalar wmain set @rcz select ( resn BARG .or. resn BARGS ) .and. type CZ end
+
+! GLN and ASN ( additional changes neccesary from bq2 simulation)
+if @?qoe eq 0  set qoe = 1.6
+if @?qne eq 0  set qne = 2.0
+scalar wmain set @qoe select ( resn GLN .or. resn GLNS ) .and. type OE1 end
+scalar wmain set @qoe select ( resn BGLN .or. resn BGLNS ) .and. type OE1 end
+scalar wmain set @qoe select ( resn ASN .or. resn ASNS ) .and. type OD1 end
+scalar wmain set @qoe select ( resn BASN .or. resn BASNS ) .and. type OD1 end
+scalar wmain set @qne select ( resn GLN .or. resn GLNS ) .and. type NE2 end
+scalar wmain set @qne select ( resn BGLN .or. resn BGLNS ) .and. type NE2 end
+scalar wmain set @qne select ( resn ASN .or. resn ASNS ) .and. type ND2 end
+scalar wmain set @qne select ( resn BASN .or. resn BASNS ) .and. type ND2 end
+
+! HSD and HSP: hnd(1.8->1.9), hpnd/hpne(2.3->1.9)
+if @?hnd eq 0  set hnd = 1.90
+if @?hne eq 0  set hne = 1.80
+if @?hpnd eq 0  set hpnd = 1.90
+if @?hpne eq 0  set hpne = 1.90
+scalar wmain set @hnd select ( resn HSD .or. resn HSDS ) .and. type ND1 end
+scalar wmain set @hnd select ( resn BHSD .or. resn BHSDS ) .and. type ND1 end
+scalar wmain set @hne select ( resn HSD .or. resn HSDS ) .and. type NE2 end
+scalar wmain set @hne select ( resn BHSD .or. resn BHSDS ) .and. type NE2 end
+scalar wmain set @hpnd select ( resn HSP .or. resn HSPS ) .and. type ND1 end
+scalar wmain set @hpnd select ( resn BHSP .or. resn BHSPS ) .and. type ND1 end
+scalar wmain set @hpne select ( resn HSP .or. resn HSPS ) .and. type NE2 end
+scalar wmain set @hpne select ( resn BHSP .or. resn BHSPS ) .and. type NE2 end
+
+! TRP: NE (2.4->1.8), C*(1.78->2.0)
+if @?wne eq 0   set wne = 1.85
+if @?wc  eq 0   set wc  = 2.0
+scalar wmain set @wne select ( resn TRP .or. resn TRPS ) .and. type NE1 end
+scalar wmain set @wne select ( resn BTRP .or. resn BTRPS ) .and. type NE1 end
+scalar wmain set @wc  sele ( ( resnam TRP .or. resn TRPS ) -
+       .and. (type CE* .or. type CD* .or. type CZ* .or. type CH2)) end
+scalar wmain set @wc  sele ( ( resnam BTRP .or. resn BTRPS ) -
+       .and. (type CE* .or. type CD* .or. type CZ* .or. type CH2)) end
+
+! backbone (bb6)
+set bn = 2.03
+scalar wmain set @bn  sele type N  end       !2.23
+scalar wmain set @bn  sele type NT  end      !2.23
+scalar wmain set @bn  sele type NL .or. type NR end  ! alad
+
