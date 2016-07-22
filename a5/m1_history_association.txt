@@ -1,0 +1,1083 @@
+xray@dgl-xray:~/CHAMP/a5/m1_association/match_1_0066$ python ~/CHAMP/bin/separate_Champ_Energy.py ~/CHAMP/a5/bb2Design/match_1/outputs/  ~/CHAMP/a5/m1_association/m1_separate.pdb  ~/rosetta/ ~/CHAMP/bin/helix_Relax-2Body.xml 
+
+Recording Designs
+Unique Designs Detected: 156
+model 0066 duplicate of 0144... skip
+model 0294 duplicate of 0770... skip
+model 0773 duplicate of 0548... skip
+model 0647 duplicate of 0141... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0475/ LLLIVLLLLAAFLGIVLGIAAVLVMKK
+This took 312.063498974 sec 
+
+model 0465 duplicate of 0502... skip
+model 0559 duplicate of 0416... skip
+model 0212 duplicate of 0141... skip
+model 0792 duplicate of 0473... skip
+model 0609 duplicate of 0073... skip
+model 0083 duplicate of 0115... skip
+model 0715 duplicate of 0732... skip
+model 0198 duplicate of 0416... skip
+model 0333 duplicate of 0473... skip
+model 0798 duplicate of 0732... skip
+model 0740 duplicate of 0473... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0225/ LLLIVLLLLAAFLGLVLGIAGVLVWKK
+This took 303.148517132 sec 
+
+model 0598 duplicate of 0416... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0548/ LLMIVLLLLAAFLGIVLGLALVLVLKK
+This took 300.147742987 sec 
+
+model 0086 duplicate of 0416... skip
+model 0027 duplicate of 0770... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0713/ LLMIVLLLLAMFLGIVLGLAGVLVMKK
+This took 332.146402836 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0283/ LLMIVLLLLAAFLGIVLGIAGVLVRKK
+This took 297.32626605 sec 
+
+model 0638 duplicate of 0416... skip
+model 0544 duplicate of 0637... skip
+model 0793 duplicate of 0637... skip
+model 0764 duplicate of 0416... skip
+model 0760 duplicate of 0289... skip
+model 0014 duplicate of 0473... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0637/ LLMIVLLLLAAFLGIVTGLAMVLVLKK
+This took 309.732111931 sec 
+
+model 0471 duplicate of 0779... skip
+model 0034 duplicate of 0175... skip
+model 0130 duplicate of 0289... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0789/ LLMIVLLLLAAFLGIVLGLAGALVMKK
+This took 274.176776886 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0746/ LLMIVLLLLAAFLGIVLGLALVLVMKK
+This took 271.258634806 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0352/ LLMIVLLLLAAFLGIVLGLAGVLVRKK
+This took 333.264836073 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0221/ LLLIVLLLLAAFLGIVLGIAGVLVKKK
+This took 270.040498018 sec 
+
+model 0181 duplicate of 0416... skip
+model 0477 duplicate of 0416... skip
+model 0614 duplicate of 0732... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0489/ LLLIVLLLLAAFLGIVTGIAMVLVLKK
+This took 310.378163099 sec 
+
+model 0334 duplicate of 0289... skip
+model 0009 duplicate of 0141... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0469/ LLMIVLLLLAAFLGMVLGLAGVLVLKK
+This took 290.443452835 sec 
+
+model 0223 duplicate of 0551... skip
+model 0210 duplicate of 0576... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0537/ LLLIVLLLLAAFLGIVLGIAGVLVLKK
+This took 284.13439393 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0073/ LLMIVLLLLAAFLGIVLGIALVLVLKK
+This took 268.259776115 sec 
+
+model 0236 duplicate of 0684... skip
+model 0369 duplicate of 0289... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0783/ LLMIVLLLLAAFLGMVLGLAGVLVMKK
+This took 282.239965916 sec 
+
+model 0196 duplicate of 0473... skip
+model 0563 duplicate of 0289... skip
+model 0254 duplicate of 0416... skip
+model 0286 duplicate of 0144... skip
+model 0673 duplicate of 0288... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0129/ LLLIVLLLLAAFLGMVLGLAMVLVLKK
+This took 332.172276974 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0135/ LLMIVLLLLAAFLGLVLGLAWVLVMKK
+This took 342.548780918 sec 
+
+model 0491 duplicate of 0185... skip
+model 0590 duplicate of 0551... skip
+model 0152 duplicate of 0289... skip
+model 0011 duplicate of 0551... skip
+model 0025 duplicate of 0732... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0243/ LLMIVLLLLAMFLGIVLGLAGVLVNKK
+This took 333.683156967 sec 
+
+model 0478 duplicate of 0473... skip
+model 0246 duplicate of 0115... skip
+model 0454 duplicate of 0637... skip
+model 0705 duplicate of 0496... skip
+model 0470 duplicate of 0551... skip
+model 0549 duplicate of 0185... skip
+model 0345 duplicate of 0141... skip
+model 0772 duplicate of 0416... skip
+model 0046 duplicate of 0674... skip
+model 0366 duplicate of 0473... skip
+model 0282 duplicate of 0473... skip
+model 0488 duplicate of 0289... skip
+model 0554 duplicate of 0115... skip
+model 0253 duplicate of 0416... skip
+model 0532 duplicate of 0473... skip
+model 0423 duplicate of 0436... skip
+model 0427 duplicate of 0148... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0247/ LLLIVLLLLAAFLGIVLGLAWVLVGKK
+This took 327.771453142 sec 
+
+model 0671 duplicate of 0104... skip
+model 0412 duplicate of 0289... skip
+model 0708 duplicate of 0551... skip
+model 0013 duplicate of 0289... skip
+model 0165 duplicate of 0770... skip
+model 0186 duplicate of 0770... skip
+model 0608 duplicate of 0473... skip
+model 0260 duplicate of 0144... skip
+model 0332 duplicate of 0361... skip
+model 0445 duplicate of 0065... skip
+model 0170 duplicate of 0330... skip
+model 0251 duplicate of 0548... skip
+model 0261 duplicate of 0400... skip
+model 0699 duplicate of 0416... skip
+model 0483 duplicate of 0287... skip
+model 0277 duplicate of 0400... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0237/ LLMIVLLLLAAFLGLVLGLALVLVAKK
+This took 277.145347118 sec 
+
+model 0296 duplicate of 0138... skip
+model 0380 duplicate of 0416... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0452/ LLMIVLLLLAAFLGIVLGIAAVLVKKK
+This took 281.962732077 sec 
+
+model 0259 duplicate of 0416... skip
+model 0149 duplicate of 0473... skip
+model 0336 duplicate of 0271... skip
+model 0084 duplicate of 0551... skip
+model 0341 duplicate of 0374... skip
+model 0116 duplicate of 0400... skip
+model 0055 duplicate of 0625... skip
+model 0479 duplicate of 0746... skip
+model 0588 duplicate of 0287... skip
+model 0095 duplicate of 0551... skip
+model 0100 duplicate of 0289... skip
+model 0037 duplicate of 0473... skip
+model 0126 duplicate of 0289... skip
+model 0711 duplicate of 0271... skip
+model 0327 duplicate of 0687... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0050/ LLLIVLLLLAAFLGIVLGLALVLVWKK
+This took 294.531325102 sec 
+
+model 0349 duplicate of 0416... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0068/ LLMIVLLLLAAFLGIVTGLALVLVWKK
+This took 299.397601128 sec 
+
+model 0456 duplicate of 0144... skip
+model 0565 duplicate of 0141... skip
+model 0533 duplicate of 0173... skip
+model 0593 duplicate of 0416... skip
+model 0209 duplicate of 0392... skip
+model 0238 duplicate of 0112... skip
+model 0151 duplicate of 0473... skip
+model 0232 duplicate of 0416... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0008/ LLMIVLLLLAAFLGIVLGLAGMLVMKK
+This took 297.718132019 sec 
+
+model 0605 duplicate of 0289... skip
+model 0270 duplicate of 0144... skip
+model 0794 duplicate of 0287... skip
+model 0724 duplicate of 0289... skip
+model 0680 duplicate of 0175... skip
+model 0222 duplicate of 0548... skip
+model 0517 duplicate of 0361... skip
+model 0518 duplicate of 0144... skip
+model 0098 duplicate of 0458... skip
+model 0744 duplicate of 0473... skip
+model 0646 duplicate of 0112... skip
+model 0795 duplicate of 0141... skip
+model 0573 duplicate of 0144... skip
+model 0191 duplicate of 0473... skip
+model 0188 duplicate of 0551... skip
+model 0063 duplicate of 0469... skip
+model 0163 duplicate of 0732... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0096/ LLMIVLLLLAAFLGLVLGLAWVLVWKK
+This took 344.545071125 sec 
+
+model 0127 duplicate of 0625... skip
+model 0354 duplicate of 0416... skip
+model 0645 duplicate of 0205... skip
+model 0644 duplicate of 0289... skip
+model 0676 duplicate of 0560... skip
+model 0731 duplicate of 0289... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0694/ LLLIVLLLLAAFLGIVLGIAMVLVLKK
+This took 295.832143068 sec 
+
+model 0432 duplicate of 0551... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0010/ LLLIVLLLLAAFLGMVLGLAWVLVLKK
+This took 379.233485937 sec 
+
+model 0397 duplicate of 0288... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0119/ LLLIVLLLLAAFLGLVLGLAGVLVMKK
+This took 305.367795944 sec 
+
+model 0109 duplicate of 0104... skip
+model 0775 duplicate of 0732... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0654/ LLLIVLLLLAAFLGIVLGIAGVLVNKK
+This took 276.222565174 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0289/ LLMIVLLLLAAFLGIVLGLAMVLVLKK
+This took 295.291270971 sec 
+
+model 0043 duplicate of 0732... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0564/ LLMIVLLLLAAFLGLVTGLAMVLVLKK
+This took 329.23367691 sec 
+
+model 0677 duplicate of 0420... skip
+model 0137 duplicate of 0115... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0173/ LLMIVLLLLAAFLGIVTGLAMVLVWKK
+This took 325.732125998 sec 
+
+model 0070 duplicate of 0416... skip
+model 0157 duplicate of 0115... skip
+model 0351 duplicate of 0674... skip
+model 0774 duplicate of 0473... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0534/ LLLIVLLLLAAFLGLVIGLALVLVLKK
+This took 278.678193092 sec 
+
+model 0623 duplicate of 0416... skip
+model 0016 duplicate of 0473... skip
+model 0122 duplicate of 0799... skip
+model 0320 duplicate of 0283... skip
+model 0417 duplicate of 0473... skip
+model 0076 duplicate of 0289... skip
+model 0250 duplicate of 0684... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0503/ LLMIVLLLLAAFLGIVLGLAGVLVVKK
+This took 265.747663975 sec 
+
+model 0451 duplicate of 0779... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0473/ LLMIVLLLLAAFLGLVLGLAMVLVLKK
+This took 319.454875231 sec 
+
+model 0080 duplicate of 0416... skip
+model 0346 duplicate of 0473... skip
+model 0275 duplicate of 0065... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0148/ LLLIVLLLLAAFLGIVLGLALTLVGKK
+This took 301.750408888 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0026/ LLMIVLLLLAAFLGLVLGLAGVLVNKK
+This took 275.392479897 sec 
+
+model 0545 duplicate of 0416... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0023/ LLMIVLLLLAAFLGIVLGLAMVLVNKK
+This took 310.821837902 sec 
+
+model 0108 duplicate of 0473... skip
+model 0619 duplicate of 0473... skip
+model 0107 duplicate of 0637... skip
+model 0728 duplicate of 0271... skip
+model 0401 duplicate of 0551... skip
+model 0525 duplicate of 0551... skip
+model 0663 duplicate of 0458... skip
+model 0561 duplicate of 0416... skip
+model 0696 duplicate of 0416... skip
+model 0411 duplicate of 0576... skip
+model 0424 duplicate of 0144... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0300/ LLMIVLLLLAAFLGMVLGIAMVLVLKK
+This took 332.595887899 sec 
+
+model 0695 duplicate of 0144... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0668/ LLLIVLLLLAAFLGIVTGLALVLVLKK
+This took 290.22507596 sec 
+
+model 0685 duplicate of 0551... skip
+model 0226 duplicate of 0144... skip
+model 0523 duplicate of 0551... skip
+model 0156 duplicate of 0271... skip
+model 0600 duplicate of 0416... skip
+model 0535 duplicate of 0289... skip
+model 0102 duplicate of 0576... skip
+model 0720 duplicate of 0551... skip
+model 0428 duplicate of 0473... skip
+model 0276 duplicate of 0392... skip
+model 0429 duplicate of 0702... skip
+model 0018 duplicate of 0505... skip
+model 0029 duplicate of 0674... skip
+model 0342 duplicate of 0789... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0562/ LLMIVLLLLAAFLGIVTGLAAVLVMKK
+This took 304.068686008 sec 
+
+model 0373 duplicate of 0551... skip
+model 0408 duplicate of 0473... skip
+model 0666 duplicate of 0289... skip
+model 0662 duplicate of 0576... skip
+model 0768 duplicate of 0415... skip
+model 0087 duplicate of 0548... skip
+model 0791 duplicate of 0473... skip
+model 0362 duplicate of 0732... skip
+model 0002 duplicate of 0361... skip
+model 0106 duplicate of 0271... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0059/ LLMIVLLLLAAFLGIVLGLAMVLVMKK
+This took 303.490844011 sec 
+
+model 0252 duplicate of 0144... skip
+model 0626 duplicate of 0473... skip
+model 0285 duplicate of 0112... skip
+model 0512 duplicate of 0141... skip
+model 0438 duplicate of 0416... skip
+model 0387 duplicate of 0289... skip
+model 0776 duplicate of 0416... skip
+model 0555 duplicate of 0473... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0702/ LLMIVLLLLAAFLGIVLGLAAVLVWKK
+This took 301.112835884 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0616/ LLMIVLLLLAAFLGIVLGIAAVLVNKK
+This took 302.748631954 sec 
+
+model 0303 duplicate of 0289... skip
+model 0747 duplicate of 0473... skip
+model 0124 duplicate of 0473... skip
+model 0474 duplicate of 0562... skip
+model 0726 duplicate of 0374... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0112/ LLMIVLLLLAAFLGIVLGIAGVLVMKK
+This took 301.586802959 sec 
+
+model 0133 duplicate of 0576... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0298/ LLLIVLLLLAAFLGIVLGLAGVLVVKK
+This took 273.305536985 sec 
+
+model 0081 duplicate of 0732... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0468/ LLLIVLLLLAAFLGMVLGLAAVLVKKK
+This took 338.099868059 sec 
+
+model 0153 duplicate of 0144... skip
+model 0581 duplicate of 0144... skip
+model 0398 duplicate of 0144... skip
+model 0797 duplicate of 0625... skip
+model 0111 duplicate of 0289... skip
+model 0656 duplicate of 0416... skip
+model 0736 duplicate of 0112... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0528/ LLMIVLLLLAAFLGLVLGLAGVLVWKK
+This took 286.497514009 sec 
+
+model 0506 duplicate of 0392... skip
+model 0425 duplicate of 0416... skip
+model 0267 duplicate of 0416... skip
+model 0574 duplicate of 0287... skip
+model 0051 duplicate of 0289... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0065/ LLMIVLLLLAAFLGIVLGLAGILVMKK
+This took 285.984100819 sec 
+
+model 0661 duplicate of 0681... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0592/ LLLIVLLLLAAFLGMVLGLAGVLVLKK
+This took 292.398233891 sec 
+
+model 0031 duplicate of 0473... skip
+model 0580 duplicate of 0473... skip
+model 0368 duplicate of 0473... skip
+model 0265 duplicate of 0416... skip
+model 0571 duplicate of 0110... skip
+model 0722 duplicate of 0257... skip
+model 0134 duplicate of 0144... skip
+model 0085 duplicate of 0452... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0319/ LLMIVLLLLAAFLGIVLGLAMMLVLKK
+This took 324.01353097 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0272/ LLMIVLLLLAAFLGMVLGIAGILVLKK
+This took 303.707812071 sec 
+
+model 0748 duplicate of 0144... skip
+model 0769 duplicate of 0271... skip
+model 0088 duplicate of 0732... skip
+model 0407 duplicate of 0400... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0235/ LLLIVLLLLAAFLGIVLGLALVLVKKK
+This took 280.282478094 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0625/ LLMIVLLLLAAFLGLVLGLAGVLVLKK
+This took 288.356911182 sec 
+
+model 0583 duplicate of 0361... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0538/ LLMIVLLLLAAFLGMVLGLAMVLVLKK
+This took 325.084052086 sec 
+
+model 0497 duplicate of 0416... skip
+model 0406 duplicate of 0625... skip
+model 0390 duplicate of 0416... skip
+model 0703 duplicate of 0161... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0161/ LLMIVLLLLAAFLGIVLGLALVLVSKK
+This took 279.169670105 sec 
+
+model 0317 duplicate of 0289... skip
+model 0365 duplicate of 0436... skip
+model 0053 duplicate of 0625... skip
+model 0180 duplicate of 0144... skip
+model 0114 duplicate of 0770... skip
+model 0755 duplicate of 0144... skip
+model 0480 duplicate of 0144... skip
+model 0447 duplicate of 0416... skip
+model 0123 duplicate of 0352... skip
+model 0030 duplicate of 0473... skip
+model 0097 duplicate of 0289... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0233/ LLMIVLLLLAAFLGIVLGIAGVLVVKK
+This took 280.052696943 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0140/ LLMIVLLLLAAFLGIVLGLAAVLVNKK
+This took 267.571846962 sec 
+
+model 0384 duplicate of 0551... skip
+model 0200 duplicate of 0289... skip
+model 0693 duplicate of 0637... skip
+model 0192 duplicate of 0374... skip
+model 0618 duplicate of 0141... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0190/ LLMIVLLLLAAFLGIVLGLAGGLVNKK
+This took 291.650420189 sec 
+
+model 0692 duplicate of 0473... skip
+model 0093 duplicate of 0052... skip
+model 0683 duplicate of 0473... skip
+model 0004 duplicate of 0475... skip
+model 0444 duplicate of 0289... skip
+model 0128 duplicate of 0637... skip
+model 0536 duplicate of 0310... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0436/ LLLIVLLLLAAFLGIVLGLALVLVGKK
+This took 292.507879019 sec 
+
+model 0241 duplicate of 0473... skip
+model 0201 duplicate of 0205... skip
+model 0716 duplicate of 0144... skip
+model 0507 duplicate of 0770... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0464/ LLMIVLLLLAAFLGLVLGLAAVLVLKK
+This took 290.09519887 sec 
+
+model 0003 duplicate of 0420... skip
+model 0529 duplicate of 0770... skip
+model 0651 duplicate of 0400... skip
+model 0524 duplicate of 0416... skip
+model 0078 duplicate of 0144... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0144/ LLMIVLLLLAAFLGIVLGLAGVLVMKK
+This took 259.081221104 sec 
+
+model 0160 duplicate of 0141... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0496/ LLLIVLLLLAAFLGMVLGLAGVLVWKK
+This took 326.188855886 sec 
+
+model 0771 duplicate of 0637... skip
+model 0440 duplicate of 0115... skip
+model 0343 duplicate of 0182... skip
+model 0516 duplicate of 0141... skip
+model 0094 duplicate of 0770... skip
+model 0167 duplicate of 0473... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0067/ LLLIVLLLLAAFLGIVLGLALVLVLKK
+This took 283.698591948 sec 
+
+model 0513 duplicate of 0400... skip
+model 0462 duplicate of 0538... skip
+model 0328 duplicate of 0637... skip
+model 0297 duplicate of 0597... skip
+model 0701 duplicate of 0135... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0629/ LLMIVLLLLAAFLGIVLGLALVLVRKK
+This took 311.70481801 sec 
+
+model 0652 duplicate of 0473... skip
+model 0509 duplicate of 0257... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0138/ LLLIVLLLLAAFLGIVLGLAWVLVWKK
+This took 328.340888023 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0568/ LLMIVLLLLAAFLGLVTGLAAVLVLKK
+This took 304.574362993 sec 
+
+model 0159 duplicate of 0289... skip
+model 0434 duplicate of 0144... skip
+model 0281 duplicate of 0141... skip
+model 0041 duplicate of 0551... skip
+model 0665 duplicate of 0473... skip
+model 0262 duplicate of 0416... skip
+model 0015 duplicate of 0548... skip
+model 0069 duplicate of 0115... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0710/ LLMIVLLLLAAFLGIVLGLAGLLVNKK
+This took 304.762878895 sec 
+
+model 0675 duplicate of 0289... skip
+model 0266 duplicate of 0289... skip
+model 0118 duplicate of 0674... skip
+model 0208 duplicate of 0289... skip
+model 0582 duplicate of 0388... skip
+model 0339 duplicate of 0473... skip
+model 0168 duplicate of 0352... skip
+model 0446 duplicate of 0074... skip
+model 0370 duplicate of 0458... skip
+model 0584 duplicate of 0548... skip
+model 0500 duplicate of 0473... skip
+model 0367 duplicate of 0416... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0505/ LLMIVLLLLAAFLGLVLGLALVLVWKK
+This took 291.773593903 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0739/ LLLIVLLLLAAFLGMVLGIAGILVLKK
+This took 288.181262016 sec 
+
+model 0121 duplicate of 0416... skip
+model 0136 duplicate of 0287... skip
+model 0494 duplicate of 0637... skip
+model 0615 duplicate of 0694... skip
+model 0780 duplicate of 0115... skip
+model 0022 duplicate of 0637... skip
+model 0542 duplicate of 0416... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0019/ LLMIVLLLLAAFLGIVLGIAAVLVLKK
+This took 284.780886889 sec 
+
+model 0038 duplicate of 0115... skip
+model 0450 duplicate of 0770... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0754/ LLMIVLLLLAAFLGIVLGIAMVLVWKK
+This took 319.434072971 sec 
+
+model 0777 duplicate of 0770... skip
+model 0364 duplicate of 0576... skip
+model 0498 duplicate of 0416... skip
+model 0125 duplicate of 0059... skip
+model 0717 duplicate of 0144... skip
+model 0482 duplicate of 0473... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0687/ LLMIVLLLLAAFLGIVLGLAALLVNKK
+This took 304.828830957 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0273/ LLLIVLLLLAAFLGIVLGLAWTLVWKK
+This took 402.140460014 sec 
+
+model 0335 duplicate of 0576... skip
+model 0184 duplicate of 0473... skip
+model 0519 duplicate of 0141... skip
+model 0117 duplicate of 0473... skip
+model 0566 duplicate of 0473... skip
+model 0239 duplicate of 0473... skip
+model 0540 duplicate of 0287... skip
+model 0195 duplicate of 0237... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0752/ LLMIVLLLLAAFLGIVLGLAGALVLKK
+This took 260.563091993 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0577/ LLLIVLLLLAAFLGIVLGLAGWLVNKK
+This took 320.088590145 sec 
+
+model 0197 duplicate of 0400... skip
+model 0091 duplicate of 0473... skip
+model 0712 duplicate of 0352... skip
+model 0174 duplicate of 0473... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0416/ LLMIVLLLLAAFLGIVLGLAGVLVLKK
+This took 279.890196085 sec 
+
+model 0431 duplicate of 0392... skip
+model 0064 duplicate of 0141... skip
+model 0729 duplicate of 0473... skip
+model 0311 duplicate of 0576... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0072/ LLMIVLLLLAAFLGIVTGLAAVLVKKK
+This took 302.402626038 sec 
+
+model 0601 duplicate of 0473... skip
+model 0621 duplicate of 0289... skip
+model 0698 duplicate of 0289... skip
+model 0249 duplicate of 0144... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0779/ LLMIVLLLLAAFLGIVLGLAMVLVWKK
+This took 342.54500699 sec 
+
+model 0461 duplicate of 0289... skip
+model 0230 duplicate of 0473... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0199/ LLMIVLLLLAAFLGLVLGLAMVLVRKK
+This took 314.413961887 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0721/ LLMIVLLLLAAFLGIVLGIAAVLVRKK
+This took 300.857285023 sec 
+
+model 0404 duplicate of 0283... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0310/ LLMIVLLLLAAFLGIVLGLAGTLVMKK
+This took 315.810751915 sec 
+
+model 0326 duplicate of 0400... skip
+model 0520 duplicate of 0732... skip
+model 0484 duplicate of 0416... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0799/ LLMIVLLLLAAFLGIVLGLAWVLVKKK
+This took 349.816074133 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0244/ LLMIVLLLLAAFLGMVLGIAGVLVWKK
+This took 325.560407162 sec 
+
+model 0132 duplicate of 0287... skip
+model 0178 duplicate of 0289... skip
+model 0750 duplicate of 0416... skip
+model 0765 duplicate of 0289... skip
+model 0521 duplicate of 0144... skip
+model 0543 duplicate of 0473... skip
+model 0331 duplicate of 0388... skip
+model 0633 duplicate of 0416... skip
+model 0530 duplicate of 0289... skip
+model 0437 duplicate of 0551... skip
+model 0515 duplicate of 0289... skip
+model 0725 duplicate of 0141... skip
+model 0467 duplicate of 0502... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0527/ LLLIVLLLLAAFLGIVTGLAMVLVLKK
+This took 315.639454842 sec 
+
+model 0007 duplicate of 0732... skip
+model 0742 duplicate of 0528... skip
+model 0356 duplicate of 0289... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0340/ LLMIVLLLLAAFLGIVTGLAAVLVLKK
+This took 276.746632814 sec 
+
+model 0578 duplicate of 0288... skip
+model 0245 duplicate of 0469... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0508/ LLMIVLLLLAAFLGIVLGLAMVLVKKK
+This took 312.383687019 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0700/ LLMIVLLLLAAFLGIVLGIAGMLVEKK
+This took 309.093381882 sec 
+
+model 0550 duplicate of 0473... skip
+model 0575 duplicate of 0637... skip
+model 0169 duplicate of 0548... skip
+model 0301 duplicate of 0135... skip
+model 0443 duplicate of 0287... skip
+model 0358 duplicate of 0416... skip
+model 0487 duplicate of 0674... skip
+model 0318 duplicate of 0144... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0278/ LLMIVLLLLAAFLGIVLGLAGVLVEKK
+This took 297.685288906 sec 
+
+model 0463 duplicate of 0416... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0759/ LLMIVLLLLAIFLGIVLGLAGVLVWKK
+This took 284.598414898 sec 
+
+model 0460 duplicate of 0551... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0657/ LLMIVLLLLAAFLGMVLGLAGVLVWKK
+This took 319.060240984 sec 
+
+model 0672 duplicate of 0112... skip
+model 0664 duplicate of 0681... skip
+model 0492 duplicate of 0732... skip
+model 0219 duplicate of 0637... skip
+model 0422 duplicate of 0104... skip
+model 0229 duplicate of 0141... skip
+model 0763 duplicate of 0289... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0420/ LLMIVLLLLAAFLGIVLGLALVLVGKK
+This took 270.804529905 sec 
+
+model 0348 duplicate of 0473... skip
+model 0697 duplicate of 0144... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0603/ LLMIVLLLLAMFLGIVLGLAGVLVKKK
+This took 336.731248856 sec 
+
+model 0430 duplicate of 0289... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0688/ LLMIVLLLLAAFLGIVLGLAMLLVWKK
+This took 337.276340008 sec 
+
+model 0788 duplicate of 0144... skip
+model 0357 duplicate of 0144... skip
+model 0062 duplicate of 0436... skip
+model 0627 duplicate of 0560... skip
+model 0547 duplicate of 0416... skip
+model 0379 duplicate of 0548... skip
+model 0409 duplicate of 0289... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0205/ LLMIVLLLLAAFLGIVLGIAGVLVWKK
+This took 289.98558712 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0770/ LLMIVLLLLAAFLGLVLGLALVLVLKK
+This took 294.065282106 sec 
+
+model 0382 duplicate of 0637... skip
+model 0689 duplicate of 0551... skip
+model 0347 duplicate of 0637... skip
+model 0375 duplicate of 0395... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0400/ LLLIVLLLLAAFLGIVLGLAGVLVLKK
+This took 275.462915182 sec 
+
+model 0315 duplicate of 0770... skip
+model 0709 duplicate of 0718... skip
+model 0146 duplicate of 0283... skip
+model 0378 duplicate of 0548... skip
+model 0610 duplicate of 0289... skip
+model 0504 duplicate of 0458... skip
+model 0299 duplicate of 0144... skip
+model 0039 duplicate of 0687... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0316/ LLLIVLLLLAAFLGIVLGLAAVLVMKK
+This took 300.882044077 sec 
+
+model 0061 duplicate of 0416... skip
+model 0290 duplicate of 0770... skip
+model 0024 duplicate of 0271... skip
+model 0552 duplicate of 0783... skip
+model 0060 duplicate of 0144... skip
+model 0269 duplicate of 0473... skip
+model 0723 duplicate of 0674... skip
+model 0591 duplicate of 0416... skip
+model 0785 duplicate of 0141... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0502/ LLLIVLLLLAAFLGIVLGLAWVLVLKK
+This took 325.094740152 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0735/ LLLIVLLLLAAFLGIVLGLAAVLVNKK
+This took 289.298197985 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0435/ LLWIVLLLLAAFLGLVLGLALVLVGKK
+This took 300.343472004 sec 
+
+model 0359 duplicate of 0257... skip
+model 0632 duplicate of 0420... skip
+model 0640 duplicate of 0271... skip
+model 0421 duplicate of 0637... skip
+model 0589 duplicate of 0770... skip
+model 0312 duplicate of 0458... skip
+model 0394 duplicate of 0416... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0796/ LLLIVLLLLAAFLGIVLGLAMVLVRKK
+This took 303.406754017 sec 
+
+model 0733 duplicate of 0770... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0104/ LLMIVLLLLAAFLGIVLGIAMVLVLKK
+This took 301.898617983 sec 
+
+model 0295 duplicate of 0288... skip
+model 0743 duplicate of 0637... skip
+model 0214 duplicate of 0067... skip
+model 0636 duplicate of 0473... skip
+model 0485 duplicate of 0283... skip
+model 0103 duplicate of 0144... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0288/ LLMIVLLLLAAFLGIVLGIAGVLVLKK
+This took 274.320689917 sec 
+
+model 0308 duplicate of 0732... skip
+model 0142 duplicate of 0597... skip
+model 0035 duplicate of 0576... skip
+model 0641 duplicate of 0289... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0074/ LLMIVLLLLAAFLGIVTGIAMVLVLKK
+This took 308.872884035 sec 
+
+model 0433 duplicate of 0074... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0182/ LLMIVLLLLAAFLGIVLGLALVLVAKK
+This took 264.814944029 sec 
+
+model 0302 duplicate of 0361... skip
+model 0624 duplicate of 0732... skip
+model 0048 duplicate of 0548... skip
+model 0643 duplicate of 0637... skip
+model 0075 duplicate of 0473... skip
+model 0101 duplicate of 0144... skip
+model 0045 duplicate of 0625... skip
+model 0790 duplicate of 0473... skip
+model 0202 duplicate of 0779... skip
+model 0493 duplicate of 0205... skip
+model 0659 duplicate of 0283... skip
+model 0164 duplicate of 0141... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0110/ LLMIVLLLLAAFLGIVLGLAWVLVNKK
+This took 322.274523973 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0737/ LLMIVLLLLAAFLGLVLGLAGVLVEKK
+This took 292.413172007 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0684/ LLMIVLLLLAAFLGLVLGLAGVLVMKK
+This took 268.090265989 sec 
+
+model 0211 duplicate of 0469... skip
+model 0586 duplicate of 0473... skip
+model 0782 duplicate of 0115... skip
+model 0355 duplicate of 0473... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0576/ LLLIVLLLLAAFLGLVLGLAMVLVLKK
+This took 305.056103945 sec 
+
+model 0158 duplicate of 0416... skip
+model 0622 duplicate of 0144... skip
+model 0476 duplicate of 0289... skip
+model 0499 duplicate of 0464... skip
+model 0113 duplicate of 0486... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0414/ LLMIVLLLLAAFLGLVLGLAWVLVNKK
+This took 377.097491026 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0321/ LLLIVLLLLAAFLGLVIGLAGILVTKK
+This took 303.228492022 sec 
+
+model 0090 duplicate of 0395... skip
+model 0403 duplicate of 0452... skip
+model 0410 duplicate of 0374... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0374/ LLMIVLLLLAAFLGIVLGLAAVLVMKK
+This took 296.644183159 sec 
+
+model 0628 duplicate of 0732... skip
+model 0553 duplicate of 0289... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0486/ LLLIVLLLLAAFLGLVLGLAWVLVLKK
+This took 326.671631098 sec 
+
+model 0240 duplicate of 0416... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0234/ LLMIVLLLLAAFLGLVLGLAWVLVGKK
+This took 336.753551006 sec 
+
+model 0217 duplicate of 0144... skip
+model 0231 duplicate of 0361... skip
+model 0602 duplicate of 0271... skip
+model 0047 duplicate of 0388... skip
+model 0730 duplicate of 0732... skip
+model 0787 duplicate of 0770... skip
+model 0704 duplicate of 0271... skip
+model 0558 duplicate of 0112... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0033/ LLLIVLLLLAAFLGIVLGLAGILVNKK
+This took 294.652491093 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0141/ LLMIVLLLLAAFLGIVLGIAGVLVKKK
+This took 290.38636899 sec 
+
+model 0686 duplicate of 0551... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0395/ LLMIVLLLLAAFLGIVTGIAAVLVMKK
+This took 313.392050982 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0560/ LLMIVLLLLAAFLGMVLGIAGVLVMKK
+This took 297.627882957 sec 
+
+model 0071 duplicate of 0112... skip
+model 0329 duplicate of 0576... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0594/ LLLIVLLLLAAFLGIVLGLAGVLVNKK
+This took 281.606283903 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0028/ LLMIVLLLLAAFLGIVIGIAGVLVNKK
+This took 281.30388093 sec 
+
+model 0036 duplicate of 0289... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0526/ LLMIVLLLLAMFLGIVLGLAGILVLKK
+This took 312.943392992 sec 
+
+model 0381 duplicate of 0473... skip
+model 0256 duplicate of 0289... skip
+model 0745 duplicate of 0144... skip
+model 0596 duplicate of 0287... skip
+model 0648 duplicate of 0473... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0361/ LLMIVLLLLAAFLGIVLGLAWVLVLKK
+This took 334.913658142 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0707/ LLLIVLLLLAAFLGIVLGIAGVLVMKK
+This took 263.698137999 sec 
+
+model 0323 duplicate of 0473... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0372/ LLLIVLLLLAAFLGLVLGLALVLVLKK
+This took 282.053541183 sec 
+
+model 0255 duplicate of 0473... skip
+model 0393 duplicate of 0416... skip
+model 0786 duplicate of 0288... skip
+model 0284 duplicate of 0141... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0154/ LLLIVLLLLAAFLGIVLGLAMVLVKKK
+This took 302.093743086 sec 
+
+model 0220 duplicate of 0400... skip
+model 0630 duplicate of 0779... skip
+model 0313 duplicate of 0416... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0377/ LLMIVLLLLAAFLGMVTGLAMVLVLKK
+This took 343.510930061 sec 
+
+model 0441 duplicate of 0144... skip
+model 0242 duplicate of 0361... skip
+model 0176 duplicate of 0420... skip
+model 0363 duplicate of 0551... skip
+model 0396 duplicate of 0458... skip
+model 0741 duplicate of 0505... skip
+model 0667 duplicate of 0473... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0597/ LLLIVLLLLAAFLGIVLGLAGVLVKKK
+This took 289.463256121 sec 
+
+model 0579 duplicate of 0473... skip
+model 0459 duplicate of 0141... skip
+model 0784 duplicate of 0452... skip
+model 0049 duplicate of 0141... skip
+model 0679 duplicate of 0288... skip
+model 0510 duplicate of 0625... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0185/ LLLIVLLLLAAFLGLVLGLALVLVAKK
+This took 273.843277931 sec 
+
+model 0426 duplicate of 0144... skip
+model 0079 duplicate of 0289... skip
+model 0215 duplicate of 0112... skip
+model 0670 duplicate of 0473... skip
+model 0490 duplicate of 0505... skip
+model 0453 duplicate of 0289... skip
+model 0099 duplicate of 0283... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0674/ LLMIVLLLLAAFLGLVLGLAMVLVWKK
+This took 298.908172846 sec 
+
+model 0639 duplicate of 0289... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0388/ LLLIVLLLLAAFLGIVLGLAGVLVWKK
+This took 302.761471033 sec 
+
+model 0120 duplicate of 0289... skip
+model 0021 duplicate of 0289... skip
+model 0511 duplicate of 0141... skip
+model 0762 duplicate of 0637... skip
+model 0227 duplicate of 0625... skip
+model 0455 duplicate of 0576... skip
+model 0305 duplicate of 0473... skip
+model 0418 duplicate of 0473... skip
+model 0105 duplicate of 0144... skip
+model 0439 duplicate of 0770... skip
+model 0442 duplicate of 0637... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0551/ LLMIVLLLLAAFLGIVLGLAGVLVWKK
+This took 298.407578945 sec 
+
+model 0325 duplicate of 0732... skip
+model 0005 duplicate of 0548... skip
+model 0089 duplicate of 0416... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0257/ LLLIVLLLLAAFLGIVLGLAMVLVWKK
+This took 318.208037853 sec 
+
+model 0391 duplicate of 0115... skip
+model 0734 duplicate of 0289... skip
+model 0727 duplicate of 0416... skip
+model 0613 duplicate of 0289... skip
+model 0753 duplicate of 0551... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0216/ LLMIVLLLLAAFLGIVTGIAAVLVKKK
+This took 313.563132048 sec 
+
+model 0587 duplicate of 0416... skip
+model 0376 duplicate of 0779... skip
+model 0207 duplicate of 0548... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0599/ LLMIVLLLLAAFLGIVTGIAAVLVNKK
+This took 307.313989162 sec 
+
+model 0309 duplicate of 0452... skip
+model 0413 duplicate of 0732... skip
+model 0383 duplicate of 0568... skip
+model 0020 duplicate of 0473... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0115/ LLMIVLLLLAAFLGIVLGLAGVLVNKK
+This took 288.163100958 sec 
+
+model 0690 duplicate of 0637... skip
+model 0749 duplicate of 0352... skip
+model 0193 duplicate of 0416... skip
+model 0224 duplicate of 0271... skip
+model 0082 duplicate of 0473... skip
+model 0611 duplicate of 0289... skip
+model 0389 duplicate of 0416... skip
+model 0585 duplicate of 0289... skip
+model 0350 duplicate of 0289... skip
+model 0268 duplicate of 0548... skip
+model 0572 duplicate of 0400... skip
+model 0092 duplicate of 0732... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0052/ LLLIVLLLLAAFLGLVLGLALVLVMKK
+This took 301.194412231 sec 
+
+model 0322 duplicate of 0625... skip
+model 0213 duplicate of 0449... skip
+model 0338 duplicate of 0141... skip
+model 0177 duplicate of 0770... skip
+model 0353 duplicate of 0144... skip
+model 0360 duplicate of 0416... skip
+model 0306 duplicate of 0416... skip
+model 0131 duplicate of 0473... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0175/ LLMIVLLLLAAFLGIVLGIAGILVLKK
+This took 267.198956966 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0139/ LLMIVLLLLAAFLGMVTGIAMVLVLKK
+This took 346.149456024 sec 
+
+model 0650 duplicate of 0458... skip
+model 0187 duplicate of 0597... skip
+model 0042 duplicate of 0473... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0287/ LLMIVLLLLAAFLGLVLGLAWVLVLKK
+This took 345.186571121 sec 
+
+model 0767 duplicate of 0287... skip
+model 0280 duplicate of 0770... skip
+model 0719 duplicate of 0783... skip
+model 0058 duplicate of 0416... skip
+model 0501 duplicate of 0271... skip
+model 0634 duplicate of 0473... skip
+model 0040 duplicate of 0718... skip
+model 0077 duplicate of 0770... skip
+model 0570 duplicate of 0288... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0264/ LLMIVLLLLAAFLGIVTGLALVLVLKK
+This took 291.1653862 sec 
+
+model 0399 duplicate of 0287... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0569/ LLLIVLLLLAAFLGMVLGLAGALVWKK
+This took 319.65512681 sec 
+
+model 0642 duplicate of 0416... skip
+model 0258 duplicate of 0141... skip
+model 0635 duplicate of 0473... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0330/ LLMIVLLLLAAFLGIVLGLAWVLVMKK
+This took 325.941226006 sec 
+
+model 0001 duplicate of 0388... skip
+model 0595 duplicate of 0289... skip
+model 0194 duplicate of 0637... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0392/ LLMIVLLLLAAFLGIVLGLAAVLVKKK
+This took 306.918946028 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0293/ LLLIVLLLLAAFLGIVLGLAGMLVLKK
+This took 289.941719055 sec 
+
+model 0481 duplicate of 0464... skip
+model 0655 duplicate of 0416... skip
+model 0556 duplicate of 0684... skip
+model 0660 duplicate of 0104... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0458/ LLMIVLLLLAAFLGIVLGLALVLVWKK
+This took 301.559685946 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0271/ LLLIVLLLLAAFLGIVLGLAMVLVLKK
+This took 302.980967045 sec 
+
+model 0495 duplicate of 0288... skip
+model 0658 duplicate of 0289... skip
+model 0183 duplicate of 0416... skip
+model 0032 duplicate of 0783... skip
+model 0738 duplicate of 0067... skip
+model 0758 duplicate of 0289... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0718/ LLMIVLLLLAAFLGIVLGIAGVLVNKK
+This took 281.267183065 sec 
+
+model 0466 duplicate of 0473... skip
+model 0706 duplicate of 0271... skip
+model 0756 duplicate of 0289... skip
+model 0012 duplicate of 0770... skip
+model 0017 duplicate of 0372... skip
+model 0669 duplicate of 0144... skip
+model 0344 duplicate of 0473... skip
+model 0150 duplicate of 0576... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0405/ LLLIVLLLLAAFLGMVLGLAGVLVMKK
+This took 297.82351017 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0337/ LLMIVLLLLAAFLGIVLGIALVLVMKK
+This took 283.752117872 sec 
+
+model 0419 duplicate of 0141... skip
+model 0145 duplicate of 0144... skip
+model 0604 duplicate of 0576... skip
+model 0054 duplicate of 0779... skip
+model 0385 duplicate of 0473... skip
+model 0448 duplicate of 0271... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0681/ LLMIVLLLLAAFLGLVLGLAMVLVMKK
+This took 306.912566185 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0415/ LLMIVLLLLAAFLGIVLGLAWVLVWKK
+This took 355.325365067 sec 
+
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0766/ LLLIVLLLLAAFLGIVLGIAGVLVRKK
+This took 302.472832918 sec 
+
+model 0179 duplicate of 0436... skip
+model 0324 duplicate of 0416... skip
+model 0292 duplicate of 0289... skip
+model 0147 duplicate of 0473... skip
+model 0678 duplicate of 0473... skip
+model 0155 duplicate of 0551... skip
+model 0314 duplicate of 0096... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0732/ LLMIVLLLLAAFLGIVLGLAGVLVKKK
+This took 294.472429037 sec 
+
+model 0557 duplicate of 0115... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0449/ LLLIVLLLLAAFLGLVLGLALVLVWKK
+This took 300.705163002 sec 
+
+model 0617 duplicate of 0416... skip
+model 0218 duplicate of 0141... skip
+model 0162 duplicate of 0458... skip
+entering... /home/xray/CHAMP/a5/m1_association/match_1_0044/ LLMIVLLLLAAFLGIVLGLAGTLVWKK
+This took 341.049149036 sec 
+
+model 0606 duplicate of 0732... skip
+model 0522 duplicate of 0144... skip
+model 0539 duplicate of 0144... skip
+model 0204 duplicate of 0271... skip
+model 0546 duplicate of 0416... skip
+model 0143 duplicate of 0416... skip
+model 0304 duplicate of 0551... skip
+model 0172 duplicate of 0551... skip
+model 0371 duplicate of 0548... skip
+model 0206 duplicate of 0637... skip
+model 0531 duplicate of 0289... skip
+model 0263 duplicate of 0289... skip
+model 0620 duplicate of 0289... skip
+model 0386 duplicate of 0732... skip

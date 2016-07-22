@@ -16,7 +16,7 @@
  		<AddMembraneMover name=add_memb/>
  		<MembranePositionFromTopologyMover name=init_pos/>
  		<PackRotamersMover name=buildSC scorefxn=memb_hires task_operations=resfile,arochi,ex1_ex2/>
- 		<FastRelax name=fast_relax scorefxn=memb_hires repeats=8 task_operations=resfile,current,arochi,ex1_ex2/>
+ 		<FastRelax name=fast_relax scorefxn=memb_hires repeats=16 task_operations=resfile,current,arochi,ex1_ex2/>
 	</MOVERS>
  
 	<PROTOCOLS>

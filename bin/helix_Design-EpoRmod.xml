@@ -50,7 +50,7 @@
 
     <PackStat name=packstat threshold=0.4 confidence=1/>
  	<BuriedUnsatHbonds name=uhb scorefxn=memb_hires confidence=0 jump_number=0 cutoff=6/>
- 	<ScoreType name=score_eval scorefxn=memb_hires threshold=-210/>
+ 	<ScoreType name=score_eval scorefxn=memb_hires threshold=-100/>
 
  </FILTERS>
 
