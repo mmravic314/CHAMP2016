@@ -37,6 +37,11 @@ for m in os.listdir( sys.argv[1] ):
 	mPath = os.path.join( sys.argv[1], m )
 
 	label 	= os.path.splitext( m )[0].split('_')[-1]
+	
+	## mod to accomodate weird filename differences from cluster design versus local design
+	label 	= os.path.splitext( m )[0].split('out')[-1].split('_')[0]
+	##
+
 
 	champ 	= parsePDB( mPath, chain='X' )
 	cSeq 	= ''.join(  [ UnNatAA[ x.getResname() ] for x in champ.select('ca').iterAtoms() ] )
@@ -62,7 +67,7 @@ for m in os.listdir( sys.argv[1] ):
 	packstats.append( packstat )
 
 	# only read out subset 
-	#if packstat < 0.50 or score > -210: continue
+	if packstat < 0.60 or score > -220: continue
 
 	print '>', label, score, packstat
 	print cSeq, '\n'
