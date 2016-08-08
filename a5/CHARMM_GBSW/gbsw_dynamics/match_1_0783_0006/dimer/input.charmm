@@ -1,0 +1,106 @@
+
+if @?toppar eq 0   set toppar = ../../../toppar
+
+!read top/par
+read  rtf card name @toppar/top_all22_prot_cmap.inp
+read para card name @toppar/par_all22_prot_gbsw.inp
+
+!read sequence and generate five chains
+open read card unit 10 name ../proa/match_1_0783_0006_proa.pdb 
+read sequence pdb unit 10
+generate PROA setup warn 
+
+open read card unit 10 name ../proa/match_1_0783_0006_proa.pdb
+read coor pdb  unit 10 resid
+
+open read card unit 10 name ../prox/match_1_0783_0006_prox.pdb 
+read sequence pdb unit 10
+generate PROX setup warn 
+
+open read card unit 10 name ../prox/match_1_0783_0006_prox.pdb
+read coor pdb  unit 10 resid
+
+!check coordinates and build missing atoms (mostly hydrogens)
+coor stat
+
+ic param
+ic build
+hbuild
+
+!check again: now all atoms should be have coordinates
+coor stat
+
+!now let's orient the channel along z axis (default membrane normal)
+!coor orient
+!coor rotate ydir  1.0 phi 90.0
+
+
+!align the bottom of the CHAMP at membrane interface
+!coor trans zdir -?zmin
+!coor trans zdir -17.0
+
+!setup nonbond option for GBSW
+NBOND atom switch cdie vdw vswitch -
+      ctonnb 16.0 ctofnb 16.0 cutnb 20.0
+
+!read GBSW optimal radii
+prnlev 0
+stream @toppar/radii_prot_na.str
+stream @toppar/radius_gbsw.str
+prnlev 5 node 0
+define check select (.not type H* ) .and. ( property wmain .eq. 0.0 ) show end
+if ?nsel ne 0  stop       !some heavy atom have a zero radius
+
+!setup GBSW
+gbsw sgamma 0.005 nang 50 dgp 1.5 tmemb 30.0 msw 2.5 GBenergy
+
+energy
+
+set fbeta = 5.0
+set temp  = 300.0
+
+cons harm force 0.1 select .not. hydrogen end
+
+
+!minimization & equilibration
+mini   sd nstep 50 nprint 5 step 0.005 inbfrq -1
+mini abnr nstep 50 nprint 5 step 0.005 inbfrq -1
+
+SHAKE BONH PARAm TOL 1.0e-6
+scalar fbeta set @fbeta
+scalar fbeta set 0.0    select type H* end
+
+open write unit 12 card name gbswmemb1_eq.rst
+
+DYNAMICS LANGEVIN -
+         start         nstep    1000  timestp 0.002  -
+         nprint  1000  iprfrq   5000  isvfrq   5000  ntrfrq    500 -
+         inbfrq    -1  imgfrq     -1  ihbfrq      0  ilbfrq      0 -
+         firstt @temp  finalt  @temp  iseed 47858436 -
+         tbath  @temp  rbuf      0.0  -
+         iunread   -1  iunwrite   12  iuncrd     -1  iunvelo    -1 -
+         nsavcrd  250  nsavvelo    0  -
+         iasvel     1
+
+cons harm clear
+
+
+!production
+open read  unit 11 card name gbswmemb1_eq.rst
+open write unit 12 card name gbswmemb1_01.rst
+open write unit 13 file name gbswmemb1_01.dcd
+
+DYNAMICS LANGEVIN -
+         restart       nstep   500000  timestp 0.002  -
+         nprint   50   iprfrq   50000  isvfrq 100000  ntrfrq    50000 -
+         inbfrq    -1  imgfrq     -1  ihbfrq      0  ilbfrq      0 -
+         firstt @temp  finalt  @temp  -
+         tbath  @temp  rbuf      0.0  -
+         iunread   11  iunwrite   12  iuncrd     13  iunvelo    -1 -
+         nsavcrd 2500  nsavvelo    0  -
+         iasvel     1
+
+open write unit 20 card name gbswmemb1_01.pdb
+write coor unit 20 pdb
+
+stop
