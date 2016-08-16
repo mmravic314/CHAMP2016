@@ -1,0 +1,77 @@
+1
+                 Chemistry at HARvard Macromolecular Mechanics
+           (CHARMM) - Developmental Version 38b1     August 15, 2013            
+       Copyright(c) 1984-2001  President and Fellows of Harvard College
+                              All Rights Reserved
+     Current operating system: Linux-2.6.32-642.3.1.el6.x86_64(x86_64)@iq21     
+                 Created on  7/22/16 at 17:05:21 by user: mmravic     
+
+            Maximum number of ATOMS:     25140, and RESidues:        8380
+ RDTITL>  
+ RDTITL> No title read.
+
+      ***** LEVEL  1 WARNING FROM <RDTITL> *****
+      ***** Title expected.
+      ******************************************
+      BOMLEV (  0) IS NOT REACHED. WRNLEV IS  5
+
+  
+ CHARMM>     
+  
+ CHARMM>    if @?toppar eq 0   set toppar = ../../../toppar
+ Comparing "0" and "0".
+ IF test evaluated as true.  Performing command
+ Parameter: TOPPAR <- "../../../TOPPAR"
+  
+ CHARMM>     
+  
+ CHARMM>    !read top/par
+ CHARMM>    read  rtf card name @toppar/top_all22_prot_cmap.inp
+ Parameter: TOPPAR -> "../../../TOPPAR"
+ VOPEN> Attempting to open::../../../toppar/top_all22_prot_cmap.inp::
+
+      ***** LEVEL  0 WARNING FROM <MAINIO> *****
+      ***** "READ...NAME...: OPEN" not possible.
+      ******************************************
+      BOMLEV (  0) IS REACHED - TERMINATING. WRNLEV IS  5
+
+
+                                                  
+                            /---------\           
+                           /           \          
+                          /             \         
+                         /               \        
+                         !  XXXX   XXXX  !        
+                         !  XXXX   XXXX  !        
+                         !  XXX     XXX  !        
+                         !       X       !        
+                          --\   XXX   /--         
+                           ! !  XXX  ! !          
+                           ! !       ! !          
+                           ! I I I I I !          
+                           !  I I I I  !          
+                            \         /           
+                             --     --            
+                               \---/              
+                        XXX             XXX       
+                       XXXX             XXXX      
+                       XXXXX           XXXXX      
+                          XXX         XXX         
+                            XXX     XXX           
+                               XXXXX              
+                              XXX XXX             
+                            XXX     XXX           
+                          XXX         XXX         
+                       XXXXX           XXXXX      
+                       XXXX             XXXX      
+                        XXX             XXX       
+                                                  
+                                                  
+ Execution terminated due to the detection of a fatal error.
+
+                    ABNORMAL TERMINATION
+                    MOST SEVERE WARNING WAS AT LEVEL  0
+
+                    $$$$$ JOB ACCOUNTING INFORMATION $$$$$
+                     ELAPSED TIME:     0.01  SECONDS 
+                         CPU TIME:     0.01  SECONDS 

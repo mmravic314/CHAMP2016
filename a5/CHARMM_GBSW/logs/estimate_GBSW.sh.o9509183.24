@@ -1,0 +1,9 @@
+/Users/mmravic/CHAMP/a5/m1_association/match_1_0104/t_outputs/match_1_0104_0005.pdb 24 !!!!!
+mkdir: cannot create directory `gbsw_dynamics/match_1_0104_0005/': File exists
+mkdir: cannot create directory `gbsw_dynamics/match_1_0104_0005//proa': File exists
+mkdir: cannot create directory `gbsw_dynamics/match_1_0104_0005//prox': File exists
+mkdir: cannot create directory `gbsw_dynamics/match_1_0104_0005//dimer': File exists
+cp: cannot stat `/Users/mmravic/CHAMP/a5/m1_association/match_1_0104/t_outputs/match_1_0104_0005.pdb': No such file or directory
+cannot open file /Users/mmravic/CHAMP/a5/m1_association/match_1_0104/t_outputs/match_1_0104_0005.pdb at /netapp/home/mmravic/bin//GenUtil.pm line 159.
+empty molecule, nothing to write at /netapp/home/mmravic/bin//Molecule.pm line 867.
+empty molecule, nothing to write at /netapp/home/mmravic/bin//Molecule.pm line 867.
