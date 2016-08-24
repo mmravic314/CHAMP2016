@@ -2,7 +2,7 @@ REST    38     1
 
        2 !NTITLE followed by title
 * NONE *                                                                        
-*  DATE:     8/10/16     10:22:21      CREATED BY USER: mmravic                 
+*  DATE:     8/20/16      4:53:37      CREATED BY USER: mmravic                 
 
  !NATOM,NPRIV,NSTEP,NSAVC,NSAVV,JHSTRT,NDEGF,SEED,NSAVL
          986        1000        1000         250           0           0        2422 0.100000000000000D+01           0                     1                     4            1308094058            2090941571             538835058             723261995
