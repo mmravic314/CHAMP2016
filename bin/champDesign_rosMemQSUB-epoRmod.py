@@ -7,7 +7,7 @@
 #$ -l h_rt=00:05:00
 #$ -cwd
 #$ -j y
-#$ -o /netapp/home/mmravic/CHAMP/EGFR/bbDesign_CTERMrnd2/logfiles 
+#$ -o /netapp/home/mmravic/CHAMP/mouseEpoR/serZipper_30bb/serZip_30AA/logfiles 
 #$ -t 1-10000
 
 

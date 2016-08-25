@@ -5,17 +5,17 @@
 #$ -cwd                            #-- tell the job that it should start in your working directory
 #$ -r y                            #-- tell the system that if a job crashes, it should be restarted
 #$ -j y                            #-- tell the system that the STDERR and STDOUT should be joined
-#$ -l mem_free=1G                  #-- submits on nodes with enough free memory (required)
+#$ -l mem_free=4G                  #-- submits on nodes with enough free memory (required)
 #$ -l arch=linux-x64               #-- SGE resources (CPU type)
-#$ -l netapp=1G,scratch=1G         #-- SGE resources (home and scratch disks)
-#$ -l h_rt=6:00:00                #-- runtime limit (see above; this requests 24 hours)
-##$ -t 1-163                        #-- remove first '#' to specify the number of
+#$ -l netapp=4G,scratch=4G         #-- SGE resources (home and scratch disks)
+#$ -l h_rt=18:00:00                #-- runtime limit (see above; this requests 24 hours)
+#$ -t 1-163                        #-- remove first '#' to specify the number of
                                    #-- tasks if desired (see Tips section)
 
 #module load charmm
 #export LC_CTYPE=en_US.UTF-8
 #export LC_ALL=en_US.UTF-8
-
+### ./estimate_GBSW.sh ../model_list.txt 
 inx=1
 
 #taskID=3
@@ -43,18 +43,18 @@ for id in $ids; do
     mkdir ${outdir}/proa
     mkdir ${outdir}/prox
     mkdir ${outdir}/dimer
-
-    perl convpdb.pl -segnames  $id > ${outdir}$seg
+    cp $id $outdir
+    perl /netapp/home/mmravic/CHAMP/bin/convpdb.pl -segnames  $id > ${outdir}$seg
     sed -i 's/HSE/HSD/' ${outdir}$seg
-    perl convpdb.pl -readseg  -chain A ${outdir}$seg > ${outdir}/proa/$outa
-    perl convpdb.pl -readseg  -chain X ${outdir}$seg > ${outdir}/prox/$outx
+    perl /netapp/home/mmravic/CHAMP/bin/convpdb.pl -readseg  -chain A ${outdir}$seg > ${outdir}/proa/$outa
+    perl /netapp/home/mmravic/CHAMP/bin/convpdb.pl -readseg  -chain X ${outdir}$seg > ${outdir}/prox/$outx
     cd $outdir/dimer
 
-    cp ../../../input.charmm .
+    cp /netapp/home/mmravic/CHAMP/a5/CHARMM_GBSW/input.charmm .
     sed -i "s|XXA|\.\./proa/$outa|" input.charmm
     sed -i "s|XXX|\.\./prox/$outx|" input.charmm
 
-#    charmm < input.charmm > out.log
+    charmm < input.charmm > out.log
     cd $CWD
     break
     fi

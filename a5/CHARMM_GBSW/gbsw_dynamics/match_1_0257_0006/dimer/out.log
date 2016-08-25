@@ -1,0 +1,1922 @@
+1
+                 Chemistry at HARvard Macromolecular Mechanics
+           (CHARMM) - Developmental Version 38b1     August 15, 2013            
+       Copyright(c) 1984-2001  President and Fellows of Harvard College
+                              All Rights Reserved
+     Current operating system: Linux-2.6.32-642.3.1.el6.x86_64(x86_64)@io11     
+                 Created on  8/17/16 at 11:41:54 by user: mmravic     
+
+            Maximum number of ATOMS:     25140, and RESidues:        8380
+ RDTITL>  
+ RDTITL> No title read.
+
+      ***** LEVEL  1 WARNING FROM <RDTITL> *****
+      ***** Title expected.
+      ******************************************
+      BOMLEV (  0) IS NOT REACHED. WRNLEV IS  5
+
+  
+ CHARMM>     
+  
+ CHARMM>    if @?toppar eq 0   set toppar = ../../../toppar
+ Comparing "0" and "0".
+ IF test evaluated as true.  Performing command
+ Parameter: TOPPAR <- "../../../TOPPAR"
+  
+ CHARMM>     
+  
+ CHARMM>    !read top/par
+ CHARMM>    read  rtf card name @toppar/top_all22_prot_cmap.inp
+ Parameter: TOPPAR -> "../../../TOPPAR"
+ VOPEN> Attempting to open::../../../toppar/top_all22_prot_cmap.inp::
+ MAINIO> Residue topology file being read from unit  90.
+ TITLE> *>>>>>>>>CHARMM22 ALL-HYDROGEN TOPOLOGY FILE FOR PROTEINS <<<<<<
+ TITLE> *>>>>> INCLUDES PHI, PSI CROSS TERM MAP (CMAP) CORRECTION <<<<<<<
+ TITLE> *>>>>>>>>>>>>>>>>>>>>>> DECEMBER, 2003 <<<<<<<<<<<<<<<<<<<<<<<<<<
+ TITLE> * ALL COMMENTS TO ADM JR. VIA THE CHARMM WEB SITE: WWW.CHARMM.ORG
+ TITLE> *               PARAMETER SET DISCUSSION FORUM
+ TITLE> *
+ VCLOSE: Closing unit   90 with status "KEEP"
+  
+ CHARMM>    read para card name @toppar/par_all22_prot_gbsw.inp
+ Parameter: TOPPAR -> "../../../TOPPAR"
+ VOPEN> Attempting to open::../../../toppar/par_all22_prot_gbsw.inp::
+
+          PARAMETER FILE BEING READ FROM UNIT 90
+ TITLE> *>>>>> CHARMM22 ALL-HYDROGEN PARAMETER FILE FOR PROTEINS <<<<<<<<
+ TITLE> *>>>>> INCLUDES PHI, PSI CROSS TERM MAP (CMAP) CORRECTION <<<<<<<
+ TITLE> *>>>>>>>>>>>>>>>>>>>>>> DECEMBER, 2003 <<<<<<<<<<<<<<<<<<<<<<<<<<
+ TITLE> * ALL COMMENTS TO ADM JR. VIA THE CHARMM WEB SITE: WWW.CHARMM.ORG
+ TITLE> *               PARAMETER SET DISCUSSION FORUM
+ TITLE> *
+ PARMIO> NONBOND, HBOND lists and IMAGE atoms cleared.
+ VCLOSE: Closing unit   90 with status "KEEP"
+  
+ CHARMM>     
+  
+ CHARMM>    !read sequence and generate five chains
+ CHARMM>    open read card unit 10 name ../proa/match_1_0257_0006_proa.pdb
+ VOPEN> Attempting to open::../proa/match_1_0257_0006_proa.pdb::
+ OPNLGU> Unit 10 opened for READONLY access to ../proa/match_1_0257_0006_proa.pdb
+  
+ CHARMM>    read sequence pdb unit 10
+ MAINIO> Sequence information being read from unit  10.
+ TITLE>  *
+
+          RESIDUE SEQUENCE --    31 RESIDUES
+          GLU GLY SER TYR GLY VAL PRO LEU TRP ILE ILE ILE LEU ALA ILE LEU PHE GLY LEU LEU 
+          LEU LEU GLY LEU LEU ILE TYR ILE LEU TYR LYS 
+ ***** Message from SEQRDR ***** THE SYSTEM CONTAINS  5 TITRATABLE GROUPS
+ THE USER MUST PREDETERMINE THE PROTONATION STATE THROUGH THE SEQUENCE AND RTF
+ HIS -  0  ASP -  0  GLU -  1  LYS -  1  TYR -  3
+  
+ CHARMM>    generate PROA setup warn
+ THE PATCH 'NTER' WILL BE USED FOR THE FIRST RESIDUE
+ THE PATCH 'CTER' WILL BE USED FOR THE LAST  RESIDUE
+ ** WARNING ** BOND NOT FOUND FOR RESIDUE   1 GLU   .
+ ATOMS "N     " "HN    " WERE REQUESTED.
+ ** WARNING ** IMPROPER NOT FOUND FOR RESIDUE   1 GLU   .
+ ATOMS "N     " "-C    " "CA    " "HN    " WERE REQUESTED.
+ ** WARNING ** CROSSTERM NOT FOUND FOR RESIDUE   1 GLU   .
+ ATOMS "-C    " "N     " "CA    " "C     "
+ ATOMS "N     " "CA    " "C     " "+N    " WERE REQUESTED.
+ ** WARNING ** DONOR NOT FOUND FOR RESIDUE   1 GLU   .
+ ATOMS "HN    " "N     " WERE REQUESTED.
+ ** WARNING ** BOND NOT FOUND FOR RESIDUE  31 LYS   .
+ ATOMS "C     " "+N    " WERE REQUESTED.
+ ** WARNING ** BOND NOT FOUND FOR RESIDUE  31 LYS   .
+ ATOMS "O     " "C     " WERE REQUESTED.
+ ** WARNING ** IMPROPER NOT FOUND FOR RESIDUE  31 LYS   .
+ ATOMS "C     " "CA    " "+N    " "O     " WERE REQUESTED.
+ ** WARNING ** CROSSTERM NOT FOUND FOR RESIDUE  31 LYS   .
+ ATOMS "-C    " "N     " "CA    " "C     "
+ ATOMS "N     " "CA    " "C     " "+N    " WERE REQUESTED.
+ ** WARNING ** ACCEPTOR NOT FOUND FOR RESIDUE  31 LYS   .
+ ATOMS "O     " "C     " WERE REQUESTED.
+ GENPSF> Segment   1 has been generated. Its identifier is PROA.
+ PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
+ PSFSUM> Summary of the structure file counters :
+         Number of segments      =        1   Number of residues   =       31
+         Number of atoms         =      530   Number of groups     =      173
+         Number of bonds         =      536   Number of angles     =      985
+         Number of dihedrals     =     1438   Number of impropers  =       62
+         Number of cross-terms   =       29
+         Number of HB acceptors  =       38   Number of HB donors  =       40
+         Number of NB exclusions =        0   Total charge =    0.00000
+  
+ CHARMM>     
+  
+ CHARMM>    open read card unit 10 name ../proa/match_1_0257_0006_proa.pdb
+ OPNLGU> Unit already open. The old file will be closed first.
+ VCLOSE: Closing unit   10 with status "KEEP"
+ VOPEN> Attempting to open::../proa/match_1_0257_0006_proa.pdb::
+ OPNLGU> Unit 10 opened for READONLY access to ../proa/match_1_0257_0006_proa.pdb
+  
+ CHARMM>    read coor pdb  unit 10 resid
+  read CHARMM-pdb format
+          SPATIAL COORDINATES BEING READ FROM UNIT 10
+ TITLE>  *
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=   10 IRES=    1 RESID=1    RES=GLU  ATOM=1H  
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=   11 IRES=    1 RESID=1    RES=GLU  ATOM=2H  
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=   12 IRES=    1 RESID=1    RES=GLU  ATOM=3H  
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=   14 IRES=    1 RESID=1    RES=GLU  ATOM=1HB 
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=   15 IRES=    1 RESID=1    RES=GLU  ATOM=2HB 
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=   16 IRES=    1 RESID=1    RES=GLU  ATOM=1HG 
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=   17 IRES=    1 RESID=1    RES=GLU  ATOM=2HG 
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=   22 IRES=    2 RESID=2    RES=GLY  ATOM=H   
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=   23 IRES=    2 RESID=2    RES=GLY  ATOM=1HA 
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=   24 IRES=    2 RESID=2    RES=GLY  ATOM=2HA 
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=   31 IRES=    3 RESID=3    RES=SER  ATOM=H   
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=   33 IRES=    3 RESID=3    RES=SER  ATOM=1HB 
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=   34 IRES=    3 RESID=3    RES=SER  ATOM=2HB 
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=   35 IRES=    3 RESID=3    RES=SER  ATOM=HG  
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=   48 IRES=    4 RESID=4    RES=TYR  ATOM=H   
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=   50 IRES=    4 RESID=4    RES=TYR  ATOM=1HB 
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=   51 IRES=    4 RESID=4    RES=TYR  ATOM=2HB 
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=   61 IRES=    5 RESID=5    RES=GLY  ATOM=H   
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=   62 IRES=    5 RESID=5    RES=GLY  ATOM=1HA 
+ ** WARNING ** After reading, there are no coordinates for selected atom:     2     1 GLU  HT1 
+ ** WARNING ** After reading, there are no coordinates for selected atom:     3     1 GLU  HT2 
+ ** WARNING ** After reading, there are no coordinates for selected atom:     4     1 GLU  HT3 
+ ** WARNING ** After reading, there are no coordinates for selected atom:     8     1 GLU  HB1 
+ ** WARNING ** After reading, there are no coordinates for selected atom:     9     1 GLU  HB2 
+ ** WARNING ** After reading, there are no coordinates for selected atom:    11     1 GLU  HG1 
+ ** WARNING ** After reading, there are no coordinates for selected atom:    12     1 GLU  HG2 
+ ** WARNING ** After reading, there are no coordinates for selected atom:    19     2 GLY  HN  
+ ** WARNING ** After reading, there are no coordinates for selected atom:    21     2 GLY  HA1 
+ ** WARNING ** After reading, there are no coordinates for selected atom:    22     2 GLY  HA2 
+
+ ** A total of   211 selected atoms have no coordinates
+
+ ** A total of  211 warnings were encountered during coordinate reading **
+ *** LEVEL  2 WARNING *** BOMLEV IS    0
+  
+ CHARMM>     
+  
+ CHARMM>    open read card unit 10 name ../prox/match_1_0257_0006_prox.pdb
+ OPNLGU> Unit already open. The old file will be closed first.
+ VCLOSE: Closing unit   10 with status "KEEP"
+ VOPEN> Attempting to open::../prox/match_1_0257_0006_prox.pdb::
+ OPNLGU> Unit 10 opened for READONLY access to ../prox/match_1_0257_0006_prox.pdb
+  
+ CHARMM>    read sequence pdb unit 10
+ MAINIO> Sequence information being read from unit  10.
+ TITLE>  *
+
+          RESIDUE SEQUENCE --    27 RESIDUES
+          LEU LEU LEU ILE VAL LEU LEU LEU LEU ALA ALA PHE LEU GLY ILE VAL LEU GLY LEU ALA 
+          MET VAL LEU VAL TRP LYS LYS 
+ ***** Message from SEQRDR ***** THE SYSTEM CONTAINS  2 TITRATABLE GROUPS
+ THE USER MUST PREDETERMINE THE PROTONATION STATE THROUGH THE SEQUENCE AND RTF
+ HIS -  0  ASP -  0  GLU -  0  LYS -  2  TYR -  0
+  
+ CHARMM>    generate PROX setup warn
+ THE PATCH 'NTER' WILL BE USED FOR THE FIRST RESIDUE
+ THE PATCH 'CTER' WILL BE USED FOR THE LAST  RESIDUE
+ ** WARNING ** BOND NOT FOUND FOR RESIDUE  32 LEU   .
+ ATOMS "N     " "HN    " WERE REQUESTED.
+ ** WARNING ** IMPROPER NOT FOUND FOR RESIDUE  32 LEU   .
+ ATOMS "N     " "-C    " "CA    " "HN    " WERE REQUESTED.
+ ** WARNING ** CROSSTERM NOT FOUND FOR RESIDUE  32 LEU   .
+ ATOMS "-C    " "N     " "CA    " "C     "
+ ATOMS "N     " "CA    " "C     " "+N    " WERE REQUESTED.
+ ** WARNING ** DONOR NOT FOUND FOR RESIDUE  32 LEU   .
+ ATOMS "HN    " "N     " WERE REQUESTED.
+ ** WARNING ** BOND NOT FOUND FOR RESIDUE  58 LYS   .
+ ATOMS "C     " "+N    " WERE REQUESTED.
+ ** WARNING ** BOND NOT FOUND FOR RESIDUE  58 LYS   .
+ ATOMS "O     " "C     " WERE REQUESTED.
+ ** WARNING ** IMPROPER NOT FOUND FOR RESIDUE  58 LYS   .
+ ATOMS "C     " "CA    " "+N    " "O     " WERE REQUESTED.
+ ** WARNING ** CROSSTERM NOT FOUND FOR RESIDUE  58 LYS   .
+ ATOMS "-C    " "N     " "CA    " "C     "
+ ATOMS "N     " "CA    " "C     " "+N    " WERE REQUESTED.
+ ** WARNING ** ACCEPTOR NOT FOUND FOR RESIDUE  58 LYS   .
+ ATOMS "O     " "C     " WERE REQUESTED.
+ GENPSF> Segment   2 has been generated. Its identifier is PROX.
+ PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
+ PSFSUM> Summary of the structure file counters :
+         Number of segments      =        2   Number of residues   =       58
+         Number of atoms         =      993   Number of groups     =      317
+         Number of bonds         =     1001   Number of angles     =     1850
+         Number of dihedrals     =     2680   Number of impropers  =      115
+         Number of cross-terms   =       54
+         Number of HB acceptors  =       66   Number of HB donors  =       76
+         Number of NB exclusions =        0   Total charge =    2.00000
+  
+ CHARMM>     
+  
+ CHARMM>    open read card unit 10 name ../prox/match_1_0257_0006_prox.pdb
+ OPNLGU> Unit already open. The old file will be closed first.
+ VCLOSE: Closing unit   10 with status "KEEP"
+ VOPEN> Attempting to open::../prox/match_1_0257_0006_prox.pdb::
+ OPNLGU> Unit 10 opened for READONLY access to ../prox/match_1_0257_0006_prox.pdb
+  
+ CHARMM>    read coor pdb  unit 10 resid
+  read CHARMM-pdb format
+          SPATIAL COORDINATES BEING READ FROM UNIT 10
+ TITLE>  *
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=  540 IRES=   32 RESID=32   RES=LEU  ATOM=1H  
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=  541 IRES=   32 RESID=32   RES=LEU  ATOM=2H  
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=  542 IRES=   32 RESID=32   RES=LEU  ATOM=3H  
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=  544 IRES=   32 RESID=32   RES=LEU  ATOM=1HB 
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=  545 IRES=   32 RESID=32   RES=LEU  ATOM=2HB 
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=  547 IRES=   32 RESID=32   RES=LEU  ATOM=1HD1
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=  548 IRES=   32 RESID=32   RES=LEU  ATOM=2HD1
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=  549 IRES=   32 RESID=32   RES=LEU  ATOM=3HD1
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=  550 IRES=   32 RESID=32   RES=LEU  ATOM=1HD2
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=  551 IRES=   32 RESID=32   RES=LEU  ATOM=2HD2
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=  552 IRES=   32 RESID=32   RES=LEU  ATOM=3HD2
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=  561 IRES=   33 RESID=33   RES=LEU  ATOM=H   
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=  563 IRES=   33 RESID=33   RES=LEU  ATOM=1HB 
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=  564 IRES=   33 RESID=33   RES=LEU  ATOM=2HB 
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=  566 IRES=   33 RESID=33   RES=LEU  ATOM=1HD1
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=  567 IRES=   33 RESID=33   RES=LEU  ATOM=2HD1
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=  568 IRES=   33 RESID=33   RES=LEU  ATOM=3HD1
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=  569 IRES=   33 RESID=33   RES=LEU  ATOM=1HD2
+
+ ** WARNING ** For atom in coordinate file, the corresponding residue in the PSF lacks that atom:
+ INDEX=  570 IRES=   33 RESID=33   RES=LEU  ATOM=2HD2
+ ** WARNING ** After reading, there are no coordinates for selected atom:     2     1 GLU  HT1 
+ ** WARNING ** After reading, there are no coordinates for selected atom:     3     1 GLU  HT2 
+ ** WARNING ** After reading, there are no coordinates for selected atom:     4     1 GLU  HT3 
+ ** WARNING ** After reading, there are no coordinates for selected atom:     8     1 GLU  HB1 
+ ** WARNING ** After reading, there are no coordinates for selected atom:     9     1 GLU  HB2 
+ ** WARNING ** After reading, there are no coordinates for selected atom:    11     1 GLU  HG1 
+ ** WARNING ** After reading, there are no coordinates for selected atom:    12     1 GLU  HG2 
+ ** WARNING ** After reading, there are no coordinates for selected atom:    19     2 GLY  HN  
+ ** WARNING ** After reading, there are no coordinates for selected atom:    21     2 GLY  HA1 
+ ** WARNING ** After reading, there are no coordinates for selected atom:    22     2 GLY  HA2 
+
+ ** A total of   414 selected atoms have no coordinates
+
+ ** A total of  203 warnings were encountered during coordinate reading **
+ *** LEVEL  2 WARNING *** BOMLEV IS    0
+  
+ CHARMM>     
+  
+ CHARMM>    !check coordinates and build missing atoms (mostly hydrogens)
+ CHARMM>    coor stat
+ STATISTICS FOR       579 SELECTED ATOMS:
+    XMIN =   -6.288000 XMAX =   14.942000 XAVE =    5.044921
+    YMIN =  -17.230000 YMAX =    4.153000 YAVE =   -6.426922
+    ZMIN =  -29.027000 ZMAX =   18.905000 ZAVE =   -4.399245
+    WMIN =    0.000000 WMAX =    0.000000 WAVE =    0.000000
+
+ **** WARNING **** FOR THIS OPERATION, THERE WERE  414 MISSING COORDINATES
+
+  
+ CHARMM>     
+  
+ CHARMM>    ic param
+  
+ CHARMM>    ic build
+  
+ CHARMM>    hbuild
+
+      ***** LEVEL  4 WARNING FROM <GTHBUI> *****
+      ***** Zero selection specified
+      ******************************************
+      BOMLEV (  0) IS NOT REACHED. WRNLEV IS  5
+
+  
+ CHARMM>     
+  
+ CHARMM>    !check again: now all atoms should be have coordinates
+ CHARMM>    coor stat
+ STATISTICS FOR       993 SELECTED ATOMS:
+    XMIN =   -7.144220 XMAX =   15.637770 XAVE =    4.986795
+    YMIN =  -17.230000 YMAX =    4.778816 YAVE =   -6.126924
+    ZMIN =  -29.027000 ZMAX =   19.696481 ZAVE =   -3.932781
+    WMIN =    0.000000 WMAX =    0.000000 WAVE =    0.000000
+  
+ CHARMM>     
+  
+ CHARMM>    !now let's orient the channel along z axis (default membrane normal)
+ CHARMM>    !coor orient
+ CHARMM>    !coor rotate ydir  1.0 phi 90.0
+ CHARMM>     
+  
+ CHARMM>     
+  
+ CHARMM>    !align the bottom of the CHAMP at membrane interface
+ CHARMM>    !coor trans zdir -?zmin
+ CHARMM>    !coor trans zdir -17.0
+ CHARMM>     
+  
+ CHARMM>    !setup nonbond option for GBSW
+ CHARMM>    NBOND atom switch cdie vdw vswitch -
+ CHARMM>          ctonnb 16.0 ctofnb 16.0 cutnb 20.0
+
+ NONBOND OPTION FLAGS: 
+     ELEC     VDW      ATOMs    CDIElec  SWITch   VATOm    VSWItch 
+     BYGRoup  NOEXtnd  NOEWald 
+ CUTNB  = 20.000 CTEXNB =999.000 CTONNB = 16.000 CTOFNB = 16.000
+ CGONNB =  0.000 CGOFNB = 10.000
+ WMIN   =  1.500 WRNMXD =  0.500 E14FAC =  1.000 EPS    =  1.000
+ NBXMOD =      5
+ There are        0 atom  pairs and        0 atom  exclusions.
+ There are        0 group pairs and        0 group exclusions.
+ GTNBCT> CUTNB,CTOFNB,CTONNB=      20.0      16.0      16.0
+
+      ***** LEVEL  1 WARNING FROM <GTNBCT> *****
+      ***** CUTNB,CTOFNB,CTONNB are not in correct order.
+      ******************************************
+      BOMLEV (  0) IS NOT REACHED. WRNLEV IS  5
+
+ <MAKINB> with mode   5 found   2851 exclusions and   2644 interactions(1-4)
+ <MAKGRP> found    948 group exclusions.
+ Generating nonbond list with Exclusion mode = 5
+ == PRIMARY == SPACE FOR   492529 ATOM PAIRS AND        0 GROUP PAIRS
+
+ General atom nonbond list generation found:
+   313727 ATOM PAIRS WERE FOUND FOR ATOM LIST
+     5564 GROUP PAIRS REQUIRED ATOM SEARCHES
+
+  
+ CHARMM>     
+  
+ CHARMM>    !read GBSW optimal radii
+ CHARMM>    prnlev 0
+ RDCMND: can not substitute energy "?)"
+ **** Warning ****  The following extraneous characters
+ were found while command processing in miscom
+ NODE 0
+  
+ CHARMM>    define check select (.not type H* ) .and. ( property wmain .eq. 0.0 ) show end
+ The following atoms are currently set:
+SEGId RESId RESName  .. TYPEs ..
+ SELRPN>      0 atoms have been selected out of    993
+  
+ CHARMM>    if ?nsel ne 0  stop       !some heavy atom have a zero radius
+ RDCMND substituted energy or value "?NSEL" to "0"
+ Comparing "0" and "0".
+ IF test evaluated as false.  Skipping command
+  
+ CHARMM>     
+  
+ CHARMM>    !setup GBSW
+ CHARMM>    gbsw sgamma 0.005 nang 50 dgp 1.5 tmemb 30.0 msw 2.5 GBenergy
+
+
+      Generalized Born model with a simple switching function (GBSW)
+
+
+      Number of angular integration points (nang) =      50
+      Number of radial  integration points (nrad) =      24
+      Maximum in radial integration        (rmax) =  20.000 [Angs]
+
+      Solvent dielectric constant          (epsw) =  80.000
+      Protein dielectric constant          (epsp) =   1.000
+      Surface tension coefficient        (sgamma) =   0.005 [kcal/mol/Angs**2]
+      Membrane thickness centered at Z=0  (tmemb) =  30.000 [Angs]
+      Membrane switching length           (msw*2) =   5.000 [Angs]
+
+
+
+      Switching length                     (sw*2) =   0.600 [Angs]
+
+      Coefficient for the CFA term          (aa0) =  -0.180
+      Coefficient for the correction term   (aa1) =   1.817
+
+      Grid spacing for lookup table         (dgp) =   1.500 [Angs]
+      Buffer size for lookup table      (rbuffer) =   0.000 [Angs]
+
+      NOTE : PB radii are scaled by (PB radii+sw)*factor
+             where sw =   0.300 and factor =  0.952
+
+      GB energy and forces will be updated every       1 step(s)
+
+      GBSW lookup table information:
+      Number of grid points for lookup table :  21 x 20 x 38 =      15960
+      Lookup table in x covers from  -10.880 to   19.120
+      Lookup table in y covers from  -20.628 to    7.872
+      Lookup table in z covers from  -32.431 to   23.069
+      Number of atoms listed in lookup table   =      38287
+      Percentage of occupied grid points       =     31.898
+
+      Electrostatic solvation energy   =      -717.95417 [kcal/mol]
+
+
+      Surface area                     =      1702.65184 [Angs**2]
+      Nonpolar solvation energy        =         8.51326 [kcal/mol]
+
+      Total solvation energy           =      -709.44091 [kcal/mol]
+  
+ CHARMM>     
+  
+ CHARMM>    energy
+
+ NONBOND OPTION FLAGS: 
+     ELEC     VDW      ATOMs    CDIElec  SWITch   VATOm    VSWItch 
+     BYGRoup  NOEXtnd  NOEWald 
+ CUTNB  = 20.000 CTEXNB =999.000 CTONNB = 16.000 CTOFNB = 16.000
+ CGONNB =  0.000 CGOFNB = 10.000
+ WMIN   =  1.500 WRNMXD =  0.500 E14FAC =  1.000 EPS    =  1.000
+ NBXMOD =      5
+ There are   313727 atom  pairs and     5495 atom  exclusions.
+ There are        0 group pairs and      948 group exclusions.
+ GTNBCT> CUTNB,CTOFNB,CTONNB=      20.0      16.0      16.0
+
+      ***** LEVEL  1 WARNING FROM <GTNBCT> *****
+      ***** CUTNB,CTOFNB,CTONNB are not in correct order.
+      ******************************************
+      BOMLEV (  0) IS NOT REACHED. WRNLEV IS  5
+
+ Generating nonbond list with Exclusion mode = 5
+ == PRIMARY == SPACE FOR   492529 ATOM PAIRS AND        0 GROUP PAIRS
+
+ General atom nonbond list generation found:
+   313727 ATOM PAIRS WERE FOUND FOR ATOM LIST
+     5564 GROUP PAIRS REQUIRED ATOM SEARCHES
+
+ENER ENR:  Eval#     ENERgy      Delta-E         GRMS
+ENER INTERN:          BONDs       ANGLes       UREY-b    DIHEdrals    IMPRopers
+ENER CROSS:           CMAPs        PMF1D        PMF2D        PRIMO
+ENER EXTERN:        VDWaals         ELEC       HBONds          ASP         USER
+ENER PBEQ:             PBnp       PBelec        GBEnr         GSBP         SMBP
+ ----------       ---------    ---------    ---------    ---------    ---------
+ENER>        0    224.79377      0.00000     48.16685
+ENER INTERN>      101.73393    252.04112     72.49256    172.17568      3.30235
+ENER CROSS>       -57.06637      0.00000      0.00000      0.00000
+ENER EXTERN>      191.19351    143.00759      0.00000      8.51326      0.00000
+ENER PBEQ>          0.00000      0.00000   -662.59984      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+  
+ CHARMM>     
+  
+ CHARMM>    set fbeta = 5.0
+ Parameter: FBETA <- "5.0"
+  
+ CHARMM>    set temp  = 300.0
+ Parameter: TEMP <- "300.0"
+  
+ CHARMM>     
+  
+ CHARMM>    cons harm force 0.1 select .not. hydrogen end
+ SELRPN>    456 atoms have been selected out of    993
+ CSTRAN: Harmonic Restraints
+          ABSOlute type as set number  1.  Number of selected atoms:    456
+          Reference coordinates set to main coordinates.
+          Mass weighting will NOT be used for new restraints.
+          The force constant of       0.10000 will be used.
+          An exponent of  2 will be used.
+          The XYZ scale factors are:       1.00000       1.00000       1.00000
+          A total of    456 atoms are restrained.
+  
+ CHARMM>     
+  
+ CHARMM>     
+  
+ CHARMM>    !minimization & equilibration
+ CHARMM>    mini   sd nstep 50 nprint 5 step 0.005 inbfrq -1
+
+ NONBOND OPTION FLAGS: 
+     ELEC     VDW      ATOMs    CDIElec  SWITch   VATOm    VSWItch 
+     BYGRoup  NOEXtnd  NOEWald 
+ CUTNB  = 20.000 CTEXNB =999.000 CTONNB = 16.000 CTOFNB = 16.000
+ CGONNB =  0.000 CGOFNB = 10.000
+ WMIN   =  1.500 WRNMXD =  0.500 E14FAC =  1.000 EPS    =  1.000
+ NBXMOD =      5
+ There are   313727 atom  pairs and     5495 atom  exclusions.
+ There are        0 group pairs and      948 group exclusions.
+ GTNBCT> CUTNB,CTOFNB,CTONNB=      20.0      16.0      16.0
+
+      ***** LEVEL  1 WARNING FROM <GTNBCT> *****
+      ***** CUTNB,CTOFNB,CTONNB are not in correct order.
+      ******************************************
+      BOMLEV (  0) IS NOT REACHED. WRNLEV IS  5
+
+ Generating nonbond list with Exclusion mode = 5
+ == PRIMARY == SPACE FOR   492529 ATOM PAIRS AND        0 GROUP PAIRS
+
+ General atom nonbond list generation found:
+   313727 ATOM PAIRS WERE FOUND FOR ATOM LIST
+     5564 GROUP PAIRS REQUIRED ATOM SEARCHES
+
+
+
+ STEEPD> An energy minimization has been requested.
+
+ NSTEP  =           50   NPRINT =            5
+ STEP   =    0.0050000   TOLFUN =    0.0000000
+ TOLGRD =    0.0000000   TOLSTP =    0.0000000
+
+MINI MIN: Cycle      ENERgy      Delta-E         GRMS    Step-size
+MINI INTERN:          BONDs       ANGLes       UREY-b    DIHEdrals    IMPRopers
+MINI CROSS:           CMAPs        PMF1D        PMF2D        PRIMO
+MINI EXTERN:        VDWaals         ELEC       HBONds          ASP         USER
+MINI PBEQ:             PBnp       PBelec        GBEnr         GSBP         SMBP
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>        0    224.79377      0.00000     48.16685      0.00500
+MINI INTERN>      101.73393    252.04112     72.49256    172.17568      3.30235
+MINI CROSS>       -57.06637      0.00000      0.00000      0.00000
+MINI EXTERN>      191.19351    143.00759      0.00000      8.51326      0.00000
+MINI PBEQ>          0.00000      0.00000   -662.59984      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>        5   -254.90554    479.69932      3.76017      0.00518
+MINI INTERN>       34.32121    156.11651     30.31571    171.41259      6.28207
+MINI CROSS>       -60.76441      0.00000      0.00000      0.00000
+MINI EXTERN>      -70.27567    125.12734      0.00000      8.55098      0.00000
+MINI CONSTR>        0.02767      0.00000      0.00000      0.00000      0.00000
+MINI PBEQ>          0.00000      0.00000   -656.01954      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       10   -362.92795    108.02241      2.39833      0.00224
+MINI INTERN>       29.63960    114.86525     11.84156    171.83979      7.53212
+MINI CROSS>       -60.83466      0.00000      0.00000      0.00000
+MINI EXTERN>     -105.06486    122.78755      0.00000      8.56736      0.00000
+MINI CONSTR>        0.06944      0.00000      0.00000      0.00000      0.00000
+MINI PBEQ>          0.00000      0.00000   -664.17110      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       15   -388.14190     25.21394      4.25506      0.00232
+MINI INTERN>       34.20453    109.63528      8.09625    171.90899      7.63265
+MINI CROSS>       -60.99338      0.00000      0.00000      0.00000
+MINI EXTERN>     -119.97592    109.39443      0.00000      8.57654      0.00000
+MINI CONSTR>        0.09689      0.00000      0.00000      0.00000      0.00000
+MINI PBEQ>          0.00000      0.00000   -656.71815      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       20   -402.02033     13.87843      4.16469      0.00241
+MINI INTERN>       35.12880    108.60873      7.11767    171.79749      7.48062
+MINI CROSS>       -61.05876      0.00000      0.00000      0.00000
+MINI EXTERN>     -129.11780    104.07663      0.00000      8.58256      0.00000
+MINI CONSTR>        0.11484      0.00000      0.00000      0.00000      0.00000
+MINI PBEQ>          0.00000      0.00000   -654.75112      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       25   -419.62229     17.60197      1.38592      0.00104
+MINI INTERN>       31.74235    107.11046      6.66920    171.86207      7.20121
+MINI CROSS>       -60.95268      0.00000      0.00000      0.00000
+MINI EXTERN>     -138.37120     93.89474      0.00000      8.58856      0.00000
+MINI CONSTR>        0.13389      0.00000      0.00000      0.00000      0.00000
+MINI PBEQ>          0.00000      0.00000   -647.50091      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       30   -426.90975      7.28746      1.14189      0.00108
+MINI INTERN>       32.25111    108.30392      6.46514    171.84837      7.11064
+MINI CROSS>       -61.03005      0.00000      0.00000      0.00000
+MINI EXTERN>     -144.62708     97.91882      0.00000      8.59400      0.00000
+MINI CONSTR>        0.15063      0.00000      0.00000      0.00000      0.00000
+MINI PBEQ>          0.00000      0.00000   -653.89526      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       35   -431.59451      4.68476      1.89121      0.00112
+MINI INTERN>       34.22453    109.50887      6.35672    171.91583      6.98439
+MINI CROSS>       -61.04310      0.00000      0.00000      0.00000
+MINI EXTERN>     -150.37117    108.52653      0.00000      8.59936      0.00000
+MINI CONSTR>        0.16801      0.00000      0.00000      0.00000      0.00000
+MINI PBEQ>          0.00000      0.00000   -666.46449      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       40   -436.34232      4.74781      2.12136      0.00116
+MINI INTERN>       35.47341    110.66805      6.29294    172.00165      6.88761
+MINI CROSS>       -61.07366      0.00000      0.00000      0.00000
+MINI EXTERN>     -155.34420     95.51770      0.00000      8.60451      0.00000
+MINI CONSTR>        0.18543      0.00000      0.00000      0.00000      0.00000
+MINI PBEQ>          0.00000      0.00000   -655.55575      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       45   -440.02946      3.68714      2.02436      0.00120
+MINI INTERN>       35.91255    111.52238      6.25439    172.07805      6.82609
+MINI CROSS>       -61.10798      0.00000      0.00000      0.00000
+MINI EXTERN>     -158.96569    106.30017      0.00000      8.60845      0.00000
+MINI CONSTR>        0.19986      0.00000      0.00000      0.00000      0.00000
+MINI PBEQ>          0.00000      0.00000   -667.65773      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       50   -445.06618      5.03672      0.55119      0.00052
+MINI INTERN>       34.45468    112.41555      6.21620    172.09428      6.83201
+MINI CROSS>       -61.22646      0.00000      0.00000      0.00000
+MINI EXTERN>     -161.89423    112.84502      0.00000      8.61202      0.00000
+MINI CONSTR>        0.21425      0.00000      0.00000      0.00000      0.00000
+MINI PBEQ>          0.00000      0.00000   -675.62949      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+
+ STEEPD> Minimization exiting with number of steps limit (        50) exceeded.
+
+STPD MIN: Cycle      ENERgy      Delta-E         GRMS    Step-size
+STPD INTERN:          BONDs       ANGLes       UREY-b    DIHEdrals    IMPRopers
+STPD CROSS:           CMAPs        PMF1D        PMF2D        PRIMO
+STPD EXTERN:        VDWaals         ELEC       HBONds          ASP         USER
+STPD CONSTR:       HARMonic    CDIHedral          CIC     RESDistance       NOE
+STPD PBEQ:             PBnp       PBelec        GBEnr         GSBP         SMBP
+ ----------       ---------    ---------    ---------    ---------    ---------
+STPD>       50   -445.06618      5.03672      0.55119      0.00062
+STPD INTERN>       34.45468    112.41555      6.21620    172.09428      6.83201
+STPD CROSS>       -61.22646      0.00000      0.00000      0.00000
+STPD EXTERN>     -161.89423    112.84502      0.00000      8.61202      0.00000
+STPD CONSTR>        0.21425      0.00000      0.00000      0.00000      0.00000
+STPD PBEQ>          0.00000      0.00000   -675.62949      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+  
+ CHARMM>    mini abnr nstep 50 nprint 5 step 0.005 inbfrq -1
+
+ NONBOND OPTION FLAGS: 
+     ELEC     VDW      ATOMs    CDIElec  SWITch   VATOm    VSWItch 
+     BYGRoup  NOEXtnd  NOEWald 
+ CUTNB  = 20.000 CTEXNB =999.000 CTONNB = 16.000 CTOFNB = 16.000
+ CGONNB =  0.000 CGOFNB = 10.000
+ WMIN   =  1.500 WRNMXD =  0.500 E14FAC =  1.000 EPS    =  1.000
+ NBXMOD =      5
+ There are   313727 atom  pairs and     5495 atom  exclusions.
+ There are        0 group pairs and      948 group exclusions.
+ GTNBCT> CUTNB,CTOFNB,CTONNB=      20.0      16.0      16.0
+
+      ***** LEVEL  1 WARNING FROM <GTNBCT> *****
+      ***** CUTNB,CTOFNB,CTONNB are not in correct order.
+      ******************************************
+      BOMLEV (  0) IS NOT REACHED. WRNLEV IS  5
+
+ Generating nonbond list with Exclusion mode = 5
+ == PRIMARY == SPACE FOR   492529 ATOM PAIRS AND        0 GROUP PAIRS
+
+ General atom nonbond list generation found:
+   313434 ATOM PAIRS WERE FOUND FOR ATOM LIST
+     5593 GROUP PAIRS REQUIRED ATOM SEARCHES
+
+
+
+ ABNER> An energy minimization has been requested.
+
+ EIGRNG =    0.0005000   MINDIM =            5
+ NPRINT =            5   NSTEP  =           50
+ PSTRCT =    0.0000000   SDSTP  =    0.0050000
+ STPLIM =    1.0000000   STRICT =    0.1000000
+ TOLFUN =    0.0000000   TOLGRD =    0.0000000
+ TOLITR =          100   TOLSTP =    0.0000000
+ FMEM   =    0.0000000
+MINI MIN: Cycle      ENERgy      Delta-E         GRMS    Step-size
+MINI INTERN:          BONDs       ANGLes       UREY-b    DIHEdrals    IMPRopers
+MINI CROSS:           CMAPs        PMF1D        PMF2D        PRIMO
+MINI EXTERN:        VDWaals         ELEC       HBONds          ASP         USER
+MINI CONSTR:       HARMonic    CDIHedral          CIC     RESDistance       NOE
+MINI PBEQ:             PBnp       PBelec        GBEnr         GSBP         SMBP
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>        0   -445.06618      5.03672      0.55119      0.00000
+MINI INTERN>       34.45468    112.41555      6.21620    172.09428      6.83201
+MINI CROSS>       -61.22646      0.00000      0.00000      0.00000
+MINI EXTERN>     -161.89423    112.84502      0.00000      8.61202      0.00000
+MINI CONSTR>        0.21425      0.00000      0.00000      0.00000      0.00000
+MINI PBEQ>          0.00000      0.00000   -675.62949      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>        5   -472.41820     27.35202      0.52111      0.02025
+MINI INTERN>       47.94354    131.97567      6.77541    176.63097      6.38035
+MINI CROSS>       -61.14286      0.00000      0.00000      0.00000
+MINI EXTERN>     -206.60541     95.12898      0.00000      8.68020      0.00000
+MINI CONSTR>        0.59217      0.00000      0.00000      0.00000      0.00000
+MINI PBEQ>          0.00000      0.00000   -678.77720      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       10   -480.11821      7.70000      0.58904      0.03322
+MINI INTERN>       46.03168    136.36432      6.51234    177.68765      6.70764
+MINI CROSS>       -61.42355      0.00000      0.00000      0.00000
+MINI EXTERN>     -215.43940     89.97327      0.00000      8.70353      0.00000
+MINI CONSTR>        0.75423      0.00000      0.00000      0.00000      0.00000
+MINI PBEQ>          0.00000      0.00000   -675.98991      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       15   -485.23755      5.11934      0.70828      0.03269
+MINI INTERN>       47.64841    127.62415      6.13378    177.29284      6.77549
+MINI CROSS>       -62.48544      0.00000      0.00000      0.00000
+MINI EXTERN>     -212.49477     89.47884      0.00000      8.70779      0.00000
+MINI CONSTR>        0.80098      0.00000      0.00000      0.00000      0.00000
+MINI PBEQ>          0.00000      0.00000   -674.71963      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       20   -487.70976      2.47221      0.47369      0.01930
+MINI INTERN>       44.11050    126.59805      6.01283    176.99943      6.80106
+MINI CROSS>       -62.99297      0.00000      0.00000      0.00000
+MINI EXTERN>     -211.24541     74.70738      0.00000      8.70767      0.00000
+MINI CONSTR>        0.79165      0.00000      0.00000      0.00000      0.00000
+MINI PBEQ>          0.00000      0.00000   -658.19996      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       25   -488.71144      1.00168      0.28782      0.01140
+MINI INTERN>       45.08505    125.24694      6.02479    177.22341      6.60940
+MINI CROSS>       -62.99793      0.00000      0.00000      0.00000
+MINI EXTERN>     -213.48883     81.88815      0.00000      8.71032      0.00000
+MINI CONSTR>        0.80977      0.00000      0.00000      0.00000      0.00000
+MINI PBEQ>          0.00000      0.00000   -663.82252      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       30   -489.28517      0.57373      0.32258      0.01122
+MINI INTERN>       45.03417    126.41022      5.96414    177.43334      6.49677
+MINI CROSS>       -62.95038      0.00000      0.00000      0.00000
+MINI EXTERN>     -214.58193     80.62871      0.00000      8.71413      0.00000
+MINI CONSTR>        0.83592      0.00000      0.00000      0.00000      0.00000
+MINI PBEQ>          0.00000      0.00000   -663.27027      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       35   -489.90428      0.61911      0.23378      0.01104
+MINI INTERN>       45.20130    126.81267      6.02892    177.25938      6.73416
+MINI CROSS>       -63.01976      0.00000      0.00000      0.00000
+MINI EXTERN>     -214.03172     83.97662      0.00000      8.71662      0.00000
+MINI CONSTR>        0.85582      0.00000      0.00000      0.00000      0.00000
+MINI PBEQ>          0.00000      0.00000   -668.43830      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       40   -491.32483      1.42055      0.52233      0.01811
+MINI INTERN>       44.57148    125.70411      5.99840    177.48835      6.58415
+MINI CROSS>       -63.23897      0.00000      0.00000      0.00000
+MINI EXTERN>     -215.36630     73.36256      0.00000      8.72359      0.00000
+MINI CONSTR>        0.90705      0.00000      0.00000      0.00000      0.00000
+MINI PBEQ>          0.00000      0.00000   -656.05925      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       45   -495.93551      4.61068      0.89167      0.02970
+MINI INTERN>       44.95841    124.30797      5.81961    178.54311      6.67355
+MINI CROSS>       -64.13428      0.00000      0.00000      0.00000
+MINI EXTERN>     -218.89115     37.05104      0.00000      8.76358      0.00000
+MINI CONSTR>        1.22525      0.00000      0.00000      0.00000      0.00000
+MINI PBEQ>          0.00000      0.00000   -620.25260      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       50   -497.64789      1.71238      0.46351      0.01754
+MINI INTERN>       44.18146    124.10210      5.88824    179.59525      6.51513
+MINI CROSS>       -64.48917      0.00000      0.00000      0.00000
+MINI EXTERN>     -220.70874     54.02185      0.00000      8.78329      0.00000
+MINI CONSTR>        1.44281      0.00000      0.00000      0.00000      0.00000
+MINI PBEQ>          0.00000      0.00000   -636.98012      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+
+ ABNER> Minimization exiting with number of steps limit (   50) exceeded.
+
+ABNR MIN: Cycle      ENERgy      Delta-E         GRMS    Step-size
+ABNR INTERN:          BONDs       ANGLes       UREY-b    DIHEdrals    IMPRopers
+ABNR CROSS:           CMAPs        PMF1D        PMF2D        PRIMO
+ABNR EXTERN:        VDWaals         ELEC       HBONds          ASP         USER
+ABNR CONSTR:       HARMonic    CDIHedral          CIC     RESDistance       NOE
+ABNR PBEQ:             PBnp       PBelec        GBEnr         GSBP         SMBP
+ ----------       ---------    ---------    ---------    ---------    ---------
+ABNR>       50   -497.64789      1.71238      0.46351      0.01578
+ABNR INTERN>       44.18146    124.10210      5.88824    179.59525      6.51513
+ABNR CROSS>       -64.48917      0.00000      0.00000      0.00000
+ABNR EXTERN>     -220.70874     54.02185      0.00000      8.78329      0.00000
+ABNR CONSTR>        1.44281      0.00000      0.00000      0.00000      0.00000
+ABNR PBEQ>          0.00000      0.00000   -636.98012      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+  
+ CHARMM>     
+  
+ CHARMM>    SHAKE BONH PARAm TOL 1.0e-6
+ SHKCOM> SHAKE parameters: TOL =   0.1000D-05 MXITer =    500
+
+             537 constraints will held by SHAKE.
+  
+ CHARMM>    scalar fbeta set @fbeta
+ Parameter: FBETA -> "5.0"
+  
+ CHARMM>    scalar fbeta set 0.0    select type H* end
+ SELRPN>    537 atoms have been selected out of    993
+  
+ CHARMM>     
+  
+ CHARMM>    open write unit 12 card name gbswmemb1_eq.rst
+ VOPEN> Attempting to open::gbswmemb1_eq.rst::
+ OPNLGU> Unit 12 opened for WRITE access to gbswmemb1_eq.rst
+  
+ CHARMM>     
+  
+ CHARMM>    DYNAMICS LANGEVIN -
+ CHARMM>             start         nstep    1000  timestp 0.002  -
+ CHARMM>             nprint  1000  iprfrq   5000  isvfrq   5000  ntrfrq    500 -
+ CHARMM>             inbfrq    -1  imgfrq     -1  ihbfrq      0  ilbfrq      0 -
+ CHARMM>             firstt @temp  finalt  @temp  iseed 47858436 -
+ CHARMM>             tbath  @temp  rbuf      0.0  -
+ CHARMM>             iunread   -1  iunwrite   12  iuncrd     -1  iunvelo    -1 -
+ CHARMM>             nsavcrd  250  nsavvelo    0  -
+ CHARMM>             iasvel     1
+ Parameter: TEMP -> "300.0"
+ Parameter: TEMP -> "300.0"
+ Parameter: TEMP -> "300.0"
+  IUNREA = -1         IUNWRI = 12          IUNOS = -1
+  IUNCRD = -1         IUNVEL = -1          KUNIT = -1
+
+ NONBOND OPTION FLAGS: 
+     ELEC     VDW      ATOMs    CDIElec  SWITch   VATOm    VSWItch 
+     BYGRoup  NOEXtnd  NOEWald 
+ CUTNB  = 20.000 CTEXNB =999.000 CTONNB = 16.000 CTOFNB = 16.000
+ CGONNB =  0.000 CGOFNB = 10.000
+ WMIN   =  1.500 WRNMXD =  0.500 E14FAC =  1.000 EPS    =  1.000
+ NBXMOD =      5
+ There are   313434 atom  pairs and     5495 atom  exclusions.
+ There are        0 group pairs and      948 group exclusions.
+ GTNBCT> CUTNB,CTOFNB,CTONNB=      20.0      16.0      16.0
+
+      ***** LEVEL  1 WARNING FROM <GTNBCT> *****
+      ***** CUTNB,CTOFNB,CTONNB are not in correct order.
+      ******************************************
+      BOMLEV (  0) IS NOT REACHED. WRNLEV IS  5
+
+
+      ***** LEVEL  5 WARNING FROM <RNGMODSEEDS> *****
+      ***** Only one seed number specified! See random.doc for syntax.
+      ******************************************
+      BOMLEV (  0) IS NOT REACHED. WRNLEV IS  5
+
+ DCNTRL> Langevin integration requested.
+   NSTEP =     1000    NSAVC =      250    NSAVV =        0
+  ISCALE =        0   ISCVEL =        0   IASORS =        0
+  IASVEL =        1   ICHECW =        1   NTRFRQ =      500
+  IHTFRQ =        0   IEQFRQ =        0   NPRINT =     1000
+  INBFRQ =       -1   IHBFRQ =        0   IPRFRQ =     1000
+  ILBFRQ =        0   IMGFRQ =       -1
+  ISVFRQ =     5000   NCYCLE =      500    NSNOS =       10
+  FIRSTT =   300.000  TEMINC =     5.000  TSTRUC =  -999.000
+  FINALT =   300.000  TWINDH =    10.000  TWINDL =   -10.000
+
+  TIME STEP =  4.09097E-02 AKMA       2.00000E-03 PS
+
+  RANDOM NUM. GEN. SEED(S) = 47858436 47858436 47858436 47858436
+
+           SHAKE TOLERANCE =     0.10000E-05
+ NUMBER OF DEGREES OF FREEDOM =   2442
+
+          GAUSSIAN OPTION                  IS            1
+          VELOCITIES ASSIGNED AT TEMPERATURE =    375.0000
+          SEED FOR RANDOM NUMBER GENERATOR IS:
+          SEEDS> 47858436 47858436 47858436 47858436
+
+     DETAILS ABOUT CENTRE OF MASS
+     POSITION          :    5.1590972       -6.3221363       -4.3440094    
+     VELOCITY          :  -6.28519064E-03   5.52881755E-04   8.67702722E-03
+     ANGULAR MOMENTUM  :   -280.38099       -1084.9051       -422.47285    
+     KINETIC ENERGY    :   0.36989242    
+ LNGFIL: TBATH =   300.000000  DELTA =    0.040910
+ LNGFIL: Langevin dynamics setup for     456 atoms
+ LNGFIL: RBUF =    0.000000
+ LNGFIL: SXREF =    0.000000 SYREF =    0.000000 SZREF =    0.000000
+DYNA DYN: Step         Time      TOTEner        TOTKe       ENERgy  TEMPerature
+DYNA PROP:             GRMS      HFCTote        HFCKe       EHFCor        VIRKe
+DYNA INTERN:          BONDs       ANGLes       UREY-b    DIHEdrals    IMPRopers
+DYNA CROSS:           CMAPs        PMF1D        PMF2D        PRIMO
+DYNA EXTERN:        VDWaals         ELEC       HBONds          ASP         USER
+DYNA CONSTR:       HARMonic    CDIHedral          CIC     RESDistance       NOE
+DYNA PBEQ:             PBnp       PBelec        GBEnr         GSBP         SMBP
+DYNA PRESS:            VIRE         VIRI       PRESSE       PRESSI       VOLUme
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>        0      0.00000    370.13085    865.71531   -495.58445    356.79587
+DYNA PROP>          7.38503    372.49176    865.80903      2.36090    209.16149
+DYNA INTERN>       42.51202    123.86216      6.12582    179.58471      6.50885
+DYNA CROSS>       -64.53035      0.00000      0.00000      0.00000
+DYNA EXTERN>     -220.43744     55.96724      0.00000      8.78345      0.00000
+DYNA CONSTR>        1.44291      0.00000      0.00000      0.00000      0.00000
+DYNA PBEQ>          0.00000      0.00000   -635.40383      0.00000      0.00000
+DYNA PRESS>       158.69792   -298.13891      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step       123
+ UPDECI: Nonbond update at step       225
+ UPDECI: Nonbond update at step       278
+ UPDECI: Nonbond update at step       386
+ UPDECI: Nonbond update at step       465
+
+     DETAILS ABOUT CENTRE OF MASS
+     POSITION          :    5.1229037       -6.2679652       -4.3044995    
+     VELOCITY          :   1.81668883E-02  -1.44055719E-02   5.96999516E-03
+     ANGULAR MOMENTUM  :   -412.22893        465.86174       -57.701721    
+     KINETIC ENERGY    :    1.8420600    
+DYNA DYN: Step         Time      TOTEner        TOTKe       ENERgy  TEMPerature
+DYNA PROP:             GRMS      HFCTote        HFCKe       EHFCor        VIRKe
+DYNA INTERN:          BONDs       ANGLes       UREY-b    DIHEdrals    IMPRopers
+DYNA CROSS:           CMAPs        PMF1D        PMF2D        PRIMO
+DYNA EXTERN:        VDWaals         ELEC       HBONds          ASP         USER
+DYNA CONSTR:       HARMonic    CDIHedral          CIC     RESDistance       NOE
+DYNA PBEQ:             PBnp       PBelec        GBEnr         GSBP         SMBP
+DYNA PRESS:            VIRE         VIRI       PRESSE       PRESSI       VOLUme
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>      500      1.00000    888.00383    681.62134    206.38250    280.92339
+DYNA PROP>         18.66433    898.14545    706.50623     10.14161    486.28082
+DYNA INTERN>      168.68048    465.74279     60.27840    268.22572     29.99117
+DYNA CROSS>       -62.82607      0.00000      0.00000      0.00000
+DYNA EXTERN>     -180.95840     67.62113      0.00000      9.65250      0.00000
+DYNA CONSTR>       21.85186      0.00000      0.00000      0.00000      0.00000
+DYNA PBEQ>          0.00000      0.00000   -641.87707      0.00000      0.00000
+DYNA PRESS>        72.84415   -397.03136      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step       516
+ UPDECI: Nonbond update at step       577
+ UPDECI: Nonbond update at step       632
+ UPDECI: Nonbond update at step       670
+ UPDECI: Nonbond update at step       707
+ UPDECI: Nonbond update at step       773
+ UPDECI: Nonbond update at step       861
+ UPDECI: Nonbond update at step       934
+ UPDECI: Nonbond update at step       976
+DYNA>     1000      2.00000    988.37600    720.34727    268.02873    296.88390
+DYNA PROP>         19.90367    996.35398    750.16561      7.97797    661.29529
+DYNA INTERN>      177.21365    512.42218     69.11967    260.56202     24.07144
+DYNA CROSS>       -55.61428      0.00000      0.00000      0.00000
+DYNA EXTERN>     -182.13810    145.10017      0.00000      9.44957      0.00000
+DYNA CONSTR>       20.06274      0.00000      0.00000      0.00000      0.00000
+DYNA PBEQ>          0.00000      0.00000   -712.22034      0.00000      0.00000
+DYNA PRESS>        30.04293   -470.90646      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ DYNAMC> Averages for the last 1000 steps:
+AVER DYN: Step         Time      TOTEner        TOTKe       ENERgy  TEMPerature
+AVER PROP:             GRMS      HFCTote        HFCKe       EHFCor        VIRKe
+AVER INTERN:          BONDs       ANGLes       UREY-b    DIHEdrals    IMPRopers
+AVER CROSS:           CMAPs        PMF1D        PMF2D        PRIMO
+AVER EXTERN:        VDWaals         ELEC       HBONds          ASP         USER
+AVER CONSTR:       HARMonic    CDIHedral          CIC     RESDistance       NOE
+AVER PBEQ:             PBnp       PBelec        GBEnr         GSBP         SMBP
+AVER PRESS:            VIRE         VIRI       PRESSE       PRESSI       VOLUme
+ ----------       ---------    ---------    ---------    ---------    ---------
+AVER>     1000      2.00000    838.69225    660.17532    178.51693    272.08463
+AVER PROP>         18.54827    846.68290    684.80200      7.99066    668.81823
+AVER INTERN>      168.93878    446.34684     56.57525    255.19575     25.66496
+AVER CROSS>       -62.76400      0.00000      0.00000      0.00000
+AVER EXTERN>     -176.15731    138.86618      0.00000      9.52605      0.00000
+AVER CONSTR>       17.91758      0.00000      0.00000      0.00000      0.00000
+AVER PBEQ>          0.00000      0.00000   -701.59316      0.00000      0.00000
+AVER PRESS>        68.42242   -514.30124      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ DYNAMC> RMS fluctuations for the last 1000 steps:
+FLUC>     1000      2.00000    141.57227     69.07113     78.44964     28.46697
+FLUC PROP>          0.92309    142.65226     71.19496      1.91886    441.32634
+FLUC INTERN>       16.45446     37.59532      6.59426     11.29644      4.07419
+FLUC CROSS>         2.65792      0.00000      0.00000      0.00000
+FLUC EXTERN>       11.50154     82.67763      0.00000      0.27525      0.00000
+FLUC CONSTR>        5.58627      0.00000      0.00000      0.00000      0.00000
+FLUC PBEQ>          0.00000      0.00000     80.02175      0.00000      0.00000
+FLUC PRESS>        55.10738    273.40100      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+
+     DRIFT/STEP (LAST-TOTAL):    0.45119987       0.45119987    
+     E AT STEP 0            :     620.85737        620.85737    
+     CORR. COEFFICIENT      :    0.91306029       0.91306029    
+
+     DETAILS ABOUT CENTRE OF MASS
+     POSITION          :    5.2071668       -6.3340318       -4.2708015    
+     VELOCITY          :  -9.08340681E-03  -2.64465963E-03   7.20434613E-03
+     ANGULAR MOMENTUM  :   -385.12832       -549.97342        414.18617    
+     KINETIC ENERGY    :   0.45442772    
+ WRIDYN: RESTart file was written at step    1000
+ VCLOSE: Closing unit   12 with status "KEEP"
+
+     DETAILS ABOUT CENTRE OF MASS
+     POSITION          :    5.2071668       -6.3340318       -4.2708015    
+     VELOCITY          :  -9.08340681E-03  -2.64465963E-03   7.20434613E-03
+     ANGULAR MOMENTUM  :   -385.12832       -549.97342        414.18617    
+     KINETIC ENERGY    :   0.45442772    
+  
+ CHARMM>     
+  
+ CHARMM>    cons harm clear
+  
+ CHARMM>     
+  
+ CHARMM>     
+  
+ CHARMM>    !production
+ CHARMM>    open read  unit 11 card name gbswmemb1_eq.rst
+ VOPEN> Attempting to open::gbswmemb1_eq.rst::
+ OPNLGU> Unit 11 opened for READONLY access to gbswmemb1_eq.rst
+  
+ CHARMM>    open write unit 12 card name gbswmemb1_01.rst
+ VOPEN> Attempting to open::gbswmemb1_01.rst::
+ OPNLGU> Unit 12 opened for WRITE access to gbswmemb1_01.rst
+  
+ CHARMM>    open write unit 13 file name gbswmemb1_01.dcd
+ VOPEN> Attempting to open::gbswmemb1_01.dcd::
+ OPNLGU> Unit 13 opened for WRITE access to gbswmemb1_01.dcd
+  
+ CHARMM>     
+  
+ CHARMM>    DYNAMICS LANGEVIN -
+ CHARMM>             restart       nstep   500000  timestp 0.002  -
+ CHARMM>             nprint   50   iprfrq   50000  isvfrq 100000  ntrfrq    50000 -
+ CHARMM>             inbfrq    -1  imgfrq     -1  ihbfrq      0  ilbfrq      0 -
+ CHARMM>             firstt @temp  finalt  @temp  -
+ CHARMM>             tbath  @temp  rbuf      0.0  -
+ CHARMM>             iunread   11  iunwrite   12  iuncrd     13  iunvelo    -1 -
+ CHARMM>             nsavcrd 2500  nsavvelo    0  -
+ CHARMM>             iasvel     1
+ Parameter: TEMP -> "300.0"
+ Parameter: TEMP -> "300.0"
+ Parameter: TEMP -> "300.0"
+  IUNREA = 11         IUNWRI = 12          IUNOS = -1
+  IUNCRD = 13         IUNVEL = -1          KUNIT = -1
+ TITLE>  * NONE *
+ TITLE>  *  DATE:     8/17/16     11:55:59      CREATED BY USER: mmravic
+ TITLE>  *
+ READYN> dynamics restart file was read. Current step=    1000
+ NSTEP  =  1000  JHSTRT =     0
+
+ NONBOND OPTION FLAGS: 
+     ELEC     VDW      ATOMs    CDIElec  SWITch   VATOm    VSWItch 
+     BYGRoup  NOEXtnd  NOEWald 
+ CUTNB  = 20.000 CTEXNB =999.000 CTONNB = 16.000 CTOFNB = 16.000
+ CGONNB =  0.000 CGOFNB = 10.000
+ WMIN   =  1.500 WRNMXD =  0.500 E14FAC =  1.000 EPS    =  1.000
+ NBXMOD =      5
+ There are   307963 atom  pairs and     5495 atom  exclusions.
+ There are        0 group pairs and      948 group exclusions.
+ GTNBCT> CUTNB,CTOFNB,CTONNB=      20.0      16.0      16.0
+
+      ***** LEVEL  1 WARNING FROM <GTNBCT> *****
+      ***** CUTNB,CTOFNB,CTONNB are not in correct order.
+      ******************************************
+      BOMLEV (  0) IS NOT REACHED. WRNLEV IS  5
+
+ PRNHBD: CUToff Hydrogen Bond  distance =    0.5000   Angle =   90.0000
+         CuT switching ON HB dist. =     3.5000  OFf HB dist. =    4.0000
+         CuT switching ON Hb Angle =    50.0000  OFf Hb Angle =   70.0000
+         ACCEptor antecedents included
+         All hydrogen bonds for each hydrogen will be found
+         Hydrogen bonds between excluded atoms will be kept
+
+ DCNTRL> Langevin integration requested.
+   NSTEP =   500000    NSAVC =     2500    NSAVV =        0
+  ISCALE =        0   ISCVEL =        0   IASORS =        0
+  IASVEL =        1   ICHECW =        1   NTRFRQ =    50000
+  IHTFRQ =        0   IEQFRQ =        0   NPRINT =       50
+  INBFRQ =       -1   IHBFRQ =        0   IPRFRQ =    50000
+  ILBFRQ =        0   IMGFRQ =       -1
+  ISVFRQ =   100000   NCYCLE =    50000    NSNOS =       10
+  FIRSTT =   300.000  TEMINC =     5.000  TSTRUC =  -999.000
+  FINALT =   300.000  TWINDH =    10.000  TWINDL =   -10.000
+
+  TIME STEP =  4.09097E-02 AKMA       2.00000E-03 PS
+
+  RANDOM NUM. GEN. SEED(S) = 1905168941 222101463 1016893532 284569742
+
+           SHAKE TOLERANCE =     0.10000E-05
+ NUMBER OF DEGREES OF FREEDOM =   2442
+ LNGFIL: TBATH =   300.000000  DELTA =    0.040910
+ LNGFIL: Langevin dynamics setup for     456 atoms
+ LNGFIL: RBUF =    0.000000
+ LNGFIL: SXREF =    0.000000 SYREF =    0.000000 SZREF =    0.000000
+DYNA DYN: Step         Time      TOTEner        TOTKe       ENERgy  TEMPerature
+DYNA PROP:             GRMS      HFCTote        HFCKe       EHFCor        VIRKe
+DYNA INTERN:          BONDs       ANGLes       UREY-b    DIHEdrals    IMPRopers
+DYNA CROSS:           CMAPs        PMF1D        PMF2D        PRIMO
+DYNA EXTERN:        VDWaals         ELEC       HBONds          ASP         USER
+DYNA PBEQ:             PBnp       PBelec        GBEnr         GSBP         SMBP
+DYNA PRESS:            VIRE         VIRI       PRESSE       PRESSI       VOLUme
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>        0      2.00000    968.31382    720.34783    247.96599    296.88413
+DYNA PROP>         19.85188    980.14555    750.13631     11.83173    506.73798
+DYNA INTERN>      177.21365    512.42218     69.11967    260.56202     24.07144
+DYNA CROSS>       -55.61428      0.00000      0.00000      0.00000
+DYNA EXTERN>     -182.13810    145.10017      0.00000      9.44957      0.00000
+DYNA PBEQ>          0.00000      0.00000   -712.22034      0.00000      0.00000
+DYNA PRESS>       139.91944   -477.74476      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step        39
+DYNA>       50      2.10000    974.29802    718.14366    256.15437    295.97570
+DYNA PROP>         19.85331    983.25717    747.16267      8.95915   1150.22430
+DYNA INTERN>      202.57347    465.59824     68.29131    270.23591     25.06629
+DYNA CROSS>       -64.71802      0.00000      0.00000      0.00000
+DYNA EXTERN>     -167.52896    248.33382      0.00000      9.44172      0.00000
+DYNA PBEQ>          0.00000      0.00000   -801.13942      0.00000      0.00000
+DYNA PRESS>       115.37376   -882.18996      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>      100      2.20000    959.57653    736.16746    223.40908    303.40403
+DYNA PROP>         19.38321    969.39391    764.15097      9.81737    671.93982
+DYNA INTERN>      172.75716    482.10879     59.69134    274.63052     31.38639
+DYNA CROSS>       -65.56912      0.00000      0.00000      0.00000
+DYNA EXTERN>     -175.73112    243.17585      0.00000      9.58688      0.00000
+DYNA PBEQ>          0.00000      0.00000   -808.62762      0.00000      0.00000
+DYNA PRESS>       123.12533   -571.08521      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step       107
+DYNA>      150      2.30000    936.97424    708.18618    228.78806    291.87182
+DYNA PROP>         19.90660    947.74777    735.95189     10.77353    962.24737
+DYNA INTERN>      189.66527    475.86887     62.58597    270.21225     27.04246
+DYNA CROSS>       -66.41335      0.00000      0.00000      0.00000
+DYNA EXTERN>     -178.17844    240.03301      0.00000      9.71544      0.00000
+DYNA PBEQ>          0.00000      0.00000   -801.74341      0.00000      0.00000
+DYNA PRESS>       122.74890   -764.24715      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step       169
+DYNA>      200      2.40000    937.09909    715.62704    221.47204    294.93850
+DYNA PROP>         18.18588    946.40958    742.25655      9.31050    678.38441
+DYNA INTERN>      157.00715    480.73041     66.47321    264.05918     22.64165
+DYNA CROSS>       -62.33335      0.00000      0.00000      0.00000
+DYNA EXTERN>     -161.11861    267.93162      0.00000      9.52961      0.00000
+DYNA PBEQ>          0.00000      0.00000   -823.44883      0.00000      0.00000
+DYNA PRESS>       114.13296   -566.38923      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>      250      2.50000    960.61907    714.26624    246.35283    294.37766
+DYNA PROP>         19.58868    970.25434    741.87525      9.63527    260.71043
+DYNA INTERN>      180.42874    491.87714     65.52475    259.79075     25.66669
+DYNA CROSS>       -61.66606      0.00000      0.00000      0.00000
+DYNA EXTERN>     -159.04388    169.84588      0.00000      9.52318      0.00000
+DYNA PBEQ>          0.00000      0.00000   -735.59436      0.00000      0.00000
+DYNA PRESS>       146.21024   -320.01719      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step       272
+DYNA>      300      2.60000    954.27426    730.52537    223.74889    301.07870
+DYNA PROP>         19.37738    963.40739    758.22429      9.13313   1035.67163
+DYNA INTERN>      184.94031    479.94726     65.46914    255.27669     27.19571
+DYNA CROSS>       -66.02895      0.00000      0.00000      0.00000
+DYNA EXTERN>     -183.82652    179.45175      0.00000      9.76719      0.00000
+DYNA PBEQ>          0.00000      0.00000   -728.44369      0.00000      0.00000
+DYNA PRESS>       151.76022   -842.20797      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>      350      2.70000    943.15409    698.27505    244.87905    287.78705
+DYNA PROP>         19.04659    952.42989    726.59232      9.27580    163.03746
+DYNA INTERN>      161.86879    512.31389     66.39411    251.49326     25.53828
+DYNA CROSS>       -59.93424      0.00000      0.00000      0.00000
+DYNA EXTERN>     -150.72390    194.95249      0.00000      9.71596      0.00000
+DYNA PBEQ>          0.00000      0.00000   -766.73960      0.00000      0.00000
+DYNA PRESS>       131.70295   -240.39459      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step       374
+DYNA>      400      2.80000    941.57229    707.75087    233.82141    291.69242
+DYNA PROP>         20.34696    947.69870    737.04596      6.12641   1277.17737
+DYNA INTERN>      209.40480    478.84627     62.58857    255.02229     25.96919
+DYNA CROSS>       -63.67319      0.00000      0.00000      0.00000
+DYNA EXTERN>     -178.53510    119.17772      0.00000      9.91784      0.00000
+DYNA PBEQ>          0.00000      0.00000   -684.89699      0.00000      0.00000
+DYNA PRESS>       153.62989  -1005.08147      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>      450      2.90000    926.94618    712.71159    214.23460    293.73693
+DYNA PROP>         18.77852    935.60922    739.99726      8.66303    886.76946
+DYNA INTERN>      169.55245    474.47057     63.91385    258.25200     24.50323
+DYNA CROSS>       -62.30577      0.00000      0.00000      0.00000
+DYNA EXTERN>     -172.93827    246.45554      0.00000      9.90007      0.00000
+DYNA PBEQ>          0.00000      0.00000   -797.56908      0.00000      0.00000
+DYNA PRESS>       128.82441   -720.00404      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step       469
+DYNA>      500      3.00000    926.23459    718.32154    207.91305    296.04901
+DYNA PROP>         19.28475    935.47072    745.54641      9.23613    846.01999
+DYNA INTERN>      174.58664    473.48554     61.62099    255.95048     33.16988
+DYNA CROSS>       -66.85791      0.00000      0.00000      0.00000
+DYNA EXTERN>     -180.48146    294.42800      0.00000      9.85516      0.00000
+DYNA PBEQ>          0.00000      0.00000   -847.84426      0.00000      0.00000
+DYNA PRESS>       124.61586   -688.62919      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>      550      3.10000    929.91286    711.32492    218.58794    293.16542
+DYNA PROP>         18.87742    939.99771    737.54200     10.08485    610.50020
+DYNA INTERN>      166.07813    481.97095     58.26867    254.32156     33.04765
+DYNA CROSS>       -66.92649      0.00000      0.00000      0.00000
+DYNA EXTERN>     -161.78181    228.19221      0.00000      9.95959      0.00000
+DYNA PBEQ>          0.00000      0.00000   -784.54250      0.00000      0.00000
+DYNA PRESS>       138.59288   -545.59301      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step       550
+DYNA>      600      3.20000    907.53327    687.56377    219.96950    283.37250
+DYNA PROP>         18.86054    915.89120    714.13544      8.35793    753.77748
+DYNA INTERN>      173.20858    450.32164     61.71234    259.74972     22.83709
+DYNA CROSS>       -64.46667      0.00000      0.00000      0.00000
+DYNA EXTERN>     -138.60768    253.26086      0.00000      9.94708      0.00000
+DYNA PBEQ>          0.00000      0.00000   -807.99345      0.00000      0.00000
+DYNA PRESS>       122.38313   -624.90145      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step       614
+DYNA>      650      3.30000    934.92047    709.72202    225.19845    292.50481
+DYNA PROP>         18.70001    942.61678    736.60414      7.69631     -1.10914
+DYNA INTERN>      153.08757    499.03935     60.54001    260.98935     22.24830
+DYNA CROSS>       -62.37777      0.00000      0.00000      0.00000
+DYNA EXTERN>     -158.56477    306.86804      0.00000      9.94345      0.00000
+DYNA PBEQ>          0.00000      0.00000   -866.57508      0.00000      0.00000
+DYNA PRESS>       113.42176   -112.68233      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step       693
+DYNA>      700      3.40000    909.81259    704.67917    205.13342    290.42644
+DYNA PROP>         18.88787    918.48569    730.82062      8.67310   1323.10870
+DYNA INTERN>      176.02974    464.98223     60.81626    265.87245     26.90830
+DYNA CROSS>       -63.47765      0.00000      0.00000      0.00000
+DYNA EXTERN>     -172.55348    245.21863      0.00000      9.91607      0.00000
+DYNA PBEQ>          0.00000      0.00000   -808.57912      0.00000      0.00000
+DYNA PRESS>       118.39897  -1000.47144      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>      750      3.50000    929.66275    720.08526    209.57748    296.77591
+DYNA PROP>         18.59589    938.54665    746.12802      8.88390    724.10209
+DYNA INTERN>      169.16871    482.80400     57.81958    265.21619     31.46199
+DYNA CROSS>       -67.68594      0.00000      0.00000      0.00000
+DYNA EXTERN>     -184.58816    211.20820      0.00000     10.07059      0.00000
+DYNA PBEQ>          0.00000      0.00000   -765.89767      0.00000      0.00000
+DYNA PRESS>       145.75765   -628.49237      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step       793
+DYNA>      800      3.60000    931.72733    736.55016    195.17717    303.56175
+DYNA PROP>         18.77531    941.04569    762.70163      9.31836   1055.59142
+DYNA INTERN>      169.69128    472.90153     59.50909    260.90886     30.29313
+DYNA CROSS>       -69.78172      0.00000      0.00000      0.00000
+DYNA EXTERN>     -183.54425    257.30351      0.00000     10.05568      0.00000
+DYNA PBEQ>          0.00000      0.00000   -812.15995      0.00000      0.00000
+DYNA PRESS>       128.59848   -832.32610      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>      850      3.70000    938.00959    714.23796    223.77163    294.36600
+DYNA PROP>         18.63247    947.54049    740.29747      9.53090    709.35091
+DYNA INTERN>      174.51571    459.43384     65.62831    263.53194     24.54726
+DYNA CROSS>       -68.27140      0.00000      0.00000      0.00000
+DYNA EXTERN>     -147.04297    236.12237      0.00000      9.99762      0.00000
+DYNA PBEQ>          0.00000      0.00000   -794.69105      0.00000      0.00000
+DYNA PRESS>       132.09512   -604.99572      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>      900      3.80000    937.24135    738.18405    199.05730    304.23514
+DYNA PROP>         19.36267    944.55567    764.61868      7.31432    633.03686
+DYNA INTERN>      180.65980    475.69489     61.77806    257.03570     21.69695
+DYNA CROSS>       -64.75491      0.00000      0.00000      0.00000
+DYNA EXTERN>     -179.45163    106.56725      0.00000     10.10116      0.00000
+DYNA PBEQ>          0.00000      0.00000   -670.26998      0.00000      0.00000
+DYNA PRESS>       170.86247   -592.88704      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step       949
+DYNA>      950      3.90000    933.47772    709.41448    224.06324    292.37805
+DYNA PROP>         18.88414    941.79250    735.49432      8.31478   1290.32618
+DYNA INTERN>      165.98198    498.84417     59.61275    269.17869     26.61504
+DYNA CROSS>       -65.18236      0.00000      0.00000      0.00000
+DYNA EXTERN>     -192.73557     93.65229      0.00000     10.05432      0.00000
+DYNA PBEQ>          0.00000      0.00000   -641.95806      0.00000      0.00000
+DYNA PRESS>       180.19178  -1040.40924      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>     1000      4.00000    933.85673    727.52140    206.33532    299.84064
+DYNA PROP>         18.31174    941.84538    752.32345      7.98865    925.24709
+DYNA INTERN>      177.20274    451.52052     59.56633    262.38629     31.89384
+DYNA CROSS>       -60.02467      0.00000      0.00000      0.00000
+DYNA EXTERN>     -165.88655    189.95419      0.00000      9.92748      0.00000
+DYNA PBEQ>          0.00000      0.00000   -750.20485      0.00000      0.00000
+DYNA PRESS>       143.71036   -760.54175      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      1037
+DYNA>     1050      4.10000    954.63283    712.26719    242.36563    293.55377
+DYNA PROP>         18.79241    963.59729    738.91143      8.96446    447.33618
+DYNA INTERN>      172.73765    498.08687     60.02477    269.39637     24.85201
+DYNA CROSS>       -65.91362      0.00000      0.00000      0.00000
+DYNA EXTERN>     -163.80018    257.30256      0.00000      9.72823      0.00000
+DYNA PBEQ>          0.00000      0.00000   -820.04903      0.00000      0.00000
+DYNA PRESS>       112.71371   -410.93782      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>     1100      4.20000    988.10372    724.53043    263.57329    298.60794
+DYNA PROP>         19.05768    996.87572    751.73569      8.77200   1495.21094
+DYNA INTERN>      185.84456    501.57235     61.06311    275.74826     23.45645
+DYNA CROSS>       -65.73474      0.00000      0.00000      0.00000
+DYNA EXTERN>     -176.76649    268.97073      0.00000      9.80435      0.00000
+DYNA PBEQ>          0.00000      0.00000   -820.38529      0.00000      0.00000
+DYNA PRESS>       123.77436  -1120.58165      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      1116
+DYNA>     1150      4.30000    990.91726    753.68429    237.23297    310.62341
+DYNA PROP>         19.00278   1001.05467    781.10879     10.13741    606.87680
+DYNA INTERN>      167.82980    498.15288     64.74804    277.12152     25.28997
+DYNA CROSS>       -70.09168      0.00000      0.00000      0.00000
+DYNA EXTERN>     -183.25238    126.55389      0.00000      9.91980      0.00000
+DYNA PBEQ>          0.00000      0.00000   -679.03886      0.00000      0.00000
+DYNA PRESS>       152.43081   -557.01535      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      1166
+DYNA>     1200      4.40000   1015.86951    731.96716    283.90235    301.67292
+DYNA PROP>         20.03111   1023.99155    760.45955      8.12204   1030.50283
+DYNA INTERN>      202.98263    477.26027     63.89516    276.59658     35.35896
+DYNA CROSS>       -70.13903      0.00000      0.00000      0.00000
+DYNA EXTERN>     -162.12737    197.87590      0.00000      9.87547      0.00000
+DYNA PBEQ>          0.00000      0.00000   -747.67623      0.00000      0.00000
+DYNA PRESS>       135.25788   -822.25977      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      1206
+DYNA>     1250      4.50000   1013.63793    711.79733    301.84059    293.36012
+DYNA PROP>         19.82859   1022.78354    740.34521      9.14562    653.18041
+DYNA INTERN>      194.94822    487.42868     66.52538    288.30324     31.44636
+DYNA CROSS>       -63.82459      0.00000      0.00000      0.00000
+DYNA EXTERN>     -152.45152    216.26097      0.00000      9.89815      0.00000
+DYNA PBEQ>          0.00000      0.00000   -776.69431      0.00000      0.00000
+DYNA PRESS>       124.46681   -559.92042      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>     1300      4.60000   1011.62409    753.92995    257.69414    310.72466
+DYNA PROP>         19.03898   1020.44404    781.30575      8.81995    933.63164
+DYNA INTERN>      171.62380    504.66013     62.67157    266.30400     30.08989
+DYNA CROSS>       -65.28117      0.00000      0.00000      0.00000
+DYNA EXTERN>     -170.16841    249.30455      0.00000      9.92068      0.00000
+DYNA PBEQ>          0.00000      0.00000   -801.43087      0.00000      0.00000
+DYNA PRESS>       126.67212   -749.09321      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      1309
+ UPDECI: Nonbond update at step      1348
+DYNA>     1350      4.70000    995.52532    716.51703    279.00829    295.30530
+DYNA PROP>         19.75934   1003.76142    745.02742      8.23610    606.29688
+DYNA INTERN>      179.62998    500.54131     66.67345    264.48209     30.24842
+DYNA CROSS>       -62.93842      0.00000      0.00000      0.00000
+DYNA EXTERN>     -154.39896    335.20354      0.00000      9.89220      0.00000
+DYNA PBEQ>          0.00000      0.00000   -890.32531      0.00000      0.00000
+DYNA PRESS>        86.77224   -490.97017      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>     1400      4.80000   1014.54893    747.81247    266.73646    308.20340
+DYNA PROP>         19.08196   1024.14342    774.68809      9.59449    956.04872
+DYNA INTERN>      190.82020    490.08115     64.17842    266.52086     27.45115
+DYNA CROSS>       -67.95225      0.00000      0.00000      0.00000
+DYNA EXTERN>     -168.53010    300.25908      0.00000      9.95181      0.00000
+DYNA PBEQ>          0.00000      0.00000   -846.04385      0.00000      0.00000
+DYNA PRESS>        91.10606   -728.47188      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      1413
+DYNA>     1450      4.90000    994.36386    730.61521    263.74865    301.11572
+DYNA PROP>         19.55420   1004.61072    758.04705     10.24685    885.21330
+DYNA INTERN>      186.83259    489.33227     63.53855    270.19361     30.17349
+DYNA CROSS>       -58.96024      0.00000      0.00000      0.00000
+DYNA EXTERN>     -182.11664    188.18836      0.00000      9.99758      0.00000
+DYNA PBEQ>          0.00000      0.00000   -733.43092      0.00000      0.00000
+DYNA PRESS>       126.33240   -716.47460      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      1473
+DYNA>     1500      5.00000    979.84291    725.75467    254.08824    299.11250
+DYNA PROP>         19.11780    989.43712    753.15602      9.59420   1227.92760
+DYNA INTERN>      174.30218    502.18059     67.09832    274.91092     22.69431
+DYNA CROSS>       -65.87585      0.00000      0.00000      0.00000
+DYNA EXTERN>     -181.88496    112.03966      0.00000     10.09008      0.00000
+DYNA PBEQ>          0.00000      0.00000   -661.46700      0.00000      0.00000
+DYNA PRESS>       153.17322   -971.79162      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>     1550      5.10000    989.03943    731.11752    257.92191    301.32275
+DYNA PROP>         19.59534    999.19719    758.37248     10.15776    690.98067
+DYNA INTERN>      190.60053    477.27719     63.84858    269.40391     29.28548
+DYNA CROSS>       -66.86981      0.00000      0.00000      0.00000
+DYNA EXTERN>     -177.40477    101.56082      0.00000      9.94405      0.00000
+DYNA PBEQ>          0.00000      0.00000   -639.72407      0.00000      0.00000
+DYNA PRESS>       178.01084   -638.66462      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      1570
+DYNA>     1600      5.20000   1003.40614    713.96748    289.43865    294.25453
+DYNA PROP>         19.26821   1011.71142    742.97955      8.30528   1322.80625
+DYNA INTERN>      184.51025    513.17414     69.34222    266.13875     22.24485
+DYNA CROSS>       -64.77735      0.00000      0.00000      0.00000
+DYNA EXTERN>     -182.82038    206.84254      0.00000      9.99609      0.00000
+DYNA PBEQ>          0.00000      0.00000   -735.21246      0.00000      0.00000
+DYNA PRESS>       124.35818  -1006.22902      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>     1650      5.30000    999.82885    747.68782    252.14103    308.15203
+DYNA PROP>         18.75544   1009.78313    773.67189      9.95428    566.32899
+DYNA INTERN>      177.01373    482.84144     63.73494    278.68512     27.07544
+DYNA CROSS>       -64.79373      0.00000      0.00000      0.00000
+DYNA EXTERN>     -166.36944    158.72130      0.00000      9.68229      0.00000
+DYNA PBEQ>          0.00000      0.00000   -714.45006      0.00000      0.00000
+DYNA PRESS>       136.10170   -513.65436      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      1667
+DYNA>     1700      5.40000   1018.37903    734.86273    283.51630    302.86629
+DYNA PROP>         20.38602   1025.83091    765.11237      7.45188   1038.54853
+DYNA INTERN>      206.53780    485.08945     71.61162    274.62557     22.83749
+DYNA CROSS>       -64.74472      0.00000      0.00000      0.00000
+DYNA EXTERN>     -169.33792    130.70749      0.00000      9.66961      0.00000
+DYNA PBEQ>          0.00000      0.00000   -683.48008      0.00000      0.00000
+DYNA PRESS>       141.08274   -833.44842      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>     1750      5.50000   1038.08677    750.72046    287.36631    309.40190
+DYNA PROP>         19.50546   1047.87768    779.19565      9.79091    666.39365
+DYNA INTERN>      188.44398    493.19468     68.08563    281.95955     24.77993
+DYNA CROSS>       -59.58490      0.00000      0.00000      0.00000
+DYNA EXTERN>     -166.65180    186.99535      0.00000      9.57096      0.00000
+DYNA PBEQ>          0.00000      0.00000   -739.42707      0.00000      0.00000
+DYNA PRESS>       126.26933   -570.53176      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      1753
+DYNA>     1800      5.60000    989.63467    704.72937    284.90529    290.44714
+DYNA PROP>         18.95491    997.49761    732.47664      7.86294   1351.81844
+DYNA INTERN>      184.05583    515.69968     66.02275    285.20925     32.12395
+DYNA CROSS>       -66.14454      0.00000      0.00000      0.00000
+DYNA EXTERN>     -184.08062    249.66645      0.00000      9.52348      0.00000
+DYNA PBEQ>          0.00000      0.00000   -807.17093      0.00000      0.00000
+DYNA PRESS>       111.01766  -1012.22995      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      1814
+DYNA>     1850      5.70000   1009.98776    747.78099    262.20676    308.19043
+DYNA PROP>         19.85452   1020.04452    776.53240     10.05676    885.92324
+DYNA INTERN>      174.95679    497.30110     62.26433    271.97039     28.00489
+DYNA CROSS>       -65.06557      0.00000      0.00000      0.00000
+DYNA EXTERN>     -175.42180    141.40217      0.00000      9.55369      0.00000
+DYNA PBEQ>          0.00000      0.00000   -682.75923      0.00000      0.00000
+DYNA PRESS>       169.78701   -760.40250      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      1892
+DYNA>     1900      5.80000    983.81589    738.22656    245.58933    304.25267
+DYNA PROP>         19.37537    992.98400    766.05593      9.16811    101.10257
+DYNA INTERN>      163.79141    483.77734     61.86777    264.61155     33.56844
+DYNA CROSS>       -67.96514      0.00000      0.00000      0.00000
+DYNA EXTERN>     -162.12000    307.55730      0.00000      9.69545      0.00000
+DYNA PBEQ>          0.00000      0.00000   -849.19480      0.00000      0.00000
+DYNA PRESS>       114.12953   -181.53124      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      1929
+DYNA>     1950      5.90000    976.61440    728.99779    247.61661    300.44912
+DYNA PROP>         19.24849    986.36272    755.52406      9.74832    784.54908
+DYNA INTERN>      197.81995    482.87116     62.89519    251.60811     26.78131
+DYNA CROSS>       -62.14209      0.00000      0.00000      0.00000
+DYNA EXTERN>     -162.02331    150.18410      0.00000      9.85963      0.00000
+DYNA PBEQ>          0.00000      0.00000   -710.23746      0.00000      0.00000
+DYNA PRESS>       161.23936   -684.27208      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      1973
+DYNA>     2000      6.00000    995.32071    733.13578    262.18493    302.15455
+DYNA PROP>         19.21043   1004.17562    760.51650      8.85490    674.38417
+DYNA INTERN>      197.60934    479.41603     68.18648    267.29700     30.01077
+DYNA CROSS>       -62.07996      0.00000      0.00000      0.00000
+DYNA EXTERN>     -177.33807    203.96233      0.00000      9.82981      0.00000
+DYNA PBEQ>          0.00000      0.00000   -754.70881      0.00000      0.00000
+DYNA PRESS>       136.24377   -585.83321      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>     2050      6.10000    963.71084    718.25647    245.45437    296.02219
+DYNA PROP>         19.10206    971.64436    745.09378      7.93351    337.09064
+DYNA INTERN>      185.78607    462.16969     62.80553    285.27547     30.08818
+DYNA CROSS>       -67.60375      0.00000      0.00000      0.00000
+DYNA EXTERN>     -187.97868    259.36651      0.00000      9.80558      0.00000
+DYNA PBEQ>          0.00000      0.00000   -794.26023      0.00000      0.00000
+DYNA PRESS>       127.18689   -351.91398      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      2054
+DYNA>     2100      6.20000    973.22787    734.03210    239.19577    302.52396
+DYNA PROP>         18.67110    983.58226    759.88755     10.35439   1199.66502
+DYNA INTERN>      187.93217    457.26708     59.40649    282.52286     29.21062
+DYNA CROSS>       -68.97461      0.00000      0.00000      0.00000
+DYNA EXTERN>     -167.21456     70.33736      0.00000     10.19482      0.00000
+DYNA PBEQ>          0.00000      0.00000   -621.48647      0.00000      0.00000
+DYNA PRESS>       171.84587   -971.62255      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      2126
+DYNA>     2150      6.30000    975.51681    722.92066    252.59616    297.94449
+DYNA PROP>         18.98968    982.92217    749.93480      7.40536    924.00956
+DYNA INTERN>      171.70154    496.45656     63.03650    269.76637     22.48125
+DYNA CROSS>       -72.64431      0.00000      0.00000      0.00000
+DYNA EXTERN>     -169.83921    140.30949      0.00000     10.00058      0.00000
+DYNA PBEQ>          0.00000      0.00000   -678.67261      0.00000      0.00000
+DYNA PRESS>       164.40684   -780.41321      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>     2200      6.40000    976.05721    726.27092    249.78629    299.32527
+DYNA PROP>         19.09180    984.83738    753.07061      8.78017    249.93119
+DYNA INTERN>      179.46253    483.81363     60.10721    266.55185     27.37461
+DYNA CROSS>       -66.33916      0.00000      0.00000      0.00000
+DYNA EXTERN>     -158.35656    115.97201      0.00000     10.30137      0.00000
+DYNA PBEQ>          0.00000      0.00000   -669.10120      0.00000      0.00000
+DYNA PRESS>       177.50815   -344.12895      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      2221
+DYNA>     2250      6.50000    987.58703    719.96665    267.62038    296.72703
+DYNA PROP>         19.81251    995.63973    747.32409      8.05271    654.22610
+DYNA INTERN>      208.47878    464.05474     60.63036    266.70059     24.49016
+DYNA CROSS>       -63.08194      0.00000      0.00000      0.00000
+DYNA EXTERN>     -165.25917    216.39680      0.00000     10.32009      0.00000
+DYNA PBEQ>          0.00000      0.00000   -755.11004      0.00000      0.00000
+DYNA PRESS>       150.68964   -586.84037      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      2272
+DYNA>     2300      6.60000    972.81830    742.21113    230.60717    305.89487
+DYNA PROP>         18.50353    982.90866    766.90320     10.09036    939.88505
+DYNA INTERN>      182.38281    465.02040     58.64275    272.22988     25.77314
+DYNA CROSS>       -67.85746      0.00000      0.00000      0.00000
+DYNA EXTERN>     -187.92926    200.56757      0.00000     10.27998      0.00000
+DYNA PBEQ>          0.00000      0.00000   -728.50264      0.00000      0.00000
+DYNA PRESS>       164.51466   -791.10469      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      2310
+DYNA>     2350      6.70000    943.70658    689.62519    254.08139    284.22210
+DYNA PROP>         18.72909    951.39453    716.02560      7.68794    936.54677
+DYNA INTERN>      182.16990    497.11635     67.57385    260.69143     23.41011
+DYNA CROSS>       -62.05680      0.00000      0.00000      0.00000
+DYNA EXTERN>     -178.21007    268.23587      0.00000     10.36597      0.00000
+DYNA PBEQ>          0.00000      0.00000   -815.21521      0.00000      0.00000
+DYNA PRESS>       143.32890   -767.69341      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      2351
+DYNA>     2400      6.80000    947.66031    709.43973    238.22059    292.38846
+DYNA PROP>         19.48015    956.03045    737.35808      8.37014    516.55540
+DYNA INTERN>      176.67056    468.36323     64.37927    262.24455     24.34473
+DYNA CROSS>       -59.14769      0.00000      0.00000      0.00000
+DYNA EXTERN>     -165.58526    276.91395      0.00000     10.39720      0.00000
+DYNA PBEQ>          0.00000      0.00000   -820.35994      0.00000      0.00000
+DYNA PRESS>       123.47754   -467.84781      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      2403
+DYNA>     2450      6.90000    958.30650    714.27831    244.02819    294.38263
+DYNA PROP>         18.74741    965.90179    741.33394      7.59529    529.46480
+DYNA INTERN>      164.69616    490.39082     68.77324    260.27348     28.63866
+DYNA CROSS>       -61.35543      0.00000      0.00000      0.00000
+DYNA EXTERN>     -159.77517    244.80880      0.00000     10.18648      0.00000
+DYNA PBEQ>          0.00000      0.00000   -802.60886      0.00000      0.00000
+DYNA PRESS>       133.49040   -486.46693      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      2473
+DYNA>     2500      7.00000    968.96963    731.71785    237.25178    301.57017
+DYNA PROP>         18.73407    978.12276    758.70638      9.15314    997.65033
+DYNA INTERN>      176.76701    503.85540     67.30943    255.01865     26.81344
+DYNA CROSS>       -66.39204      0.00000      0.00000      0.00000
+DYNA EXTERN>     -178.05721    234.47898      0.00000     10.06136      0.00000
+DYNA PBEQ>          0.00000      0.00000   -792.60325      0.00000      0.00000
+DYNA PRESS>       143.58734   -808.68756      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      2522
+DYNA>     2550      7.10000    952.53555    727.90909    224.62645    300.00042
+DYNA PROP>         18.78718    961.64978    754.63621      9.11424    523.77279
+DYNA INTERN>      182.57345    482.70394     66.52653    247.63417     24.80363
+DYNA CROSS>       -63.58240      0.00000      0.00000      0.00000
+DYNA EXTERN>     -170.04384     73.20918      0.00000     10.01246      0.00000
+DYNA PBEQ>          0.00000      0.00000   -629.21067      0.00000      0.00000
+DYNA PRESS>       178.20654   -527.38840      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>     2600      7.20000    986.04402    714.05964    271.98438    294.29251
+DYNA PROP>         19.62160    993.34716    742.43074      7.30314    835.23567
+DYNA INTERN>      187.02252    489.88957     70.01728    259.55024     30.94614
+DYNA CROSS>       -64.08128      0.00000      0.00000      0.00000
+DYNA EXTERN>     -167.79554    213.61538      0.00000     10.05187      0.00000
+DYNA PBEQ>          0.00000      0.00000   -757.23179      0.00000      0.00000
+DYNA PRESS>       145.42289   -702.24667      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      2600
+DYNA>     2650      7.30000    998.36721    757.32890    241.03831    312.12550
+DYNA PROP>         19.11231   1008.01279    784.06767      9.64558    841.80732
+DYNA INTERN>      195.11581    470.83136     64.24096    266.89938     28.05421
+DYNA CROSS>       -64.56229      0.00000      0.00000      0.00000
+DYNA EXTERN>     -172.13785    347.20523      0.00000      9.91732      0.00000
+DYNA PBEQ>          0.00000      0.00000   -904.52581      0.00000      0.00000
+DYNA PRESS>       102.66571   -663.87059      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      2655
+DYNA>     2700      7.40000    995.16392    732.45565    262.70827    301.87424
+DYNA PROP>         19.68551   1003.51827    761.32098      8.35435    842.47903
+DYNA INTERN>      184.61826    474.31350     61.46236    276.36748     31.66903
+DYNA CROSS>       -64.44695      0.00000      0.00000      0.00000
+DYNA EXTERN>     -157.53653    203.36073      0.00000      9.87197      0.00000
+DYNA PBEQ>          0.00000      0.00000   -756.97158      0.00000      0.00000
+DYNA PRESS>       145.32490   -706.97759      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>     2750      7.50000    983.01801    731.55558    251.46242    301.50329
+DYNA PROP>         19.14466    991.59427    758.98155      8.57626    383.32887
+DYNA INTERN>      181.72902    495.75914     67.57455    261.52404     36.70744
+DYNA CROSS>       -64.66888      0.00000      0.00000      0.00000
+DYNA EXTERN>     -175.67669    197.22537      0.00000      9.74888      0.00000
+DYNA PBEQ>          0.00000      0.00000   -758.46045      0.00000      0.00000
+DYNA PRESS>       156.32700   -411.87957      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      2754
+ UPDECI: Nonbond update at step      2796
+DYNA>     2800      7.60000    992.30788    722.83982    269.46805    297.91118
+DYNA PROP>         18.86393   1001.72541    751.52831      9.41753    879.89285
+DYNA INTERN>      174.90871    514.36358     69.98687    265.98414     32.83016
+DYNA CROSS>       -65.32803      0.00000      0.00000      0.00000
+DYNA EXTERN>     -183.43874    151.30736      0.00000      9.77666      0.00000
+DYNA PBEQ>          0.00000      0.00000   -700.92265      0.00000      0.00000
+DYNA PRESS>       160.10072   -746.69595      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>     2850      7.70000    967.58411    711.26210    256.32201    293.13953
+DYNA PROP>         19.48366    976.89687    739.43073      9.31276    222.27003
+DYNA INTERN>      184.66658    474.80563     63.76640    275.75451     23.35121
+DYNA CROSS>       -67.97627      0.00000      0.00000      0.00000
+DYNA EXTERN>     -167.66060    160.85528      0.00000      9.75476      0.00000
+DYNA PBEQ>          0.00000      0.00000   -700.99549      0.00000      0.00000
+DYNA PRESS>       158.82096   -307.00098      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      2850
+ UPDECI: Nonbond update at step      2899
+DYNA>     2900      7.80000    985.37012    717.74285    267.62727    295.81051
+DYNA PROP>         19.60654    992.38162    746.23844      7.01150    981.26369
+DYNA INTERN>      186.20165    473.98450     63.85107    271.43486     30.42994
+DYNA CROSS>       -65.04975      0.00000      0.00000      0.00000
+DYNA EXTERN>     -163.79783    279.69316      0.00000      9.79208      0.00000
+DYNA PBEQ>          0.00000      0.00000   -818.91241      0.00000      0.00000
+DYNA PRESS>       128.02117   -782.19696      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>     2950      7.90000   1003.84895    736.25987    267.58908    303.44211
+DYNA PROP>         18.64952   1013.44356    763.62444      9.59460    854.53996
+DYNA INTERN>      167.88005    495.51341     65.30103    280.02914     25.94759
+DYNA CROSS>       -67.52195      0.00000      0.00000      0.00000
+DYNA EXTERN>     -186.62468    310.88515      0.00000      9.74088      0.00000
+DYNA PBEQ>          0.00000      0.00000   -833.56155      0.00000      0.00000
+DYNA PRESS>       119.62965   -689.32295      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      2959
+DYNA>     3000      8.00000    980.10573    746.71345    233.39229    307.75045
+DYNA PROP>         19.14019    987.67503    773.72292      7.56929   1247.88916
+DYNA INTERN>      187.76796    483.67542     60.89856    266.36049     28.76949
+DYNA CROSS>       -64.71608      0.00000      0.00000      0.00000
+DYNA EXTERN>     -167.35758    112.48329      0.00000      9.87993      0.00000
+DYNA PBEQ>          0.00000      0.00000   -684.36919      0.00000      0.00000
+DYNA PRESS>       168.04583   -999.97193      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>     3050      8.10000    958.91345    729.82134    229.09210    300.78854
+DYNA PROP>         18.72991    969.24885    756.39024     10.33541   1172.35803
+DYNA INTERN>      162.37403    498.05059     59.19383    277.04660     26.81235
+DYNA CROSS>       -62.23569      0.00000      0.00000      0.00000
+DYNA EXTERN>     -177.88263    103.41937      0.00000      9.97750      0.00000
+DYNA PBEQ>          0.00000      0.00000   -667.66384      0.00000      0.00000
+DYNA PRESS>       160.43258   -942.00460      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      3056
+DYNA>     3100      8.20000    959.77146    716.24398    243.52748    295.19276
+DYNA PROP>         19.74191    969.79989    743.68880     10.02843   1419.89595
+DYNA INTERN>      188.15004    483.62950     60.35482    274.15473     30.27370
+DYNA CROSS>       -65.88388      0.00000      0.00000      0.00000
+DYNA EXTERN>     -182.84701    167.22806      0.00000     10.06339      0.00000
+DYNA PBEQ>          0.00000      0.00000   -721.59588      0.00000      0.00000
+DYNA PRESS>       146.60761  -1093.20491      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      3103
+DYNA>     3150      8.30000    943.23288    699.46261    243.77027    288.27649
+DYNA PROP>         19.19469    952.23661    726.95517      9.00374    487.09481
+DYNA INTERN>      169.62675    495.37422     65.64378    272.66930     27.97456
+DYNA CROSS>       -67.35555      0.00000      0.00000      0.00000
+DYNA EXTERN>     -176.87935     71.98200      0.00000     10.07600      0.00000
+DYNA PBEQ>          0.00000      0.00000   -625.34145      0.00000      0.00000
+DYNA PRESS>       181.16040   -505.89027      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      3152
+ UPDECI: Nonbond update at step      3191
+DYNA>     3200      8.40000    932.31190    710.67924    221.63266    292.89932
+DYNA PROP>         18.71991    942.70550    736.51752     10.39360    255.39356
+DYNA INTERN>      160.90913    459.53529     59.64387    262.74641     30.17362
+DYNA CROSS>       -65.22471      0.00000      0.00000      0.00000
+DYNA EXTERN>     -164.23897    303.86570      0.00000      9.82478      0.00000
+DYNA PBEQ>          0.00000      0.00000   -835.60246      0.00000      0.00000
+DYNA PRESS>       134.08692   -304.34929      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>     3250      8.50000    961.67709    722.47401    239.20308    297.76041
+DYNA PROP>         18.87356    969.42426    749.30944      7.74717    577.57367
+DYNA INTERN>      168.24432    504.91177     59.59686    264.11462     20.30698
+DYNA CROSS>       -66.32215      0.00000      0.00000      0.00000
+DYNA EXTERN>     -173.74469    191.81686      0.00000      9.96592      0.00000
+DYNA PBEQ>          0.00000      0.00000   -739.68741      0.00000      0.00000
+DYNA PRESS>       151.94504   -536.99416      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>     3300      8.60000    984.04767    718.44423    265.60344    296.09958
+DYNA PROP>         19.32854    992.75194    746.19706      8.70427    537.75405
+DYNA INTERN>      179.81093    481.41615     65.77964    268.67770     26.52733
+DYNA CROSS>       -66.09357      0.00000      0.00000      0.00000
+DYNA EXTERN>     -156.74868    265.83677      0.00000      9.60712      0.00000
+DYNA PBEQ>          0.00000      0.00000   -809.20995      0.00000      0.00000
+DYNA PRESS>       112.39625   -470.89895      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      3306
+DYNA>     3350      8.70000    998.25456    729.54642    268.70813    300.67523
+DYNA PROP>         18.94883   1007.49167    757.29321      9.23711   -167.54299
+DYNA INTERN>      171.38475    479.14975     60.86743    263.52707     28.14425
+DYNA CROSS>       -63.78968      0.00000      0.00000      0.00000
+DYNA EXTERN>     -137.48412    266.92863      0.00000      9.76120      0.00000
+DYNA PBEQ>          0.00000      0.00000   -809.78116      0.00000      0.00000
+DYNA PRESS>       119.62918     -7.93386      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      3362
+DYNA>     3400      8.80000    962.67838    700.93185    261.74653    288.88202
+DYNA PROP>         18.67464    971.96362    728.76935      9.28525    749.01933
+DYNA INTERN>      164.63876    492.59161     66.82002    280.33560     24.92595
+DYNA CROSS>       -69.52514      0.00000      0.00000      0.00000
+DYNA EXTERN>     -182.70736    210.53125      0.00000      9.68975      0.00000
+DYNA PBEQ>          0.00000      0.00000   -735.55390      0.00000      0.00000
+DYNA PRESS>       125.72426   -625.07048      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      3407
+DYNA>     3450      8.90000    974.28291    745.81905    228.46385    307.38184
+DYNA PROP>         18.84119    984.41081    772.64795     10.12790    488.61080
+DYNA INTERN>      183.75751    469.81233     60.79071    265.88773     25.22967
+DYNA CROSS>       -65.54025      0.00000      0.00000      0.00000
+DYNA EXTERN>     -172.46339    138.18636      0.00000      9.75506      0.00000
+DYNA PBEQ>          0.00000      0.00000   -686.95189      0.00000      0.00000
+DYNA PRESS>       143.98823   -469.72876      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      3470
+DYNA>     3500      9.00000    962.26735    713.26131    249.00604    293.96349
+DYNA PROP>         19.63552    971.71514    740.99503      9.44779    595.08943
+DYNA INTERN>      187.69326    489.04656     64.81336    266.82120     27.38457
+DYNA CROSS>       -65.33128      0.00000      0.00000      0.00000
+DYNA EXTERN>     -170.19283    156.82295      0.00000      9.84023      0.00000
+DYNA PBEQ>          0.00000      0.00000   -717.89199      0.00000      0.00000
+DYNA PRESS>       142.14849   -538.87478      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      3527
+DYNA>     3550      9.10000    991.20216    752.53249    238.66967    310.14871
+DYNA PROP>         19.94946   1000.17210    781.22991      8.96994    278.49747
+DYNA INTERN>      174.96052    471.30137     67.04213    264.68584     24.86095
+DYNA CROSS>       -69.25369      0.00000      0.00000      0.00000
+DYNA EXTERN>     -168.58122    204.00359      0.00000      9.87322      0.00000
+DYNA PBEQ>          0.00000      0.00000   -740.22305      0.00000      0.00000
+DYNA PRESS>       133.26815   -318.93313      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      3584
+DYNA>     3600      9.20000   1012.11593    768.21488    243.90105    316.61205
+DYNA PROP>         18.87775   1023.56919    794.52328     11.45327    956.62216
+DYNA INTERN>      188.43143    479.49553     63.26851    263.06485     19.66520
+DYNA CROSS>       -60.94206      0.00000      0.00000      0.00000
+DYNA EXTERN>     -170.20887    180.07997      0.00000     10.03326      0.00000
+DYNA PBEQ>          0.00000      0.00000   -728.98677      0.00000      0.00000
+DYNA PRESS>       142.70895   -780.45705      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      3633
+DYNA>     3650      9.30000    997.98700    720.09311    277.89389    296.77915
+DYNA PROP>         19.59087   1005.94944    749.30689      7.96244    508.69591
+DYNA INTERN>      180.15944    506.67605     72.33961    264.64404     23.16379
+DYNA CROSS>       -64.17709      0.00000      0.00000      0.00000
+DYNA EXTERN>     -167.52495    347.79334      0.00000      9.71783      0.00000
+DYNA PBEQ>          0.00000      0.00000   -894.89816      0.00000      0.00000
+DYNA PRESS>       101.84422   -440.97483      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      3672
+DYNA>     3700      9.40000   1002.10393    741.65383    260.45010    305.66518
+DYNA PROP>         19.09046   1012.06359    769.12457      9.95967   1119.76069
+DYNA INTERN>      197.51495    474.71547     59.62376    288.19958     27.59515
+DYNA CROSS>       -70.29747      0.00000      0.00000      0.00000
+DYNA EXTERN>     -173.46020     63.62989      0.00000      9.85755      0.00000
+DYNA PBEQ>          0.00000      0.00000   -616.92858      0.00000      0.00000
+DYNA PRESS>       182.70386   -929.21098      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      3717
+DYNA>     3750      9.50000    994.63643    743.39995    251.23648    306.38482
+DYNA PROP>         19.19522   1004.16482    770.90971      9.52839    675.82019
+DYNA INTERN>      168.36533    493.83389     61.16076    270.40955     29.36590
+DYNA CROSS>       -64.15397      0.00000      0.00000      0.00000
+DYNA EXTERN>     -162.37303    141.74272      0.00000      9.60534      0.00000
+DYNA PBEQ>          0.00000      0.00000   -696.72002      0.00000      0.00000
+DYNA PRESS>       169.46734   -620.01413      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      3770
+DYNA>     3800      9.60000    980.35958    722.88499    257.47459    297.92979
+DYNA PROP>         19.82066    989.41042    751.52104      9.05084   1559.84947
+DYNA INTERN>      199.56094    503.12755     72.37369    248.76720     19.48594
+DYNA CROSS>       -62.42473      0.00000      0.00000      0.00000
+DYNA EXTERN>     -169.88287    157.96711      0.00000      9.64331      0.00000
+DYNA PBEQ>          0.00000      0.00000   -721.14356      0.00000      0.00000
+DYNA PRESS>       151.18700  -1191.08665      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      3841
+DYNA>     3850      9.70000    982.39240    706.08377    276.30863    291.00534
+DYNA PROP>         19.66823    993.41932    735.20451     11.02692    908.23329
+DYNA INTERN>      185.64293    504.55090     65.59167    274.52032     23.49185
+DYNA CROSS>       -67.61155      0.00000      0.00000      0.00000
+DYNA EXTERN>     -175.12430    246.50232      0.00000      9.65093      0.00000
+DYNA PBEQ>          0.00000      0.00000   -790.90644      0.00000      0.00000
+DYNA PRESS>       142.43190   -747.92076      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      3894
+DYNA>     3900      9.80000    977.98807    731.25806    246.73001    301.38067
+DYNA PROP>         19.15166    987.16452    758.56680      9.17645   1105.43588
+DYNA INTERN>      196.48167    485.20565     59.10433    270.44291     27.75412
+DYNA CROSS>       -68.77440      0.00000      0.00000      0.00000
+DYNA EXTERN>     -189.62178    122.07542      0.00000      9.79235      0.00000
+DYNA PBEQ>          0.00000      0.00000   -665.73024      0.00000      0.00000
+DYNA PRESS>       166.27190   -903.22915      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>     3950      9.90000   1000.05837    730.70155    269.35682    301.15131
+DYNA PROP>         19.76635   1006.79859    760.09668      6.74022    120.50633
+DYNA INTERN>      179.35419    517.21444     59.67251    270.60347     25.54527
+DYNA CROSS>       -65.30365      0.00000      0.00000      0.00000
+DYNA EXTERN>     -162.54773     83.63192      0.00000      9.68110      0.00000
+DYNA PBEQ>          0.00000      0.00000   -648.49470      0.00000      0.00000
+DYNA PRESS>       167.75149   -248.08904      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      3953
+DYNA>     4000     10.00000    991.13764    769.15958    221.97806    317.00140
+DYNA PROP>         19.28325   1002.23737    796.40089     11.09973    518.12814
+DYNA INTERN>      163.64716    495.64892     58.90487    253.98608     26.82282
+DYNA CROSS>       -64.71157      0.00000      0.00000      0.00000
+DYNA EXTERN>     -174.84216    224.92439      0.00000      9.68990      0.00000
+DYNA PBEQ>          0.00000      0.00000   -772.09235      0.00000      0.00000
+DYNA PRESS>       119.69398   -465.11274      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      4026
+DYNA>     4050     10.10000    975.22930    739.42681    235.80249    304.74734
+DYNA PROP>         19.52908    984.13297    766.62948      8.90366    778.28793
+DYNA INTERN>      190.65140    464.49658     62.45734    260.14511     26.49718
+DYNA CROSS>       -68.59952      0.00000      0.00000      0.00000
+DYNA EXTERN>     -179.87793    244.71204      0.00000      9.67965      0.00000
+DYNA PBEQ>          0.00000      0.00000   -774.35934      0.00000      0.00000
+DYNA PRESS>       128.06979   -646.92841      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>     4100     10.20000    934.58491    709.10015    225.48476    292.24851
+DYNA PROP>         19.54901    943.74008    736.70679      9.15517    814.24160
+DYNA INTERN>      184.25599    487.40359     57.93929    259.68159     22.85095
+DYNA CROSS>       -66.79437      0.00000      0.00000      0.00000
+DYNA EXTERN>     -167.47254     66.22381      0.00000      9.86971      0.00000
+DYNA PBEQ>          0.00000      0.00000   -628.47326      0.00000      0.00000
+DYNA PRESS>       171.67106   -714.49879      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      4141
+DYNA>     4150     10.30000    956.39645    717.76853    238.62792    295.82109
+DYNA PROP>         19.22354    967.19668    745.09109     10.80023   1435.05677
+DYNA INTERN>      190.89792    476.83907     63.27109    266.32889     22.78561
+DYNA CROSS>       -66.05022      0.00000      0.00000      0.00000
+DYNA EXTERN>     -183.39363     29.23763      0.00000      9.93085      0.00000
+DYNA PBEQ>          0.00000      0.00000   -571.21930      0.00000      0.00000
+DYNA PRESS>       190.75712  -1147.46163      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>     4200     10.40000    947.31117    725.89357    221.41760    299.16975
+DYNA PROP>         19.23905    955.42879    753.08010      8.11762    348.73412
+DYNA INTERN>      181.11904    472.15923     61.51239    242.10504     22.75885
+DYNA CROSS>       -65.04657      0.00000      0.00000      0.00000
+DYNA EXTERN>     -162.74707    191.33274      0.00000      9.80252      0.00000
+DYNA PBEQ>          0.00000      0.00000   -731.57858      0.00000      0.00000
+DYNA PRESS>       141.13311   -373.62252      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      4236
+DYNA>     4250     10.50000    945.25907    720.32766    224.93141    296.87581
+DYNA PROP>         19.27717    954.75221    747.50449      9.49314   1112.71196
+DYNA INTERN>      185.27079    489.86819     65.82995    249.54598     29.42508
+DYNA CROSS>       -66.30926      0.00000      0.00000      0.00000
+DYNA EXTERN>     -186.22918    111.07850      0.00000      9.65518      0.00000
+DYNA PBEQ>          0.00000      0.00000   -663.20382      0.00000      0.00000
+DYNA PRESS>       172.49523   -914.30321      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>     4300     10.60000    974.12984    712.29659    261.83325    293.56589
+DYNA PROP>         18.91946    982.51608    740.65204      8.38625   1074.59471
+DYNA INTERN>      185.53699    516.63724     69.34112    262.66898     20.67918
+DYNA CROSS>       -64.74366      0.00000      0.00000      0.00000
+DYNA EXTERN>     -169.09932     64.24311      0.00000      9.67764      0.00000
+DYNA PBEQ>          0.00000      0.00000   -633.10803      0.00000      0.00000
+DYNA PRESS>       182.73859   -899.13506      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      4339
+DYNA>     4350     10.70000    965.75654    692.35195    273.40459    285.34590
+DYNA PROP>         19.32809    975.15846    721.15457      9.40192    508.82300
+DYNA INTERN>      175.71190    502.84795     64.58922    255.72063     27.54351
+DYNA CROSS>       -66.88493      0.00000      0.00000      0.00000
+DYNA EXTERN>     -168.20970    129.50389      0.00000      9.80118      0.00000
+DYNA PBEQ>          0.00000      0.00000   -657.21907      0.00000      0.00000
+DYNA PRESS>       174.80464   -514.01997      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>     4400     10.80000    954.67281    741.03249    213.64032    305.40910
+DYNA PROP>         19.11116    964.17286    767.26870      9.50004    461.01841
+DYNA INTERN>      170.49503    471.64720     62.62463    258.88537     34.50212
+DYNA CROSS>       -68.30320      0.00000      0.00000      0.00000
+DYNA EXTERN>     -164.42285    178.48369      0.00000     10.10308      0.00000
+DYNA PBEQ>          0.00000      0.00000   -740.37473      0.00000      0.00000
+DYNA PRESS>       149.02212   -456.36773      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      4428
+DYNA>     4450     10.90000    984.18046    744.24095    239.93951    306.73144
+DYNA PROP>         19.58376    992.46609    771.83273      8.28563    630.70800
+DYNA INTERN>      185.35744    479.15230     64.43867    262.03892     35.42437
+DYNA CROSS>       -67.68054      0.00000      0.00000      0.00000
+DYNA EXTERN>     -177.98883    217.48144      0.00000      9.92933      0.00000
+DYNA PBEQ>          0.00000      0.00000   -768.21360      0.00000      0.00000
+DYNA PRESS>       137.37480   -557.84680      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>     4500     11.00000    972.42419    724.56441    247.85978    298.62195
+DYNA PROP>         19.57062    980.98520    752.21492      8.56101   1393.99268
+DYNA INTERN>      199.78582    482.38937     61.13685    271.33766     27.12768
+DYNA CROSS>       -66.31909      0.00000      0.00000      0.00000
+DYNA EXTERN>     -186.00662    300.00401      0.00000      9.95075      0.00000
+DYNA PBEQ>          0.00000      0.00000   -851.54665      0.00000      0.00000
+DYNA PRESS>       104.43685  -1033.76530      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step      4515
+DYNA>     4550     11.10000    979.47934    756.66084    222.81850    311.85017
+DYNA PROP>         19.13464    987.43716    783.78501      7.95781    875.57618
+DYNA INTERN>      173.25434    472.53561     58.55894    269.87650     19.09258
+DYNA CROSS>       -62.26756      0.00000      0.00000      0.00000
+DYNA EXTERN>     -181.73650    263.28941      0.00000      9.90414      0.00000
+DYNA PBEQ>          0.00000      0.00000   -799.68894      0.00000      0.00000
+DYNA PRESS>       130.82712   -714.54457      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+DYNA>     4600     11.20000    993.72100    749.09675    244.62425    308.73270
+DYNA PROP>         19.06866   1002.51055    776.56474      8.78956    814.84398
+DYNA INTERN>      169.32335    490.56042     62.23214    263.36972     21.20147
+DYNA CROSS>       -61.49102      0.00000      0.00000      0.00000
+DYNA EXTERN>     -167.54023    297.35600      0.00000      9.77645      0.00000
+DYNA PBEQ>          0.00000      0.00000   -840.16404      0.00000      0.00000
+DYNA PRESS>       102.08024   -645.30956      0.00000      0.00000      0.00000

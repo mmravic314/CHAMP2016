@@ -1,0 +1,5 @@
+/netapp/home/mmravic/CHAMP/a5/m1_association/match_1_0577/t_outputs/match_1_0577_0010.pdb 118 !!!!!
+mkdir: cannot create directory `gbsw_dynamics/match_1_0577_0010/': File exists
+mkdir: cannot create directory `gbsw_dynamics/match_1_0577_0010//proa': File exists
+mkdir: cannot create directory `gbsw_dynamics/match_1_0577_0010//prox': File exists
+mkdir: cannot create directory `gbsw_dynamics/match_1_0577_0010//dimer': File exists
