@@ -71,11 +71,44 @@
 > python ~/CHAMP/bin/champDesign_rosMem.py ~/CHAMP/a5/bb2Design/match_4/match_4.pdb ~/CHAMP/bin/helix_Design.xml ~/rosetta/
 > python ~/CHAMP/bin/champDesign_rosMem.py ~/CHAMP/a5/bb2Design/match_20/match_20.pdb ~/CHAMP/bin/helix_Design.xml ~/rosetta/
 
-## Plot and analyze these jobs. This script is not final, but used to plot and move thing as user dictates... so this is separate from pipeline
-python ~/CHAMP/bin/analyzeChampDesigns.py ~/CHAMP/a5/bb2Design/match_4/outputs/ > a5_match_4.fasta
 
-# re-write pDB to build DUM hetatoms at the rosetta calculated membrane
-> python ~/CHAMP/bin/addMem2Pdb_fromMemRes.py match_1_0505.pdb > match_1_0505_MEM.pdb
+.
+.
+.
+
+## reading all the sequences & scores from a directory of design runs. & Cluster unique sequences 
+#  Record score (r.e.u and ) & packstat
+
+## Clustering, hierarchical at the level of the average pairwise distance
+## given a blosom matrix at the average pairwise sequence ID.   
+
+#  Also suggest top sequence from each cluster to look for in design
+### Warning, this version of this code is hardcoded & requires commenting in/out 
+#	a few lines depending on the non-interfacial positions from sequence
+
+
+> python ~/CHAMP/bin/analyzeChampDesigns-a5.py ~/CHAMP/a5/bb2Design/match_4/outputs/ ~/CHAMP/a5/bb2Design/match_4/outputs/dmatrix.pkl 'CHAMP anti-a5 Backbone 4' > ~/CHAMP/a5/bb2Design/match_4/a5_m4_fasta_summary.txt
+
+
+> python ~/CHAMP/bin/analyzeChampDesigns-a5.py ~/CHAMP/a5/bb2Design/match_1/outputs/ ~/CHAMP/a5/bb2Design/match_1/outputs/dmatrix.pkl 'CHAMP anti-a5 Backbone 1' > ~/CHAMP/a5/bb2Design/match_1/a5_m1_fasta_summary.txt
+
+## Took all of m1 unique designs to simulation & association energy stages
+## For m4, took 1-2 highest scoring (packstat) from each cluster
+# criteria: top in cluster if >0.5 ps, & next best in cluster is > 0.52 and not too close in seq to original. Wary of TMTrp
+## m4 has list at the end of it's '**fasta_summary.txt' file. This was used to make this input path list
+
+.
+.
+.
+## selectively calculate energy of association
+# (rosetta local)
+
+.
+.
+.
+# Selectively run in-vacumm MD simulation
+
+
 
 
 .
@@ -86,6 +119,32 @@ python ~/CHAMP/bin/analyzeChampDesigns.py ~/CHAMP/a5/bb2Design/match_4/outputs/ 
 
 ### Way later, after experimental results were found, calculate the delta G of association, by subtracting the final score minus the score of two helices alone
 
+### For match 1, look at all n=156 unique sequences
+
 > python ~/CHAMP/bin/separate_Champ_Energy.py ~/CHAMP/a5/bb2Design/match_1/outputs/  ~/CHAMP/a5/m1_association/m1_separate.pdb  ~/rosetta/ ~/CHAMP/bin/helix_Relax-2Body.xml 
 
 xray@dgl-xray:~/CHAMP/a5/m1_association$ python ~/CHAMP/bin/association_analysis.py  ~/CHAMP/a5/m1_association/ > ../a_scores.txt
+
+
+### for match 4, take only the suggested 
+
+.
+.
+.
+
+
+.
+.
+.
+
+
+( IGNORE THIS PART MOSTLY, OUTDATED)
+## Plot and analyze these jobs. This script is not final, but used to plot and move thing as user dictates... so this is separate from pipeline
+python ~/CHAMP/bin/analyzeChampDesigns.py ~/CHAMP/a5/bb2Design/match_4/outputs/ > a5_match_4.fasta
+
+# re-write pDB to build DUM hetatoms at the rosetta calculated membrane
+> python ~/CHAMP/bin/addMem2Pdb_fromMemRes.py match_1_0505.pdb > match_1_0505_MEM.pdb
+
+
+
+

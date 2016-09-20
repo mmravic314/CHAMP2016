@@ -1,4 +1,4 @@
-Model_ID delta_Rosetta_Energy Packstat_Score Sequence
+#Model_ID delta_Rosetta_Energy Packstat_Score Sequence
 match_1_0293 -24.8 0.537 LLLIVLLLLAAFLGIVLGLAGMLVLKK
 match_1_0654 -21.3 0.618 LLLIVLLLLAAFLGIVLGIAGVLVNKK
 match_1_0173 -30.8 0.648 LLMIVLLLLAAFLGIVTGLAMVLVWKK

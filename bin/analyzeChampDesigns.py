@@ -18,7 +18,7 @@ class Model:
 
 # input directory full of models
 # parse for sequence of chain X (CHAMP), rosetta score, packing statistics, and buried hydrogen bonding moeties unpaired
-# can also hard code this model's heptad assignment to note interfacial positions
+
 
 # commadnline example
 # python ~/CHAMP/bin/analyzeChampDesigns.py ~/CHAMP/a5/bb2Design/match_4/outputs/ > a5_match_4.fasta
@@ -67,7 +67,7 @@ for m in os.listdir( sys.argv[1] ):
 	packstats.append( packstat )
 
 	# only read out subset 
-	if packstat < 0.60 or score > -220: continue
+#	if packstat < 0.60 or score > -220: continue
 
 	print '>', label, score, packstat
 	print cSeq, '\n'

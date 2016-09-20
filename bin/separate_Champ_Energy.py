@@ -5,8 +5,6 @@ from prody import *
 from PDButil import UnNatAA
 from random import randint
 
-
-
 ##
 class Model:
 		def __init__(self,name, seq, score, ps, filepath):
@@ -66,10 +64,10 @@ print '\nRecording Designs'
 for m in os.listdir( sys.argv[1] ):
 	if m[-4:] != '.pdb': continue
 
-	mPath = os.path.join( sys.argv[1], m )
+	mPath 	= os.path.join( sys.argv[1], m )
 	label 	= os.path.splitext( m )[0].split('_')[-1]
 
-	struct 	=  parsePDB( mPath )
+	struct 	= parsePDB( mPath )
 	champ   = struct.select( 'chain X' ).copy()
 	cSeq 	= ''.join(  [ UnNatAA[ x.getResname() ] for x in champ.select('ca').iterAtoms() ] )
 
