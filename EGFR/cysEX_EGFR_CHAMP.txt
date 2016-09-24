@@ -1,0 +1,19 @@
+cysEX_EGFR_CHAMP.txt
+# Here lie the sequences for synthesis of EGFR & the N1 and N2 designed peptides 
+# There were constructed for thiol-disufide exchange experiments
+# with the possibility of thiol labeling for FRET or in-cell tracking 
+
+> human EGFR, charge +2 
+SYNTHESIZE: CGG GKW PSI ATG MVG ALL LLL VVA LGI GLF MR 
+modeled: PKI PSI ATG MVG ALL LLL VVA LGI GLF MRR R
+
+
+> CHAMP N1, m1_0223-c3, charge +5
+original: KKK SLV TAL LMA LLV LLL FLF WWL LKK
+SYNTHESIZE: CGG GKK SLV TAL LMA LLV LLL FLF WWL LKK K
+
+> CHAMP N2, m1_0813-c2, , charge +5
+original: KKK SLV MGL LMA LAI LLL FFL LWK KK
+SYNTHESIZE: CGG GKK SLV MGL LMA LAI LLL FFL LWK KK
+
+
