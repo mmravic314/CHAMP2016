@@ -77,15 +77,10 @@
 .
 
 ## reading all the sequences & scores from a directory of design runs. & Cluster unique sequences 
-#  Record score (r.e.u and ) & packstat
-
-## Clustering, hierarchical at the level of the average pairwise distance
-## given a blosom matrix at the average pairwise sequence ID.   
-
+#  Clustering:hierarchical at the level of the average pairwise distance (corresponding BLOSOM) 
 #  Also suggest top sequence from each cluster to look for in design
 ### Warning, this version of this code is hardcoded & requires commenting in/out 
 #	a few lines depending on the non-interfacial positions from sequence
-
 
 > python ~/CHAMP/bin/analyzeChampDesigns-a5.py ~/CHAMP/a5/bb2Design/match_4/outputs/ ~/CHAMP/a5/bb2Design/match_4/outputs/dmatrix.pkl 'CHAMP anti-a5 Backbone 4' > ~/CHAMP/a5/bb2Design/match_4/a5_m4_fasta_summary.txt
 
@@ -97,50 +92,37 @@
 # criteria: top in cluster if >0.5 ps, & next best in cluster is > 0.52 and not too close in seq to original. Wary of TMTrp
 ## m4 has list at the end of it's '**fasta_summary.txt' file. This was used to make this input path list
 
-.
-.
-.
+
+
 ## selectively calculate energy of association
-# (rosetta local)
+# (rosetta local) HAND MAKE: 
+# INPUT 1) a txt file, list of pathes to design .pdb files to perform this calculation on (model_listS.txt )
 
-.
-.
-.
-# Selectively run in-vacumm MD simulation
-
-
-
-
-.
-.
-.
-.
-.
-
-### Way later, after experimental results were found, calculate the delta G of association, by subtracting the final score minus the score of two helices alone
-
-### For match 1, look at all n=156 unique sequences
+> mkdir m1_association
 
 > python ~/CHAMP/bin/separate_Champ_Energy.py ~/CHAMP/a5/bb2Design/match_1/outputs/  ~/CHAMP/a5/m1_association/m1_separate.pdb  ~/rosetta/ ~/CHAMP/bin/helix_Relax-2Body.xml 
 
-xray@dgl-xray:~/CHAMP/a5/m1_association$ python ~/CHAMP/bin/association_analysis.py  ~/CHAMP/a5/m1_association/ > ../a_scores.txt
+> mkdir m4_association
 
+> python ~/CHAMP/bin/separate_Champ_Energy-a5m4.py ~/CHAMP/a5/bb2Design/match_4/model_listS.txt  ~/CHAMP/a5/m4_association/m4_separate.pdb  ~/rosetta/ ~/CHAMP/bin/helix_Relax-2Body.xml
 
-### for match 4, take only the suggested 
+# calcualte the 'delta' Gibbs free E of association, but tkaing lowest R.E.U from separated and dimer states. 
 
-.
-.
-.
+>  python ~/CHAMP/bin/association_analysis.py  ~/CHAMP/a5/m1_association/ > ../a_scores.txt
 
+> python ~/CHAMP/bin/association_analysis.py  ~/CHAMP/a5/m4_association/ >> ../a_scores.txt
 
-.
-.
-.
+###### in-vacumm MD simulation
 
+# First find best, re-packed trial for each model to use as input for MD... write to path list
 
-( IGNORE THIS PART MOSTLY, OUTDATED)
-## Plot and analyze these jobs. This script is not final, but used to plot and move thing as user dictates... so this is separate from pipeline
-python ~/CHAMP/bin/analyzeChampDesigns.py ~/CHAMP/a5/bb2Design/match_4/outputs/ > a5_match_4.fasta
+> python ~/CHAMP/bin/listBestModels.py ~/CHAMP/a5/m1_association/ ~/CHAMP/a5/model_list.txt
+
+> python ~/CHAMP/bin/listBestModels.py ~/CHAMP/a5/m4_association/ ~/CHAMP/a5/model_list.txt
+
+# Then Prepare pdb files for input into both/either in vaccum MD or Implicit Membrane MD (psfgen & orient in membrane)
+
+> python ~/CHAMP/bin/prepNvacMD.py ~/CHAMP/a5/m4_model_list.txt ~/CHAMP/a5/MD_runs/ ~/CHAMP/bin/vacMD.conf ~/CHAMP/bin/champ_MDprep.tcl ~/CHAMP/bin/Z_align.pdb ~/bin/NAMD/namd2 /Applications/VMD1.9.2.app/Contents/MacOS/startup.command ~/CHAMP/bin/vacEQ.conf 
 
 # re-write pDB to build DUM hetatoms at the rosetta calculated membrane
 > python ~/CHAMP/bin/addMem2Pdb_fromMemRes.py match_1_0505.pdb > match_1_0505_MEM.pdb
